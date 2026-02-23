@@ -1,0 +1,64 @@
+= Turkey Sanctions Lists
+
+image:https://img.shields.io/github/license/ammitto/data-tr.svg[License]
+image:https://github.com/ammitto/data-tr/actions/workflows/update.yml/badge.svg["Update Status", link="https://github.com/ammitto/data-tr/actions/workflows/update.yml"]
+
+== Purpose
+
+This repository contains sanctioned individuals and entities from Turkey's
+asset freezing lists, maintained by the Ministry of Treasury and Finance.
+
+== Source
+
+* **Authority**: Turkey Ministry of Treasury and Finance (HMB)
+* **URL**: https://en.hmb.gov.tr/fcib-sanctions
+* **Format**: XLSX
+* **Update Frequency**: As updated by HMB
+* **Country Code**: TR
+
+== Legal Basis
+
+Turkey maintains four sanctions lists under:
+
+* **List A** - Article 5, Law No. 6415: UNSC resolutions (same as UN source - not duplicated here)
+* **List B** - Article 6, Law No. 6415: Foreign country requests
+* **List C** - Article 7, Law No. 6415: Domestic freezing decisions
+* **List D** - Law No. 7262, Articles 3.A/3.B: WMD proliferation prevention
+
+Note: List A is not included as it duplicates the UN Consolidated List.
+
+== Directory Structure
+
+```
+data-tr/
+├── downloaded/        # Raw downloaded XLSX files
+├── processed/         # Processed YAML files (one per entity)
+└── README.adoc        # This file
+```
+
+== Data Format
+
+Each processed entity is stored as a YAML file:
+
+[source,yaml]
+----
+name: YUN HO-JIN
+entity_type: person
+program: Law No. 7262, Articles 3.A/3.B
+remarks: Yun Ho-chin
+listed_date: 24.2.2021/ 3578
+reference_number: '1'
+address: |-
+  Pyongyang, Kore Demokratik Halk
+  Cumhuriyeti
+----
+
+== Usage
+
+This data is part of the https://github.com/ammitto/ammitto[Ammitto] sanctions
+screening system.
+
+== License
+
+Data is sourced from official Turkish government publications.
+Repository structure and processing code are under the MIT License.
