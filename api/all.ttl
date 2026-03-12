@@ -1,0 +1,972 @@
+@prefix ammitto: <https://www.ammitto.org/ontology/> .
+@prefix entity: <https://www.ammitto.org/entity/> .
+@prefix entry: <https://www.ammitto.org/entry/> .
+@prefix instrument: <https://www.ammitto.org/instrument/> .
+@prefix regime: <https://www.ammitto.org/regime/> .
+@prefix authority: <https://www.ammitto.org/authority/> .
+@prefix schema: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+
+<https://www.ammitto.org/regime/tr>
+  a ammitto:SanctionRegime ;\n  schema:name "Turkey Sanctions" ;\n  ammitto:code "TR" .
+<https://www.ammitto.org/regime/tr-d>
+  a ammitto:SanctionRegime ;\n  schema:name "Turkey Law No. 7262, Articles 3.A/3.B" ;\n  ammitto:code "TR-D" .
+<https://www.ammitto.org/entity/tr/unknown>
+  ammitto:entity_type "organization" ;\n  ammitto:hasName """{"full_name":"TAMAS COMPANY","is_primary":true}""" ;\n  ammitto:source_references """{"source_code":"tr"}""" .
+<https://www.ammitto.org/entity/tr/1>
+  ammitto:entity_type "person" ;\n  ammitto:hasName """{"full_name":"YUN HO-JIN","is_primary":true}""" ;\n  ammitto:source_references """{"source_code":"tr","reference_number":"1"}""" .
+<https://www.ammitto.org/entity/tr/10>
+  ammitto:entity_type "person" ;\n  ammitto:hasName """{"full_name":"YO'N CHO'NG NAM","is_primary":true}""" ;\n  ammitto:source_references """{"source_code":"tr","reference_number":"10"}""" .
+<https://www.ammitto.org/entity/tr/100>
+  ammitto:entity_type "person" ;\n  ammitto:hasName """{"full_name":"QASEM SOLEIMANI","is_primary":true}""" ;\n  ammitto:source_references """{"source_code":"tr","reference_number":"100"}""" .
+<https://www.ammitto.org/entity/tr/101>
+  ammitto:entity_type "person" ;\n  ammitto:hasName """{"full_name":"ALI AKBAR  TABATABAEI","is_primary":true}""" ;\n  ammitto:source_references """{"source_code":"tr","reference_number":"101"}""" .
+<https://www.ammitto.org/entity/tr/102>
+  ammitto:entity_type "person" ;\n  ammitto:hasName """{"full_name":"MOHAMMAD REZA ZAHEDİ","is_primary":true}""" ;\n  ammitto:source_references """{"source_code":"tr","reference_number":"102"}""" .
+<https://www.ammitto.org/entity/tr/103>
+  ammitto:entity_type "person" ;\n  ammitto:hasName """{"full_name":"MOHAMMAD BAQER  ZOLQADR","is_primary":true}""" ;\n  ammitto:source_references """{"source_code":"tr","reference_number":"103"}""" .
+<https://www.ammitto.org/entity/tr/104>
+  ammitto:entity_type "person" ;\n  ammitto:hasName """{"full_name":"KORE MADENCİLİK GELİŞTİRME VE TİCARET KURULUŞU (KOREA\nMiMiMr: nBVEi HDİUEMT TL","is_primary":true}""" ;\n  ammitto:source_references """{"source_code":"tr","reference_number":"104"}""" .
+<https://www.ammitto.org/entity/tr/105>
+  ammitto:entity_type "person" ;\n  ammitto:hasName """{"full_name":"KORE RYONBONG GENERAL CORORAATION","is_primary":true}""" ;\n  ammitto:source_references """{"source_code":"tr","reference_number":"105"}""" .
+<https://www.ammitto.org/entity/tr/106>
+  ammitto:entity_type "person" ;\n  ammitto:hasName """{"full_name":"TANCHON COMMERCIAL BANK","is_primary":true}""" ;\n  ammitto:source_references """{"source_code":"tr","reference_number":"106"}""" .
+<https://www.ammitto.org/entity/tr/107>
+  ammitto:entity_type "person" ;\n  ammitto:hasName """{"full_name":"NAMCHONGANG TRADING CORPORATION","is_primary":true}""" ;\n  ammitto:source_references """{"source_code":"tr","reference_number":"107"}""" .
+<https://www.ammitto.org/entity/tr/108>
+  ammitto:entity_type "person" ;\n  ammitto:hasName """{"full_name":"HONG KONG ELECTRONICS","is_primary":true}""" ;\n  ammitto:source_references """{"source_code":"tr","reference_number":"108"}""" .
+<https://www.ammitto.org/entity/tr/109>
+  ammitto:entity_type "person" ;\n  ammitto:hasName """{"full_name":"KORE HYOKSIN TRADING CORPORATION","is_primary":true}""" ;\n  ammitto:source_references """{"source_code":"tr","reference_number":"109"}""" .
+<https://www.ammitto.org/entity/tr/11>
+  ammitto:entity_type "person" ;\n  ammitto:hasName """{"full_name":"IO  CH'O'L-CHAE","is_primary":true}""" ;\n  ammitto:source_references """{"source_code":"tr","reference_number":"11"}""" .
+<https://www.ammitto.org/entity/tr/110>
+  ammitto:entity_type "person" ;\n  ammitto:hasName """{"full_name":"ATOM ENERJİSİ GENEL BÜROSU (GENERAL BUREAU OF ATOMIC ENERGY/GBAE)","is_primary":true}""" ;\n  ammitto:source_references """{"source_code":"tr","reference_number":"110"}""" .
+<https://www.ammitto.org/entity/tr/112>
+  ammitto:entity_type "person" ;\n  ammitto:hasName """{"full_name":"KOREAN TANGUN TRADING CORPORATION","is_primary":true}""" ;\n  ammitto:source_references """{"source_code":"tr","reference_number":"112"}""" .
+<https://www.ammitto.org/entity/tr/113>
+  ammitto:entity_type "person" ;\n  ammitto:hasName """{"full_name":"AMROGGANG DEVELOPMENT BANKING CORPORATION","is_primary":true}""" ;\n  ammitto:source_references """{"source_code":"tr","reference_number":"113"}""" .
+<https://www.ammitto.org/entity/tr/114>
+  ammitto:entity_type "person" ;\n  ammitto:hasName """{"full_name":"GREEN PINE ASSOCIATED CORPORATION","is_primary":true}""" ;\n  ammitto:source_references """{"source_code":"tr","reference_number":"114"}""" .
+<https://www.ammitto.org/entity/tr/115>
+  ammitto:entity_type "person" ;\n  ammitto:hasName """{"full_name":"KOREA HEUNGJIN TRADING COMPANY","is_primary":true}""" ;\n  ammitto:source_references """{"source_code":"tr","reference_number":"115"}""" .
+<https://www.ammitto.org/entity/tr/116>
+  ammitto:entity_type "person" ;\n  ammitto:hasName """{"full_name":"KORE UZAY TEKNOLOJİSİ KOMİTESİ- KOREAN COMMITTEEFOR SPACE TECHNOLOGY","is_primary":true}""" ;\n  ammitto:source_references """{"source_code":"tr","reference_number":"116"}""" .
+<https://www.ammitto.org/entity/tr/117>
+  ammitto:entity_type "person" ;\n  ammitto:hasName """{"full_name":"BANK OF EAST LAND","is_primary":true}""" ;\n  ammitto:source_references """{"source_code":"tr","reference_number":"117"}""" .
+<https://www.ammitto.org/entity/tr/118>
+  ammitto:entity_type "person" ;\n  ammitto:hasName """{"full_name":"KOREA KUMRYONG TRADING CORPORATION","is_primary":true}""" ;\n  ammitto:source_references """{"source_code":"tr","reference_number":"118"}""" .
+<https://www.ammitto.org/entity/tr/119>
+  ammitto:entity_type "person" ;\n  ammitto:hasName """{"full_name":"TOSONG TECHNOLOGY TRADING CORPORATION","is_primary":true}""" ;\n  ammitto:source_references """{"source_code":"tr","reference_number":"119"}""" .
+<https://www.ammitto.org/entity/tr/12>
+  ammitto:entity_type "person" ;\n  ammitto:hasName """{"full_name":"MUN CHO’NG-CII'O'L","is_primary":true}""" ;\n  ammitto:source_references """{"source_code":"tr","reference_number":"12"}""" .
+<https://www.ammitto.org/entity/tr/120>
+  ammitto:entity_type "person" ;\n  ammitto:hasName """{"full_name":"KOREA RYONHA MACHINERY JOINT VENTURE CORPORATION","is_primary":true}""" ;\n  ammitto:source_references """{"source_code":"tr","reference_number":"120"}""" .
+<https://www.ammitto.org/entity/tr/121>
+  ammitto:entity_type "person" ;\n  ammitto:hasName """{"full_name":"LEADER (HONG KONG) INTERNATIONAL","is_primary":true}""" ;\n  ammitto:source_references """{"source_code":"tr","reference_number":"121"}""" .
+<https://www.ammitto.org/entity/tr/122>
+  ammitto:entity_type "person" ;\n  ammitto:hasName """{"full_name":"İKİNCİ DOĞA BİLİMLERİ AKADEMİSİ ( SECOND ACADEMY OF NATURAL SCIENCES)","is_primary":true}""" ;\n  ammitto:source_references """{"source_code":"tr","reference_number":"122"}""" .
+<https://www.ammitto.org/entity/tr/123>
+  ammitto:entity_type "person" ;\n  ammitto:hasName """{"full_name":"KOREA COMPLEX EQUIPMENT IMPORT CORPORATION","is_primary":true}""" ;\n  ammitto:source_references """{"source_code":"tr","reference_number":"123"}""" .
+<https://www.ammitto.org/entity/tr/124>
+  ammitto:entity_type "person" ;\n  ammitto:hasName """{"full_name":"OCEAN MARITIME MANAGEMENT COMPANY, LIMITED (OMM)","is_primary":true}""" ;\n  ammitto:source_references """{"source_code":"tr","reference_number":"124"}""" .
+<https://www.ammitto.org/entity/tr/125>
+  ammitto:entity_type "person" ;\n  ammitto:hasName """{"full_name":"ULUSAL SAVUNMA BİLİMİ AKADEMİSİ (ACADEMY OF NATIONAL DEFENSE SCIENCE)","is_primary":true}""" ;\n  ammitto:source_references """{"source_code":"tr","reference_number":"125"}""" .
+<https://www.ammitto.org/entity/tr/126>
+  ammitto:entity_type "person" ;\n  ammitto:hasName """{"full_name":"CHONGCHONGANG SHIPPING COMPANY","is_primary":true}""" ;\n  ammitto:source_references """{"source_code":"tr","reference_number":"126"}""" .
+<https://www.ammitto.org/entity/tr/127>
+  ammitto:entity_type "person" ;\n  ammitto:hasName """{"full_name":"DAEDONG CREDIT BANK (DCB)","is_primary":true}""" ;\n  ammitto:source_references """{"source_code":"tr","reference_number":"127"}""" .
+<https://www.ammitto.org/entity/tr/128>
+  ammitto:entity_type "person" ;\n  ammitto:hasName """{"full_name":"HESONG TRADING COMPANY","is_primary":true}""" ;\n  ammitto:source_references """{"source_code":"tr","reference_number":"128"}""" .
+<https://www.ammitto.org/entity/tr/129>
+  ammitto:entity_type "person" ;\n  ammitto:hasName """{"full_name":"KOREA KWANGSON BANKING CORPORATION (KKBC)","is_primary":true}""" ;\n  ammitto:source_references """{"source_code":"tr","reference_number":"129"}""" .
+<https://www.ammitto.org/entity/tr/13>
+  ammitto:entity_type "person" ;\n  ammitto:hasName """{"full_name":"CHOE CHUN-SIK","is_primary":true}""" ;\n  ammitto:source_references """{"source_code":"tr","reference_number":"13"}""" .
+<https://www.ammitto.org/entity/tr/130>
+  ammitto:entity_type "person" ;\n  ammitto:hasName """{"full_name":"KOREA KWANGSONG TRADING CORPORATION","is_primary":true}""" ;\n  ammitto:source_references """{"source_code":"tr","reference_number":"130"}""" .
+<https://www.ammitto.org/entity/tr/131>
+  ammitto:entity_type "person" ;\n  ammitto:hasName """{"full_name":"ATOM ENERJİSİ SANAYİ BAKANLIĞI (MINISTRY OF ATOMIC ENERGY INDUSTRY)","is_primary":true}""" ;\n  ammitto:source_references """{"source_code":"tr","reference_number":"131"}""" .
+<https://www.ammitto.org/entity/tr/132>
+  ammitto:entity_type "person" ;\n  ammitto:hasName """{"full_name":"MÜHİMMAT ENDÜSTRİSİ DEPARTMANI (MUNITIONS INDUSTRY DEPARTMENT)","is_primary":true}""" ;\n  ammitto:source_references """{"source_code":"tr","reference_number":"132"}""" .
+<https://www.ammitto.org/entity/tr/133>
+  ammitto:entity_type "person" ;\n  ammitto:hasName """{"full_name":"ULUSAL UZAY-HAVACILIK TEKNOLOJİ İDARESİ (NATIONAL AEROSPACE TECHNOLOGY ADMINISTRATION )","is_primary":true}""" ;\n  ammitto:source_references """{"source_code":"tr","reference_number":"133"}""" .
+<https://www.ammitto.org/entity/tr/134>
+  ammitto:entity_type "person" ;\n  ammitto:hasName """{"full_name":"39. ODA (OFFICE 39)","is_primary":true}""" ;\n  ammitto:source_references """{"source_code":"tr","reference_number":"134"}""" .
+<https://www.ammitto.org/entity/tr/135>
+  ammitto:entity_type "person" ;\n  ammitto:hasName """{"full_name":"GENEL KEŞİF BÜROSU (RECONNAISSENCE GENERAL BUREAU)","is_primary":true}""" ;\n  ammitto:source_references """{"source_code":"tr","reference_number":"135"}""" .
+<https://www.ammitto.org/entity/tr/136>
+  ammitto:entity_type "person" ;\n  ammitto:hasName """{"full_name":"İKİNCİ İKTİSAT KOMİTESİ (SECOND ECONOMIC COMMITTEE)","is_primary":true}""" ;\n  ammitto:source_references """{"source_code":"tr","reference_number":"136"}""" .
+<https://www.ammitto.org/entity/tr/137>
+  ammitto:entity_type "person" ;\n  ammitto:hasName """{"full_name":"KORE BİRLEŞİK KALKINMA BANKASI (KOREA UNITED DEVELOPMENT BANK)","is_primary":true}""" ;\n  ammitto:source_references """{"source_code":"tr","reference_number":"137"}""" .
+<https://www.ammitto.org/entity/tr/138>
+  ammitto:entity_type "person" ;\n  ammitto:hasName """{"full_name":"ILSIM INTERNATIONAL BANK","is_primary":true}""" ;\n  ammitto:source_references """{"source_code":"tr","reference_number":"138"}""" .
+<https://www.ammitto.org/entity/tr/139>
+  ammitto:entity_type "person" ;\n  ammitto:hasName """{"full_name":"KOREA DAESONG BANK","is_primary":true}""" ;\n  ammitto:source_references """{"source_code":"tr","reference_number":"139"}""" .
+<https://www.ammitto.org/entity/tr/14>
+  ammitto:entity_type "person" ;\n  ammitto:hasName """{"full_name":"CHOE SONGIL","is_primary":true}""" ;\n  ammitto:source_references """{"source_code":"tr","reference_number":"14"}""" .
+<https://www.ammitto.org/entity/tr/140>
+  ammitto:entity_type "person" ;\n  ammitto:hasName """{"full_name":"SINGWANG ECONOMICS AND TRADING GENERAL CORPORATION","is_primary":true}""" ;\n  ammitto:source_references """{"source_code":"tr","reference_number":"140"}""" .
+<https://www.ammitto.org/entity/tr/141>
+  ammitto:entity_type "person" ;\n  ammitto:hasName """{"full_name":"KOREA FOREIGN TECHNICAL TRADE CENTER","is_primary":true}""" ;\n  ammitto:source_references """{"source_code":"tr","reference_number":"141"}""" .
+<https://www.ammitto.org/entity/tr/142>
+  ammitto:entity_type "person" ;\n  ammitto:hasName """{"full_name":"KOREA PUGANG TRADING CORPORATION","is_primary":true}""" ;\n  ammitto:source_references """{"source_code":"tr","reference_number":"142"}""" .
+<https://www.ammitto.org/entity/tr/143>
+  ammitto:entity_type "person" ;\n  ammitto:hasName """{"full_name":"KOREA INTERNATIONAL CHEMİCAL JOINT VENTURE COMPANY","is_primary":true}""" ;\n  ammitto:source_references """{"source_code":"tr","reference_number":"143"}""" .
+<https://www.ammitto.org/entity/tr/144>
+  ammitto:entity_type "person" ;\n  ammitto:hasName """{"full_name":"DCB FINANCE LIMITED","is_primary":true}""" ;\n  ammitto:source_references """{"source_code":"tr","reference_number":"144"}""" .
+<https://www.ammitto.org/entity/tr/145>
+  ammitto:entity_type "person" ;\n  ammitto:hasName """{"full_name":"KORE TAESONG TİCARET ŞİRKETİ (KOREA TAESONG TRADING COMPANY)","is_primary":true}""" ;\n  ammitto:source_references """{"source_code":"tr","reference_number":"145"}""" .
+<https://www.ammitto.org/entity/tr/146>
+  ammitto:entity_type "person" ;\n  ammitto:hasName """{"full_name":"KORE DAESONG GENEL TİCARET KURULUŞU (KOREA DAESONG GENERAL TRADING CORPORATION)","is_primary":true}""" ;\n  ammitto:source_references """{"source_code":"tr","reference_number":"146"}""" .
+<https://www.ammitto.org/entity/tr/147>
+  ammitto:entity_type "person" ;\n  ammitto:hasName """{"full_name":"KANGBONG TİCARET KURULUŞU (KANGBONG TRADING CORPORATION)","is_primary":true}""" ;\n  ammitto:source_references """{"source_code":"tr","reference_number":"147"}""" .
+<https://www.ammitto.org/entity/tr/148>
+  ammitto:entity_type "person" ;\n  ammitto:hasName """{"full_name":"KORE KUMSAN TİCARET KURULUŞU (KOREA KUMSAN TRADING CORPORATION)","is_primary":true}""" ;\n  ammitto:source_references """{"source_code":"tr","reference_number":"148"}""" .
+<https://www.ammitto.org/entity/tr/149>
+  ammitto:entity_type "person" ;\n  ammitto:hasName """{"full_name":"KORYO BANK","is_primary":true}""" ;\n  ammitto:source_references """{"source_code":"tr","reference_number":"149"}""" .
+<https://www.ammitto.org/entity/tr/15>
+  ammitto:entity_type "person" ;\n  ammitto:hasName """{"full_name":"HYON KWANG","is_primary":true}""" ;\n  ammitto:source_references """{"source_code":"tr","reference_number":"15"}""" .
+<https://www.ammitto.org/entity/tr/150>
+  ammitto:entity_type "person" ;\n  ammitto:hasName """{"full_name":"KORE HALK ORDUSUNUN (KHO) STRATEJİK ROKET GÜCÜ (STRATEGIC ROCKET FORCE OF THE KOREAN PEOPLE'S ARMY)","is_primary":true}""" ;\n  ammitto:source_references """{"source_code":"tr","reference_number":"150"}""" .
+<https://www.ammitto.org/entity/tr/151>
+  ammitto:entity_type "person" ;\n  ammitto:hasName """{"full_name":"DIŞ TİCARET BANKASI (FOREIGN TRADE BANK/FTB)","is_primary":true}""" ;\n  ammitto:source_references """{"source_code":"tr","reference_number":"151"}""" .
+<https://www.ammitto.org/entity/tr/152>
+  ammitto:entity_type "person" ;\n  ammitto:hasName """{"full_name":"KORE ULUSAL SİGORTA ŞİRKETİ (KOREAN NATIONAL INSURANCE COMPANY/KNIC )","is_primary":true}""" ;\n  ammitto:source_references """{"source_code":"tr","reference_number":"152"}""" .
+<https://www.ammitto.org/entity/tr/153>
+  ammitto:entity_type "person" ;\n  ammitto:hasName """{"full_name":"KORYO KALKINMA KREDİ BANKASI (KORYO CREDIT DEVELOPMENT BANK)","is_primary":true}""" ;\n  ammitto:source_references """{"source_code":"tr","reference_number":"153"}""" .
+<https://www.ammitto.org/entity/tr/154>
+  ammitto:entity_type "person" ;\n  ammitto:hasName """{"full_name":"MANSUDAE DENİZAŞIRI ŞİRKETLER PROJE GRUBU (MANSUDAE OVERSEAS PROJECT GROUP OF COMPANIES)","is_primary":true}""" ;\n  ammitto:source_references """{"source_code":"tr","reference_number":"154"}""" .
+<https://www.ammitto.org/entity/tr/155>
+  ammitto:entity_type "person" ;\n  ammitto:hasName """{"full_name":"KORE İŞÇİ PARTİSİ MERKEZİ ASKERİ KOMİSYONU (CENTRAL MILITARY COMMISSIONOF THE WORKER'S PARTY OF KOREA/CMC)","is_primary":true}""" ;\n  ammitto:source_references """{"source_code":"tr","reference_number":"155"}""" .
+<https://www.ammitto.org/entity/tr/156>
+  ammitto:entity_type "person" ;\n  ammitto:hasName """{"full_name":"ORGANİZASYON VE REHBERLİK BİRİMİ (ORGANIZATION AND GUIDANCE DEPARTMENT/OGD)","is_primary":true}""" ;\n  ammitto:source_references """{"source_code":"tr","reference_number":"156"}""" .
+<https://www.ammitto.org/entity/tr/157>
+  ammitto:entity_type "person" ;\n  ammitto:hasName """{"full_name":"PROPAGANDA VE AJİTASYON BİRİMİ (PROPAGANDA AND AGITATION DEPARTMENT/OGD)","is_primary":true}""" ;\n  ammitto:source_references """{"source_code":"tr","reference_number":"157"}""" .
+<https://www.ammitto.org/entity/tr/158>
+  ammitto:entity_type "person" ;\n  ammitto:hasName """{"full_name":"MİLLİ SAVUNMA BAKANLIĞI (MINISTRY OF NATIONAL DEFENCE)","is_primary":true}""" ;\n  ammitto:source_references """{"source_code":"tr","reference_number":"158"}""" .
+<https://www.ammitto.org/entity/tr/159>
+  ammitto:entity_type "person" ;\n  ammitto:hasName """{"full_name":"CHANG AN NAKLİYE VE TEKNOLOJİ (CHANG AN SHIPPING & TECHNOLOGY)","is_primary":true}""" ;\n  ammitto:source_references """{"source_code":"tr","reference_number":"159"}""" .
+<https://www.ammitto.org/entity/tr/16>
+  ammitto:entity_type "person" ;\n  ammitto:hasName """{"full_name":"JANG  BOM SU","is_primary":true}""" ;\n  ammitto:source_references """{"source_code":"tr","reference_number":"16"}""" .
+<https://www.ammitto.org/entity/tr/160>
+  ammitto:entity_type "person" ;\n  ammitto:hasName """{"full_name":"CHONMYONG NAKLİYE ŞİRKETİ (CHONMYONG SHIPPING CO)","is_primary":true}""" ;\n  ammitto:source_references """{"source_code":"tr","reference_number":"160"}""" .
+<https://www.ammitto.org/entity/tr/161>
+  ammitto:entity_type "person" ;\n  ammitto:hasName """{"full_name":"FIRST OIL JV LTD. ŞTİ. (FIRST OIL JV CO LTD)","is_primary":true}""" ;\n  ammitto:source_references """{"source_code":"tr","reference_number":"161"}""" .
+<https://www.ammitto.org/entity/tr/162>
+  ammitto:entity_type "person" ;\n  ammitto:hasName """{"full_name":"HAPJANGGANG NAKLİYE KURULUŞU (HAPJANGGANG SHIPPING CORP)","is_primary":true}""" ;\n  ammitto:source_references """{"source_code":"tr","reference_number":"162"}""" .
+<https://www.ammitto.org/entity/tr/163>
+  ammitto:entity_type "person" ;\n  ammitto:hasName """{"full_name":"HUAXIN NAKLİYE HONGKONG LTD (HUAXIN SHIPPING HONGKONG LTD)","is_primary":true}""" ;\n  ammitto:source_references """{"source_code":"tr","reference_number":"163"}""" .
+<https://www.ammitto.org/entity/tr/164>
+  ammitto:entity_type "person" ;\n  ammitto:hasName """{"full_name":"KINGLY WON INTERNATIONAL LTD. ŞTİ. (KINGLY WON INTERNATIONAL CO., LTD)","is_primary":true}""" ;\n  ammitto:source_references """{"source_code":"tr","reference_number":"164"}""" .
+<https://www.ammitto.org/entity/tr/165>
+  ammitto:entity_type "person" ;\n  ammitto:hasName """{"full_name":"KORE ACHIM NAKLİYE ŞİRKETİ (KOREA ACHIM SHIPPING CO)","is_primary":true}""" ;\n  ammitto:source_references """{"source_code":"tr","reference_number":"165"}""" .
+<https://www.ammitto.org/entity/tr/166>
+  ammitto:entity_type "person" ;\n  ammitto:hasName """{"full_name":"KORE ANSAN NAKLİYE ŞİRKETİ (KOREA ANSAN SHIPPING COMPANY)","is_primary":true}""" ;\n  ammitto:source_references """{"source_code":"tr","reference_number":"166"}""" .
+<https://www.ammitto.org/entity/tr/167>
+  ammitto:entity_type "person" ;\n  ammitto:hasName """{"full_name":"KORE MYONGDOK NAKLİYE ŞİRKETİ (KOREA MYONGDOK SHIPPING CO)","is_primary":true}""" ;\n  ammitto:source_references """{"source_code":"tr","reference_number":"167"}""" .
+<https://www.ammitto.org/entity/tr/168>
+  ammitto:entity_type "person" ;\n  ammitto:hasName """{"full_name":"KORE SAMJONG NAKLİYE  (KOREA SAMJONG SHIPPING)","is_primary":true}""" ;\n  ammitto:source_references """{"source_code":"tr","reference_number":"168"}""" .
+<https://www.ammitto.org/entity/tr/169>
+  ammitto:entity_type "person" ;\n  ammitto:hasName """{"full_name":"KORE SAMMA NAKLİYE ŞİRKETİ ( KOREA SAMMA SHIPPING CO)","is_primary":true}""" ;\n  ammitto:source_references """{"source_code":"tr","reference_number":"169"}""" .
+<https://www.ammitto.org/entity/tr/17>
+  ammitto:entity_type "person" ;\n  ammitto:hasName """{"full_name":"JANG YONG SON","is_primary":true}""" ;\n  ammitto:source_references """{"source_code":"tr","reference_number":"17"}""" .
+<https://www.ammitto.org/entity/tr/170>
+  ammitto:entity_type "person" ;\n  ammitto:hasName """{"full_name":"KORE YUJONG NAKLİYE LTD ŞTİ (KOREA YUJONG SHIPPING CO LTD)","is_primary":true}""" ;\n  ammitto:source_references """{"source_code":"tr","reference_number":"170"}""" .
+<https://www.ammitto.org/entity/tr/171>
+  ammitto:entity_type "person" ;\n  ammitto:hasName """{"full_name":"KOTI KURULUŞU ( KOTI CORP)","is_primary":true}""" ;\n  ammitto:source_references """{"source_code":"tr","reference_number":"171"}""" .
+<https://www.ammitto.org/entity/tr/172>
+  ammitto:entity_type "person" ;\n  ammitto:hasName """{"full_name":"MYOHYANG NAKLİYE ŞİRKETİ (MYOHYANG SHIPPING CO)","is_primary":true}""" ;\n  ammitto:source_references """{"source_code":"tr","reference_number":"172"}""" .
+<https://www.ammitto.org/entity/tr/173>
+  ammitto:entity_type "person" ;\n  ammitto:hasName """{"full_name":"PAEKMA NAKLİYE ŞİRKETİ (PAEKMA SHIPPING CO)","is_primary":true}""" ;\n  ammitto:source_references """{"source_code":"tr","reference_number":"173"}""" .
+<https://www.ammitto.org/entity/tr/174>
+  ammitto:entity_type "person" ;\n  ammitto:hasName """{"full_name":"PHYONGCHON NAKLİYE VE DENİZCİLİK (PHYONGCHON SHIPPING & MARINE)","is_primary":true}""" ;\n  ammitto:source_references """{"source_code":"tr","reference_number":"174"}""" .
+<https://www.ammitto.org/entity/tr/175>
+  ammitto:entity_type "person" ;\n  ammitto:hasName """{"full_name":"PRO-GAIN GRUP ŞİRKETİ (PRO-GAIN GROUP CORPORATION)","is_primary":true}""" ;\n  ammitto:source_references """{"source_code":"tr","reference_number":"175"}""" .
+<https://www.ammitto.org/entity/tr/176>
+  ammitto:entity_type "person" ;\n  ammitto:hasName """{"full_name":"ŞANHAY DONGFENG NAKLİYE LTD. ŞTİ (SHANGHAI DONGFENG SHIPPING CO LTD)","is_primary":true}""" ;\n  ammitto:source_references """{"source_code":"tr","reference_number":"176"}""" .
+<https://www.ammitto.org/entity/tr/177>
+  ammitto:entity_type "person" ;\n  ammitto:hasName """{"full_name":"SHEN ZHONG ULUSLARARASI NAKLİYE (SHEN ZHONG INTERNATIONAL SHIPPING)","is_primary":true}""" ;\n  ammitto:source_references """{"source_code":"tr","reference_number":"177"}""" .
+<https://www.ammitto.org/entity/tr/178>
+  ammitto:entity_type "person" ;\n  ammitto:hasName """{"full_name":"WEIHAI DÜNYA NAKLİYE NAVLUN (WEIHAI WORLD-SHIPPING FREIGHT)","is_primary":true}""" ;\n  ammitto:source_references """{"source_code":"tr","reference_number":"178"}""" .
+<https://www.ammitto.org/entity/tr/179>
+  ammitto:entity_type "person" ;\n  ammitto:hasName """{"full_name":"YUK TUNG ENERJİ ÖZEL LİMİTED ŞİRKET (YUK TUNG ENERGY PTE LTD)","is_primary":true}""" ;\n  ammitto:source_references """{"source_code":"tr","reference_number":"179"}""" .
+<https://www.ammitto.org/entity/tr/18>
+  ammitto:entity_type "person" ;\n  ammitto:hasName """{"full_name":"JON  MYONG GUK","is_primary":true}""" ;\n  ammitto:source_references """{"source_code":"tr","reference_number":"18"}""" .
+<https://www.ammitto.org/entity/tr/180>
+  ammitto:entity_type "person" ;\n  ammitto:hasName """{"full_name":"7TH OF TIR","is_primary":true}""" ;\n  ammitto:source_references """{"source_code":"tr","reference_number":"180"}""" .
+<https://www.ammitto.org/entity/tr/181>
+  ammitto:entity_type "person" ;\n  ammitto:hasName """{"full_name":"ABZAR BORESH KAVEH CO. (BK CO.)","is_primary":true}""" ;\n  ammitto:source_references """{"source_code":"tr","reference_number":"181"}""" .
+<https://www.ammitto.org/entity/tr/182>
+  ammitto:entity_type "person" ;\n  ammitto:hasName """{"full_name":"AMIN INDUSTRIAL COMPLEX","is_primary":true}""" ;\n  ammitto:source_references """{"source_code":"tr","reference_number":"182"}""" .
+<https://www.ammitto.org/entity/tr/183>
+  ammitto:entity_type "person" ;\n  ammitto:hasName """{"full_name":"AMMUNITION AND METALLURGY INDUSTRIES GROUP (AMIG)","is_primary":true}""" ;\n  ammitto:source_references """{"source_code":"tr","reference_number":"183"}""" .
+<https://www.ammitto.org/entity/tr/184>
+  ammitto:entity_type "person" ;\n  ammitto:hasName """{"full_name":"ARMAMENT INDUS TRIES GROUP (AIG)","is_primary":true}""" ;\n  ammitto:source_references """{"source_code":"tr","reference_number":"184"}""" .
+<https://www.ammitto.org/entity/tr/185>
+  ammitto:entity_type "person" ;\n  ammitto:hasName """{"full_name":"BARZAGAN1 TEJARAT TAVANMAD SACCAL COMPANIES","is_primary":true}""" ;\n  ammitto:source_references """{"source_code":"tr","reference_number":"185"}""" .
+<https://www.ammitto.org/entity/tr/186>
+  ammitto:entity_type "person" ;\n  ammitto:hasName """{"full_name":"BEHINEH TRADING CO","is_primary":true}""" ;\n  ammitto:source_references """{"source_code":"tr","reference_number":"186"}""" .
+<https://www.ammitto.org/entity/tr/187>
+  ammitto:entity_type "organization" ;\n  ammitto:hasName """{"full_name":"DEFENSE TECHNOLOGY AND SCIENCE RESEARCH ÇENTER (DTSRC)","is_primary":true}""" ;\n  ammitto:source_references """{"source_code":"tr","reference_number":"187"}""" .
+<https://www.ammitto.org/entity/tr/188>
+  ammitto:entity_type "person" ;\n  ammitto:hasName """{"full_name":"CRUISE M1SS1LE INDUSTRY GROUP","is_primary":true}""" ;\n  ammitto:source_references """{"source_code":"tr","reference_number":"188"}""" .
+<https://www.ammitto.org/entity/tr/189>
+  ammitto:entity_type "person" ;\n  ammitto:hasName """{"full_name":"DOOSTAN INTERNATIONAL COMPANY (DICO)","is_primary":true}""" ;\n  ammitto:source_references """{"source_code":"tr","reference_number":"189"}""" .
+<https://www.ammitto.org/entity/tr/19>
+  ammitto:entity_type "person" ;\n  ammitto:hasName """{"full_name":"KANG MUN KIL","is_primary":true}""" ;\n  ammitto:source_references """{"source_code":"tr","reference_number":"19"}""" .
+<https://www.ammitto.org/entity/tr/190>
+  ammitto:entity_type "person" ;\n  ammitto:hasName """{"full_name":"ELECTRO SANAM COMPANY","is_primary":true}""" ;\n  ammitto:source_references """{"source_code":"tr","reference_number":"190"}""" .
+<https://www.ammitto.org/entity/tr/191>
+  ammitto:entity_type "person" ;\n  ammitto:hasName """{"full_name":"ETTEHAD TECHNICAL GROUP","is_primary":true}""" ;\n  ammitto:source_references """{"source_code":"tr","reference_number":"191"}""" .
+<https://www.ammitto.org/entity/tr/192>
+  ammitto:entity_type "person" ;\n  ammitto:hasName """{"full_name":"FAJR TNDUSTRIAL GROUP","is_primary":true}""" ;\n  ammitto:source_references """{"source_code":"tr","reference_number":"192"}""" .
+<https://www.ammitto.org/entity/tr/193>
+  ammitto:entity_type "person" ;\n  ammitto:hasName """{"full_name":"FARASAKHT INDUSTRIES","is_primary":true}""" ;\n  ammitto:source_references """{"source_code":"tr","reference_number":"193"}""" .
+<https://www.ammitto.org/entity/tr/194>
+  ammitto:entity_type "person" ;\n  ammitto:hasName """{"full_name":"FARAYAND TECHNIQUE","is_primary":true}""" ;\n  ammitto:source_references """{"source_code":"tr","reference_number":"194"}""" .
+<https://www.ammitto.org/entity/tr/195>
+  ammitto:entity_type "person" ;\n  ammitto:hasName """{"full_name":"FATER INSTITIJTE","is_primary":true}""" ;\n  ammitto:source_references """{"source_code":"tr","reference_number":"195"}""" .
+<https://www.ammitto.org/entity/tr/196>
+  ammitto:entity_type "person" ;\n  ammitto:hasName """{"full_name":"GHORB KARBALA","is_primary":true}""" ;\n  ammitto:source_references """{"source_code":"tr","reference_number":"196"}""" .
+<https://www.ammitto.org/entity/tr/197>
+  ammitto:entity_type "person" ;\n  ammitto:hasName """{"full_name":"GHARAGAHE SAZANDEGI GHAEM","is_primary":true}""" ;\n  ammitto:source_references """{"source_code":"tr","reference_number":"197"}""" .
+<https://www.ammitto.org/entity/tr/198>
+  ammitto:entity_type "person" ;\n  ammitto:hasName """{"full_name":"GHORB NOHO","is_primary":true}""" ;\n  ammitto:source_references """{"source_code":"tr","reference_number":"198"}""" .
+<https://www.ammitto.org/entity/tr/199>
+  ammitto:entity_type "person" ;\n  ammitto:hasName """{"full_name":"HARA COMPANY","is_primary":true}""" ;\n  ammitto:source_references """{"source_code":"tr","reference_number":"199"}""" .
+<https://www.ammitto.org/entity/tr/2>
+  ammitto:entity_type "person" ;\n  ammitto:hasName """{"full_name":"RI JE-SON","is_primary":true}""" ;\n  ammitto:source_references """{"source_code":"tr","reference_number":"2"}""" .
+<https://www.ammitto.org/entity/tr/20>
+  ammitto:entity_type "person" ;\n  ammitto:hasName """{"full_name":"KANG RYONG","is_primary":true}""" ;\n  ammitto:source_references """{"source_code":"tr","reference_number":"20"}""" .
+<https://www.ammitto.org/entity/tr/200>
+  ammitto:entity_type "person" ;\n  ammitto:hasName """{"full_name":"IMENSAZAN CONSULDANT ENGINEERS INSTITUTE","is_primary":true}""" ;\n  ammitto:source_references """{"source_code":"tr","reference_number":"200"}""" .
+<https://www.ammitto.org/entity/tr/201>
+  ammitto:entity_type "person" ;\n  ammitto:hasName """{"full_name":"INDUSTRIAL FACTORIES OF PRECISION(IFP) MACHINERY","is_primary":true}""" ;\n  ammitto:source_references """{"source_code":"tr","reference_number":"201"}""" .
+<https://www.ammitto.org/entity/tr/202>
+  ammitto:entity_type "person" ;\n  ammitto:hasName """{"full_name":"JOZA INDUSTRIAL CO.","is_primary":true}""" ;\n  ammitto:source_references """{"source_code":"tr","reference_number":"202"}""" .
+<https://www.ammitto.org/entity/tr/203>
+  ammitto:entity_type "person" ;\n  ammitto:hasName """{"full_name":"KALA-ELECTRIK","is_primary":true}""" ;\n  ammitto:source_references """{"source_code":"tr","reference_number":"203"}""" .
+<https://www.ammitto.org/entity/tr/204>
+  ammitto:entity_type "person" ;\n  ammitto:hasName """{"full_name":"KAVEH CUTTING TOOLS COMPANY","is_primary":true}""" ;\n  ammitto:source_references """{"source_code":"tr","reference_number":"204"}""" .
+<https://www.ammitto.org/entity/tr/205>
+  ammitto:entity_type "person" ;\n  ammitto:hasName """{"full_name":"KHATATM AL-ANBIYA CONSTRUCTION HEADQUARTERS (KAA)","is_primary":true}""" ;\n  ammitto:source_references """{"source_code":"tr","reference_number":"205"}""" .
+<https://www.ammitto.org/entity/tr/206>
+  ammitto:entity_type "person" ;\n  ammitto:hasName """{"full_name":"KHORASAN METALLURGY INDUSTRIES","is_primary":true}""" ;\n  ammitto:source_references """{"source_code":"tr","reference_number":"206"}""" .
+<https://www.ammitto.org/entity/tr/207>
+  ammitto:entity_type "person" ;\n  ammitto:hasName """{"full_name":"M. BABAIE INDUSTRIES","is_primary":true}""" ;\n  ammitto:source_references """{"source_code":"tr","reference_number":"207"}""" .
+<https://www.ammitto.org/entity/tr/208>
+  ammitto:entity_type "person" ;\n  ammitto:hasName """{"full_name":"MAKIN","is_primary":true}""" ;\n  ammitto:source_references """{"source_code":"tr","reference_number":"208"}""" .
+<https://www.ammitto.org/entity/tr/209>
+  ammitto:entity_type "person" ;\n  ammitto:hasName """{"full_name":"MALEK ASHTAR UNIVERSITY","is_primary":true}""" ;\n  ammitto:source_references """{"source_code":"tr","reference_number":"209"}""" .
+<https://www.ammitto.org/entity/tr/21>
+  ammitto:entity_type "person" ;\n  ammitto:hasName """{"full_name":"KIM JUNG JONG","is_primary":true}""" ;\n  ammitto:source_references """{"source_code":"tr","reference_number":"21"}""" .
+<https://www.ammitto.org/entity/tr/210>
+  ammitto:entity_type "person" ;\n  ammitto:hasName """{"full_name":"MINISTRY OF DEFENSE LOGISTICS EXPORT","is_primary":true}""" ;\n  ammitto:source_references """{"source_code":"tr","reference_number":"210"}""" .
+<https://www.ammitto.org/entity/tr/211>
+  ammitto:entity_type "person" ;\n  ammitto:hasName """{"full_name":"MIZAN MACHINERY MANUFACTURING","is_primary":true}""" ;\n  ammitto:source_references """{"source_code":"tr","reference_number":"211"}""" .
+<https://www.ammitto.org/entity/tr/212>
+  ammitto:entity_type "person" ;\n  ammitto:hasName """{"full_name":"NIRU BATTERY MANUFACTURING COMPANY","is_primary":true}""" ;\n  ammitto:source_references """{"source_code":"tr","reference_number":"212"}""" .
+<https://www.ammitto.org/entity/tr/213>
+  ammitto:entity_type "person" ;\n  ammitto:hasName """{"full_name":"OMRAN SAHEL","is_primary":true}""" ;\n  ammitto:source_references """{"source_code":"tr","reference_number":"213"}""" .
+<https://www.ammitto.org/entity/tr/214>
+  ammitto:entity_type "person" ;\n  ammitto:hasName """{"full_name":"ORIENTAL OIL KISH","is_primary":true}""" ;\n  ammitto:source_references """{"source_code":"tr","reference_number":"214"}""" .
+<https://www.ammitto.org/entity/tr/215>
+  ammitto:entity_type "person" ;\n  ammitto:hasName """{"full_name":"PARCHIN CHEMICAL INDUSTRIES","is_primary":true}""" ;\n  ammitto:source_references """{"source_code":"tr","reference_number":"215"}""" .
+<https://www.ammitto.org/entity/tr/216>
+  ammitto:entity_type "person" ;\n  ammitto:hasName """{"full_name":"PARS AVIATION SERVICES COMPANY","is_primary":true}""" ;\n  ammitto:source_references """{"source_code":"tr","reference_number":"216"}""" .
+<https://www.ammitto.org/entity/tr/217>
+  ammitto:entity_type "person" ;\n  ammitto:hasName """{"full_name":"PEJMAN INDUSTRIAL SERVICES CORPORATION","is_primary":true}""" ;\n  ammitto:source_references """{"source_code":"tr","reference_number":"217"}""" .
+<https://www.ammitto.org/entity/tr/218>
+  ammitto:entity_type "person" ;\n  ammitto:hasName """{"full_name":"QODS AERONAUTICS INDUSTRIES","is_primary":true}""" ;\n  ammitto:source_references """{"source_code":"tr","reference_number":"218"}""" .
+<https://www.ammitto.org/entity/tr/219>
+  ammitto:entity_type "person" ;\n  ammitto:hasName """{"full_name":"RAH SAHEL","is_primary":true}""" ;\n  ammitto:source_references """{"source_code":"tr","reference_number":"219"}""" .
+<https://www.ammitto.org/entity/tr/22>
+  ammitto:entity_type "person" ;\n  ammitto:hasName """{"full_name":"KİM  KYU","is_primary":true}""" ;\n  ammitto:source_references """{"source_code":"tr","reference_number":"22"}""" .
+<https://www.ammitto.org/entity/tr/220>
+  ammitto:entity_type "person" ;\n  ammitto:hasName """{"full_name":"RAHAB ENGINEERING INSTITUTE","is_primary":true}""" ;\n  ammitto:source_references """{"source_code":"tr","reference_number":"220"}""" .
+<https://www.ammitto.org/entity/tr/221>
+  ammitto:entity_type "person" ;\n  ammitto:hasName """{"full_name":"SABALAN COMPANY","is_primary":true}""" ;\n  ammitto:source_references """{"source_code":"tr","reference_number":"221"}""" .
+<https://www.ammitto.org/entity/tr/222>
+  ammitto:entity_type "person" ;\n  ammitto:hasName """{"full_name":"SAD IMPORT EXPORT COMPANY","is_primary":true}""" ;\n  ammitto:source_references """{"source_code":"tr","reference_number":"222"}""" .
+<https://www.ammitto.org/entity/tr/223>
+  ammitto:entity_type "person" ;\n  ammitto:hasName """{"full_name":"SAFETY EQUIPMENT PROCUREMENT (SEP)","is_primary":true}""" ;\n  ammitto:source_references """{"source_code":"tr","reference_number":"223"}""" .
+<https://www.ammitto.org/entity/tr/224>
+  ammitto:entity_type "person" ;\n  ammitto:hasName """{"full_name":"SAHAND ALUMINUM PARTS INDUSTRIAL COMPANY (SAPICO)","is_primary":true}""" ;\n  ammitto:source_references """{"source_code":"tr","reference_number":"224"}""" .
+<https://www.ammitto.org/entity/tr/225>
+  ammitto:entity_type "person" ;\n  ammitto:hasName """{"full_name":"SAHEL CONSULTANT ENGINEERS","is_primary":true}""" ;\n  ammitto:source_references """{"source_code":"tr","reference_number":"225"}""" .
+<https://www.ammitto.org/entity/tr/226>
+  ammitto:entity_type "person" ;\n  ammitto:hasName """{"full_name":"SANAM INDUSTRIAL GROUP","is_primary":true}""" ;\n  ammitto:source_references """{"source_code":"tr","reference_number":"226"}""" .
+<https://www.ammitto.org/entity/tr/227>
+  ammitto:entity_type "person" ;\n  ammitto:hasName """{"full_name":"SEPANIR","is_primary":true}""" ;\n  ammitto:source_references """{"source_code":"tr","reference_number":"227"}""" .
+<https://www.ammitto.org/entity/tr/228>
+  ammitto:entity_type "person" ;\n  ammitto:hasName """{"full_name":"SEPASAD ENGINEERING COMPANY","is_primary":true}""" ;\n  ammitto:source_references """{"source_code":"tr","reference_number":"228"}""" .
+<https://www.ammitto.org/entity/tr/229>
+  ammitto:entity_type "person" ;\n  ammitto:hasName """{"full_name":"SHAHID BAGHERI INDUSTRIAL GROUP(SBIG)","is_primary":true}""" ;\n  ammitto:source_references """{"source_code":"tr","reference_number":"229"}""" .
+<https://www.ammitto.org/entity/tr/23>
+  ammitto:entity_type "person" ;\n  ammitto:hasName """{"full_name":"KİM TONG MY’ONG","is_primary":true}""" ;\n  ammitto:source_references """{"source_code":"tr","reference_number":"23"}""" .
+<https://www.ammitto.org/entity/tr/230>
+  ammitto:entity_type "person" ;\n  ammitto:hasName """{"full_name":"SHAHID HEMMAT INDUSTRIAL GROUP (SHIG)","is_primary":true}""" ;\n  ammitto:source_references """{"source_code":"tr","reference_number":"230"}""" .
+<https://www.ammitto.org/entity/tr/231>
+  ammitto:entity_type "person" ;\n  ammitto:hasName """{"full_name":"SHAHID KARRAZI INDUSTRIES","is_primary":true}""" ;\n  ammitto:source_references """{"source_code":"tr","reference_number":"231"}""" .
+<https://www.ammitto.org/entity/tr/232>
+  ammitto:entity_type "person" ;\n  ammitto:hasName """{"full_name":"SHAHID SATTARI INDUSTRIES","is_primary":true}""" ;\n  ammitto:source_references """{"source_code":"tr","reference_number":"232"}""" .
+<https://www.ammitto.org/entity/tr/233>
+  ammitto:entity_type "person" ;\n  ammitto:hasName """{"full_name":"SHAHID SAYYADE SHIRAZI INDUSTRIES (SSSI)","is_primary":true}""" ;\n  ammitto:source_references """{"source_code":"tr","reference_number":"233"}""" .
+<https://www.ammitto.org/entity/tr/234>
+  ammitto:entity_type "person" ;\n  ammitto:hasName """{"full_name":"SHO'A'AVIATION","is_primary":true}""" ;\n  ammitto:source_references """{"source_code":"tr","reference_number":"234"}""" .
+<https://www.ammitto.org/entity/tr/235>
+  ammitto:entity_type "person" ;\n  ammitto:hasName """{"full_name":"SPECIAL INDUSTRIES GROUP (SIG)","is_primary":true}""" ;\n  ammitto:source_references """{"source_code":"tr","reference_number":"235"}""" .
+<https://www.ammitto.org/entity/tr/236>
+  ammitto:entity_type "person" ;\n  ammitto:hasName """{"full_name":"TIZ PARS","is_primary":true}""" ;\n  ammitto:source_references """{"source_code":"tr","reference_number":"236"}""" .
+<https://www.ammitto.org/entity/tr/237>
+  ammitto:entity_type "person" ;\n  ammitto:hasName """{"full_name":"YA MAHDI INDUSTRIES GROUP","is_primary":true}""" ;\n  ammitto:source_references """{"source_code":"tr","reference_number":"237"}""" .
+<https://www.ammitto.org/entity/tr/238>
+  ammitto:entity_type "person" ;\n  ammitto:hasName """{"full_name":"YAS AIR","is_primary":true}""" ;\n  ammitto:source_references """{"source_code":"tr","reference_number":"238"}""" .
+<https://www.ammitto.org/entity/tr/239>
+  ammitto:entity_type "person" ;\n  ammitto:hasName """{"full_name":"YAZD METALLURGY INDUSTRIES (YMI)","is_primary":true}""" ;\n  ammitto:source_references """{"source_code":"tr","reference_number":"239"}""" .
+<https://www.ammitto.org/entity/tr/24>
+  ammitto:entity_type "person" ;\n  ammitto:hasName """{"full_name":"KİM YONG CHOL","is_primary":true}""" ;\n  ammitto:source_references """{"source_code":"tr","reference_number":"24"}""" .
+<https://www.ammitto.org/entity/tr/25>
+  ammitto:entity_type "person" ;\n  ammitto:hasName """{"full_name":"KO TAE HUN","is_primary":true}""" ;\n  ammitto:source_references """{"source_code":"tr","reference_number":"25"}""" .
+<https://www.ammitto.org/entity/tr/26>
+  ammitto:entity_type "person" ;\n  ammitto:hasName """{"full_name":"RI MAN GON","is_primary":true}""" ;\n  ammitto:source_references """{"source_code":"tr","reference_number":"26"}""" .
+<https://www.ammitto.org/entity/tr/27>
+  ammitto:entity_type "person" ;\n  ammitto:hasName """{"full_name":"RYU JIN","is_primary":true}""" ;\n  ammitto:source_references """{"source_code":"tr","reference_number":"27"}""" .
+<https://www.ammitto.org/entity/tr/28>
+  ammitto:entity_type "person" ;\n  ammitto:hasName """{"full_name":"YUN CHOL","is_primary":true}""" ;\n  ammitto:source_references """{"source_code":"tr","reference_number":"28"}""" .
+<https://www.ammitto.org/entity/tr/29>
+  ammitto:entity_type "person" ;\n  ammitto:hasName """{"full_name":"PAK CHUN IL","is_primary":true}""" ;\n  ammitto:source_references """{"source_code":"tr","reference_number":"29"}""" .
+<https://www.ammitto.org/entity/tr/3>
+  ammitto:entity_type "person" ;\n  ammitto:hasName """{"full_name":"HWANG SOK-HVVA","is_primary":true}""" ;\n  ammitto:source_references """{"source_code":"tr","reference_number":"3"}""" .
+<https://www.ammitto.org/entity/tr/30>
+  ammitto:entity_type "person" ;\n  ammitto:hasName """{"full_name":"KİM SONU CHOL","is_primary":true}""" ;\n  ammitto:source_references """{"source_code":"tr","reference_number":"30"}""" .
+<https://www.ammitto.org/entity/tr/31>
+  ammitto:entity_type "person" ;\n  ammitto:hasName """{"full_name":"SON JONG HYOK","is_primary":true}""" ;\n  ammitto:source_references """{"source_code":"tr","reference_number":"31"}""" .
+<https://www.ammitto.org/entity/tr/32>
+  ammitto:entity_type "person" ;\n  ammitto:hasName """{"full_name":"KİM SE GON","is_primary":true}""" ;\n  ammitto:source_references """{"source_code":"tr","reference_number":"32"}""" .
+<https://www.ammitto.org/entity/tr/33>
+  ammitto:entity_type "person" ;\n  ammitto:hasName """{"full_name":"RJ  WON HO","is_primary":true}""" ;\n  ammitto:source_references """{"source_code":"tr","reference_number":"33"}""" .
+<https://www.ammitto.org/entity/tr/34>
+  ammitto:entity_type "person" ;\n  ammitto:hasName """{"full_name":"JO YONG CHOL","is_primary":true}""" ;\n  ammitto:source_references """{"source_code":"tr","reference_number":"34"}""" .
+<https://www.ammitto.org/entity/tr/35>
+  ammitto:entity_type "person" ;\n  ammitto:hasName """{"full_name":"KİM CHOL SAM","is_primary":true}""" ;\n  ammitto:source_references """{"source_code":"tr","reference_number":"35"}""" .
+<https://www.ammitto.org/entity/tr/36>
+  ammitto:entity_type "person" ;\n  ammitto:hasName """{"full_name":"KİM SOK CHOL","is_primary":true}""" ;\n  ammitto:source_references """{"source_code":"tr","reference_number":"36"}""" .
+<https://www.ammitto.org/entity/tr/37>
+  ammitto:entity_type "person" ;\n  ammitto:hasName """{"full_name":"CHANG CHANG HA","is_primary":true}""" ;\n  ammitto:source_references """{"source_code":"tr","reference_number":"37"}""" .
+<https://www.ammitto.org/entity/tr/38>
+  ammitto:entity_type "person" ;\n  ammitto:hasName """{"full_name":"CHO CHUN RYONG","is_primary":true}""" ;\n  ammitto:source_references """{"source_code":"tr","reference_number":"38"}""" .
+<https://www.ammitto.org/entity/tr/39>
+  ammitto:entity_type "person" ;\n  ammitto:hasName """{"full_name":"SON MUN SAN","is_primary":true}""" ;\n  ammitto:source_references """{"source_code":"tr","reference_number":"39"}""" .
+<https://www.ammitto.org/entity/tr/4>
+  ammitto:entity_type "person" ;\n  ammitto:hasName """{"full_name":"RI HONG-SOP","is_primary":true}""" ;\n  ammitto:source_references """{"source_code":"tr","reference_number":"4"}""" .
+<https://www.ammitto.org/entity/tr/40>
+  ammitto:entity_type "person" ;\n  ammitto:hasName """{"full_name":"CHO IL U","is_primary":true}""" ;\n  ammitto:source_references """{"source_code":"tr","reference_number":"40"}""" .
+<https://www.ammitto.org/entity/tr/41>
+  ammitto:entity_type "person" ;\n  ammitto:hasName """{"full_name":"CHO YON CHUN","is_primary":true}""" ;\n  ammitto:source_references """{"source_code":"tr","reference_number":"41"}""" .
+<https://www.ammitto.org/entity/tr/42>
+  ammitto:entity_type "person" ;\n  ammitto:hasName """{"full_name":"CHOE  HWI3","is_primary":true}""" ;\n  ammitto:source_references """{"source_code":"tr","reference_number":"42"}""" .
+<https://www.ammitto.org/entity/tr/43>
+  ammitto:entity_type "person" ;\n  ammitto:hasName """{"full_name":"JO YONG-WON","is_primary":true}""" ;\n  ammitto:source_references """{"source_code":"tr","reference_number":"43"}""" .
+<https://www.ammitto.org/entity/tr/44>
+  ammitto:entity_type "person" ;\n  ammitto:hasName """{"full_name":"KİM  CHOL NAM","is_primary":true}""" ;\n  ammitto:source_references """{"source_code":"tr","reference_number":"44"}""" .
+<https://www.ammitto.org/entity/tr/45>
+  ammitto:entity_type "person" ;\n  ammitto:hasName """{"full_name":"KİM  KYONG OK","is_primary":true}""" ;\n  ammitto:source_references """{"source_code":"tr","reference_number":"45"}""" .
+<https://www.ammitto.org/entity/tr/46>
+  ammitto:entity_type "person" ;\n  ammitto:hasName """{"full_name":"KIM TONG HO","is_primary":true}""" ;\n  ammitto:source_references """{"source_code":"tr","reference_number":"46"}""" .
+<https://www.ammitto.org/entity/tr/47>
+  ammitto:entity_type "person" ;\n  ammitto:hasName """{"full_name":"MIN BYONG CHOL","is_primary":true}""" ;\n  ammitto:source_references """{"source_code":"tr","reference_number":"47"}""" .
+<https://www.ammitto.org/entity/tr/48>
+  ammitto:entity_type "person" ;\n  ammitto:hasName """{"full_name":"PAEK SE BONG","is_primary":true}""" ;\n  ammitto:source_references """{"source_code":"tr","reference_number":"48"}""" .
+<https://www.ammitto.org/entity/tr/49>
+  ammitto:entity_type "person" ;\n  ammitto:hasName """{"full_name":"PAK  HAN SE","is_primary":true}""" ;\n  ammitto:source_references """{"source_code":"tr","reference_number":"49"}""" .
+<https://www.ammitto.org/entity/tr/5>
+  ammitto:entity_type "person" ;\n  ammitto:hasName """{"full_name":"HAN YU-RO","is_primary":true}""" ;\n  ammitto:source_references """{"source_code":"tr","reference_number":"5"}""" .
+<https://www.ammitto.org/entity/tr/50>
+  ammitto:entity_type "person" ;\n  ammitto:hasName """{"full_name":"PAK TO CHUN","is_primary":true}""" ;\n  ammitto:source_references """{"source_code":"tr","reference_number":"50"}""" .
+<https://www.ammitto.org/entity/tr/51>
+  ammitto:entity_type "person" ;\n  ammitto:hasName """{"full_name":"RI JAEIL","is_primary":true}""" ;\n  ammitto:source_references """{"source_code":"tr","reference_number":"51"}""" .
+<https://www.ammitto.org/entity/tr/52>
+  ammitto:entity_type "person" ;\n  ammitto:hasName """{"full_name":"RI SU YONG","is_primary":true}""" ;\n  ammitto:source_references """{"source_code":"tr","reference_number":"52"}""" .
+<https://www.ammitto.org/entity/tr/53>
+  ammitto:entity_type "person" ;\n  ammitto:hasName """{"full_name":"RI YONG MU","is_primary":true}""" ;\n  ammitto:source_references """{"source_code":"tr","reference_number":"53"}""" .
+<https://www.ammitto.org/entity/tr/54>
+  ammitto:entity_type "person" ;\n  ammitto:hasName """{"full_name":"CHOE  CHUN YONG","is_primary":true}""" ;\n  ammitto:source_references """{"source_code":"tr","reference_number":"54"}""" .
+<https://www.ammitto.org/entity/tr/55>
+  ammitto:entity_type "person" ;\n  ammitto:hasName """{"full_name":"HAN JANG SU","is_primary":true}""" ;\n  ammitto:source_references """{"source_code":"tr","reference_number":"55"}""" .
+<https://www.ammitto.org/entity/tr/56>
+  ammitto:entity_type "person" ;\n  ammitto:hasName """{"full_name":"JANG  SONG CHOL","is_primary":true}""" ;\n  ammitto:source_references """{"source_code":"tr","reference_number":"56"}""" .
+<https://www.ammitto.org/entity/tr/57>
+  ammitto:entity_type "person" ;\n  ammitto:hasName """{"full_name":"JANG SUNG NAM","is_primary":true}""" ;\n  ammitto:source_references """{"source_code":"tr","reference_number":"57"}""" .
+<https://www.ammitto.org/entity/tr/58>
+  ammitto:entity_type "person" ;\n  ammitto:hasName """{"full_name":"JO CHOL SONG","is_primary":true}""" ;\n  ammitto:source_references """{"source_code":"tr","reference_number":"58"}""" .
+<https://www.ammitto.org/entity/tr/59>
+  ammitto:entity_type "person" ;\n  ammitto:hasName """{"full_name":"KANG CHOL SU","is_primary":true}""" ;\n  ammitto:source_references """{"source_code":"tr","reference_number":"59"}""" .
+<https://www.ammitto.org/entity/tr/6>
+  ammitto:entity_type "person" ;\n  ammitto:hasName """{"full_name":"PAEK CHANG-HO","is_primary":true}""" ;\n  ammitto:source_references """{"source_code":"tr","reference_number":"6"}""" .
+<https://www.ammitto.org/entity/tr/60>
+  ammitto:entity_type "person" ;\n  ammitto:hasName """{"full_name":"KİM  MUN CHOL","is_primary":true}""" ;\n  ammitto:source_references """{"source_code":"tr","reference_number":"60"}""" .
+<https://www.ammitto.org/entity/tr/61>
+  ammitto:entity_type "person" ;\n  ammitto:hasName """{"full_name":"KİM NAM UNG","is_primary":true}""" ;\n  ammitto:source_references """{"source_code":"tr","reference_number":"61"}""" .
+<https://www.ammitto.org/entity/tr/62>
+  ammitto:entity_type "person" ;\n  ammitto:hasName """{"full_name":"PAK KYU","is_primary":true}""" ;\n  ammitto:source_references """{"source_code":"tr","reference_number":"62"}""" .
+<https://www.ammitto.org/entity/tr/63>
+  ammitto:entity_type "person" ;\n  ammitto:hasName """{"full_name":"PAK YONG SIK","is_primary":true}""" ;\n  ammitto:source_references """{"source_code":"tr","reference_number":"63"}""" .
+<https://www.ammitto.org/entity/tr/64>
+  ammitto:entity_type "person" ;\n  ammitto:hasName """{"full_name":"CH'OE SO’K MIN","is_primary":true}""" ;\n  ammitto:source_references """{"source_code":"tr","reference_number":"64"}""" .
+<https://www.ammitto.org/entity/tr/65>
+  ammitto:entity_type "person" ;\n  ammitto:hasName """{"full_name":"CHU HYO’K","is_primary":true}""" ;\n  ammitto:source_references """{"source_code":"tr","reference_number":"65"}""" .
+<https://www.ammitto.org/entity/tr/66>
+  ammitto:entity_type "person" ;\n  ammitto:hasName """{"full_name":"KIM JONG SIK","is_primary":true}""" ;\n  ammitto:source_references """{"source_code":"tr","reference_number":"66"}""" .
+<https://www.ammitto.org/entity/tr/67>
+  ammitto:entity_type "person" ;\n  ammitto:hasName """{"full_name":"KİM  KYONGIL","is_primary":true}""" ;\n  ammitto:source_references """{"source_code":"tr","reference_number":"67"}""" .
+<https://www.ammitto.org/entity/tr/68>
+  ammitto:entity_type "person" ;\n  ammitto:hasName """{"full_name":"KİM TONG CHOL","is_primary":true}""" ;\n  ammitto:source_references """{"source_code":"tr","reference_number":"68"}""" .
+<https://www.ammitto.org/entity/tr/69>
+  ammitto:entity_type "person" ;\n  ammitto:hasName """{"full_name":"KO CHOL MAN","is_primary":true}""" ;\n  ammitto:source_references """{"source_code":"tr","reference_number":"69"}""" .
+<https://www.ammitto.org/entity/tr/7>
+  ammitto:entity_type "person" ;\n  ammitto:hasName """{"full_name":"CHANG MYONG-CHIN","is_primary":true}""" ;\n  ammitto:source_references """{"source_code":"tr","reference_number":"7"}""" .
+<https://www.ammitto.org/entity/tr/70>
+  ammitto:entity_type "person" ;\n  ammitto:hasName """{"full_name":"KU JA HYONG","is_primary":true}""" ;\n  ammitto:source_references """{"source_code":"tr","reference_number":"70"}""" .
+<https://www.ammitto.org/entity/tr/71>
+  ammitto:entity_type "person" ;\n  ammitto:hasName """{"full_name":"MUN KYONG HWAN","is_primary":true}""" ;\n  ammitto:source_references """{"source_code":"tr","reference_number":"71"}""" .
+<https://www.ammitto.org/entity/tr/72>
+  ammitto:entity_type "person" ;\n  ammitto:hasName """{"full_name":"PAE WON UK","is_primary":true}""" ;\n  ammitto:source_references """{"source_code":"tr","reference_number":"72"}""" .
+<https://www.ammitto.org/entity/tr/73>
+  ammitto:entity_type "person" ;\n  ammitto:hasName """{"full_name":"PAK BONGNAM","is_primary":true}""" ;\n  ammitto:source_references """{"source_code":"tr","reference_number":"73"}""" .
+<https://www.ammitto.org/entity/tr/74>
+  ammitto:entity_type "person" ;\n  ammitto:hasName """{"full_name":"RI CHUN IIWAN","is_primary":true}""" ;\n  ammitto:source_references """{"source_code":"tr","reference_number":"74"}""" .
+<https://www.ammitto.org/entity/tr/75>
+  ammitto:entity_type "person" ;\n  ammitto:hasName """{"full_name":"RI CHUN SONG","is_primary":true}""" ;\n  ammitto:source_references """{"source_code":"tr","reference_number":"75"}""" .
+<https://www.ammitto.org/entity/tr/76>
+  ammitto:entity_type "person" ;\n  ammitto:hasName """{"full_name":"RI PYONG CHUL","is_primary":true}""" ;\n  ammitto:source_references """{"source_code":"tr","reference_number":"76"}""" .
+<https://www.ammitto.org/entity/tr/77>
+  ammitto:entity_type "person" ;\n  ammitto:hasName """{"full_name":"RI SONG HYOK","is_primary":true}""" ;\n  ammitto:source_references """{"source_code":"tr","reference_number":"77"}""" .
+<https://www.ammitto.org/entity/tr/78>
+  ammitto:entity_type "person" ;\n  ammitto:hasName """{"full_name":"RI U’N SO’NG","is_primary":true}""" ;\n  ammitto:source_references """{"source_code":"tr","reference_number":"78"}""" .
+<https://www.ammitto.org/entity/tr/79>
+  ammitto:entity_type "person" ;\n  ammitto:hasName """{"full_name":"PAK  MUN İL","is_primary":true}""" ;\n  ammitto:source_references """{"source_code":"tr","reference_number":"79"}""" .
+<https://www.ammitto.org/entity/tr/8>
+  ammitto:entity_type "person" ;\n  ammitto:hasName """{"full_name":"RA KY'ONG-SU","is_primary":true}""" ;\n  ammitto:source_references """{"source_code":"tr","reference_number":"8"}""" .
+<https://www.ammitto.org/entity/tr/80>
+  ammitto:entity_type "person" ;\n  ammitto:hasName """{"full_name":"TSANG  YUNG YUAN","is_primary":true}""" ;\n  ammitto:source_references """{"source_code":"tr","reference_number":"80"}""" .
+<https://www.ammitto.org/entity/tr/81>
+  ammitto:entity_type "person" ;\n  ammitto:hasName """{"full_name":"FEREIDOUN  ABBASI-DAVANI","is_primary":true}""" ;\n  ammitto:source_references """{"source_code":"tr","reference_number":"81"}""" .
+<https://www.ammitto.org/entity/tr/82>
+  ammitto:entity_type "person" ;\n  ammitto:hasName """{"full_name":"AZIM  AGHAJANI","is_primary":true}""" ;\n  ammitto:source_references """{"source_code":"tr","reference_number":"82"}""" .
+<https://www.ammitto.org/entity/tr/83>
+  ammitto:entity_type "person" ;\n  ammitto:hasName """{"full_name":"ALI AKBAR  AFIMADIAN","is_primary":true}""" ;\n  ammitto:source_references """{"source_code":"tr","reference_number":"83"}""" .
+<https://www.ammitto.org/entity/tr/84>
+  ammitto:entity_type "person" ;\n  ammitto:hasName """{"full_name":"BA1IMANYAR MORTEZA  BAHMANYAR","is_primary":true}""" ;\n  ammitto:source_references """{"source_code":"tr","reference_number":"84"}""" .
+<https://www.ammitto.org/entity/tr/85>
+  ammitto:entity_type "person" ;\n  ammitto:hasName """{"full_name":"AHMED VAHID DASTJERDI","is_primary":true}""" ;\n  ammitto:source_references """{"source_code":"tr","reference_number":"85"}""" .
+<https://www.ammitto.org/entity/tr/86>
+  ammitto:entity_type "person" ;\n  ammitto:hasName """{"full_name":"AHMAD DERAKHSHANDEH","is_primary":true}""" ;\n  ammitto:source_references """{"source_code":"tr","reference_number":"86"}""" .
+<https://www.ammitto.org/entity/tr/87>
+  ammitto:entity_type "person" ;\n  ammitto:hasName """{"full_name":"MOHAMMAD  ESLAMI","is_primary":true}""" ;\n  ammitto:source_references """{"source_code":"tr","reference_number":"87"}""" .
+<https://www.ammitto.org/entity/tr/88>
+  ammitto:entity_type "person" ;\n  ammitto:hasName """{"full_name":"REZA-GHOLI ESMAELI","is_primary":true}""" ;\n  ammitto:source_references """{"source_code":"tr","reference_number":"88"}""" .
+<https://www.ammitto.org/entity/tr/89>
+  ammitto:entity_type "person" ;\n  ammitto:hasName """{"full_name":"MOHSEN FAKHRIZADEH-MAHABADI","is_primary":true}""" ;\n  ammitto:source_references """{"source_code":"tr","reference_number":"89"}""" .
+<https://www.ammitto.org/entity/tr/9>
+  ammitto:entity_type "person" ;\n  ammitto:hasName """{"full_name":"KİM KWANG-IL","is_primary":true}""" ;\n  ammitto:source_references """{"source_code":"tr","reference_number":"9"}""" .
+<https://www.ammitto.org/entity/tr/90>
+  ammitto:entity_type "person" ;\n  ammitto:hasName """{"full_name":"MOHAMMAD  HEJAZI","is_primary":true}""" ;\n  ammitto:source_references """{"source_code":"tr","reference_number":"90"}""" .
+<https://www.ammitto.org/entity/tr/91>
+  ammitto:entity_type "person" ;\n  ammitto:hasName """{"full_name":"MOHSEN  HOJATI","is_primary":true}""" ;\n  ammitto:source_references """{"source_code":"tr","reference_number":"91"}""" .
+<https://www.ammitto.org/entity/tr/92>
+  ammitto:entity_type "person" ;\n  ammitto:hasName """{"full_name":"MEHRDADA AKHLAGHJ  KETABACHI3","is_primary":true}""" ;\n  ammitto:source_references """{"source_code":"tr","reference_number":"92"}""" .
+<https://www.ammitto.org/entity/tr/93>
+  ammitto:entity_type "person" ;\n  ammitto:hasName """{"full_name":"NASER  MALEK","is_primary":true}""" ;\n  ammitto:source_references """{"source_code":"tr","reference_number":"93"}""" .
+<https://www.ammitto.org/entity/tr/94>
+  ammitto:entity_type "person" ;\n  ammitto:hasName """{"full_name":"MOHAMMAD REZA  NAQDI","is_primary":true}""" ;\n  ammitto:source_references """{"source_code":"tr","reference_number":"94"}""" .
+<https://www.ammitto.org/entity/tr/95>
+  ammitto:entity_type "person" ;\n  ammitto:hasName """{"full_name":"MOHAMMAD MEHDİ NEJAD NOURI","is_primary":true}""" ;\n  ammitto:source_references """{"source_code":"tr","reference_number":"95"}""" .
+<https://www.ammitto.org/entity/tr/96>
+  ammitto:entity_type "person" ;\n  ammitto:hasName """{"full_name":"MORTEZA  REZAIE","is_primary":true}""" ;\n  ammitto:source_references """{"source_code":"tr","reference_number":"96"}""" .
+<https://www.ammitto.org/entity/tr/97>
+  ammitto:entity_type "person" ;\n  ammitto:hasName """{"full_name":"MORTEZA  SAFARİ","is_primary":true}""" ;\n  ammitto:source_references """{"source_code":"tr","reference_number":"97"}""" .
+<https://www.ammitto.org/entity/tr/98>
+  ammitto:entity_type "person" ;\n  ammitto:hasName """{"full_name":"YAHYA RAHİM SAFAVI","is_primary":true}""" ;\n  ammitto:source_references """{"source_code":"tr","reference_number":"98"}""" .
+<https://www.ammitto.org/entity/tr/99>
+  ammitto:entity_type "person" ;\n  ammitto:hasName """{"full_name":"IIOSE1N  SALIMI","is_primary":true}""" ;\n  ammitto:source_references """{"source_code":"tr","reference_number":"99"}""" .
+<https://www.ammitto.org/entry/tr/consolidated-list/unknown>
+  ammitto:entity_id <https://www.ammitto.org/entity/tr/unknown> ;\n  ammitto:hasRegime <https://www.ammitto.org/regime/tr-d> ;\n  ammitto:hasEffect """{"effect_type":"asset_freeze","scope":"full"}""" ;\n  ammitto:hasEffect """{"effect_type":"entry_ban","scope":"full"}""" ;\n  ammitto:hasPeriod """{"listed_date":"2025-10-01","is_indefinite":true}""" ;\n  ammitto:status "active" .
+<https://www.ammitto.org/entry/tr/consolidated-list/1>
+  ammitto:entity_id <https://www.ammitto.org/entity/tr/1> ;\n  ammitto:hasRegime <https://www.ammitto.org/regime/tr-d> ;\n  ammitto:hasEffect """{"effect_type":"asset_freeze","scope":"full"}""" ;\n  ammitto:hasEffect """{"effect_type":"entry_ban","scope":"full"}""" ;\n  ammitto:hasPeriod """{"is_indefinite":true}""" ;\n  ammitto:status "active" .
+<https://www.ammitto.org/entry/tr/consolidated-list/10>
+  ammitto:entity_id <https://www.ammitto.org/entity/tr/10> ;\n  ammitto:hasRegime <https://www.ammitto.org/regime/tr-d> ;\n  ammitto:hasEffect """{"effect_type":"asset_freeze","scope":"full"}""" ;\n  ammitto:hasEffect """{"effect_type":"entry_ban","scope":"full"}""" ;\n  ammitto:hasPeriod """{"is_indefinite":true}""" ;\n  ammitto:status "active" .
+<https://www.ammitto.org/entry/tr/consolidated-list/100>
+  ammitto:entity_id <https://www.ammitto.org/entity/tr/100> ;\n  ammitto:hasRegime <https://www.ammitto.org/regime/tr-d> ;\n  ammitto:hasEffect """{"effect_type":"asset_freeze","scope":"full"}""" ;\n  ammitto:hasEffect """{"effect_type":"entry_ban","scope":"full"}""" ;\n  ammitto:hasPeriod """{"is_indefinite":true}""" ;\n  ammitto:status "active" .
+<https://www.ammitto.org/entry/tr/consolidated-list/101>
+  ammitto:entity_id <https://www.ammitto.org/entity/tr/101> ;\n  ammitto:hasRegime <https://www.ammitto.org/regime/tr-d> ;\n  ammitto:hasEffect """{"effect_type":"asset_freeze","scope":"full"}""" ;\n  ammitto:hasEffect """{"effect_type":"entry_ban","scope":"full"}""" ;\n  ammitto:hasPeriod """{"is_indefinite":true}""" ;\n  ammitto:status "active" .
+<https://www.ammitto.org/entry/tr/consolidated-list/102>
+  ammitto:entity_id <https://www.ammitto.org/entity/tr/102> ;\n  ammitto:hasRegime <https://www.ammitto.org/regime/tr-d> ;\n  ammitto:hasEffect """{"effect_type":"asset_freeze","scope":"full"}""" ;\n  ammitto:hasEffect """{"effect_type":"entry_ban","scope":"full"}""" ;\n  ammitto:hasPeriod """{"is_indefinite":true}""" ;\n  ammitto:status "active" .
+<https://www.ammitto.org/entry/tr/consolidated-list/103>
+  ammitto:entity_id <https://www.ammitto.org/entity/tr/103> ;\n  ammitto:hasRegime <https://www.ammitto.org/regime/tr-d> ;\n  ammitto:hasEffect """{"effect_type":"asset_freeze","scope":"full"}""" ;\n  ammitto:hasEffect """{"effect_type":"entry_ban","scope":"full"}""" ;\n  ammitto:hasPeriod """{"is_indefinite":true}""" ;\n  ammitto:status "active" .
+<https://www.ammitto.org/entry/tr/consolidated-list/104>
+  ammitto:entity_id <https://www.ammitto.org/entity/tr/104> ;\n  ammitto:hasRegime <https://www.ammitto.org/regime/tr-d> ;\n  ammitto:hasEffect """{"effect_type":"asset_freeze","scope":"full"}""" ;\n  ammitto:hasEffect """{"effect_type":"entry_ban","scope":"full"}""" ;\n  ammitto:hasPeriod """{"is_indefinite":true}""" ;\n  ammitto:status "active" .
+<https://www.ammitto.org/entry/tr/consolidated-list/105>
+  ammitto:entity_id <https://www.ammitto.org/entity/tr/105> ;\n  ammitto:hasRegime <https://www.ammitto.org/regime/tr-d> ;\n  ammitto:hasEffect """{"effect_type":"asset_freeze","scope":"full"}""" ;\n  ammitto:hasEffect """{"effect_type":"entry_ban","scope":"full"}""" ;\n  ammitto:hasPeriod """{"is_indefinite":true}""" ;\n  ammitto:status "active" .
+<https://www.ammitto.org/entry/tr/consolidated-list/106>
+  ammitto:entity_id <https://www.ammitto.org/entity/tr/106> ;\n  ammitto:hasRegime <https://www.ammitto.org/regime/tr-d> ;\n  ammitto:hasEffect """{"effect_type":"asset_freeze","scope":"full"}""" ;\n  ammitto:hasEffect """{"effect_type":"entry_ban","scope":"full"}""" ;\n  ammitto:hasPeriod """{"is_indefinite":true}""" ;\n  ammitto:status "active" .
+<https://www.ammitto.org/entry/tr/consolidated-list/107>
+  ammitto:entity_id <https://www.ammitto.org/entity/tr/107> ;\n  ammitto:hasRegime <https://www.ammitto.org/regime/tr-d> ;\n  ammitto:hasEffect """{"effect_type":"asset_freeze","scope":"full"}""" ;\n  ammitto:hasEffect """{"effect_type":"entry_ban","scope":"full"}""" ;\n  ammitto:hasPeriod """{"is_indefinite":true}""" ;\n  ammitto:status "active" .
+<https://www.ammitto.org/entry/tr/consolidated-list/108>
+  ammitto:entity_id <https://www.ammitto.org/entity/tr/108> ;\n  ammitto:hasRegime <https://www.ammitto.org/regime/tr-d> ;\n  ammitto:hasEffect """{"effect_type":"asset_freeze","scope":"full"}""" ;\n  ammitto:hasEffect """{"effect_type":"entry_ban","scope":"full"}""" ;\n  ammitto:hasPeriod """{"is_indefinite":true}""" ;\n  ammitto:status "active" .
+<https://www.ammitto.org/entry/tr/consolidated-list/109>
+  ammitto:entity_id <https://www.ammitto.org/entity/tr/109> ;\n  ammitto:hasRegime <https://www.ammitto.org/regime/tr-d> ;\n  ammitto:hasEffect """{"effect_type":"asset_freeze","scope":"full"}""" ;\n  ammitto:hasEffect """{"effect_type":"entry_ban","scope":"full"}""" ;\n  ammitto:hasPeriod """{"is_indefinite":true}""" ;\n  ammitto:status "active" .
+<https://www.ammitto.org/entry/tr/consolidated-list/11>
+  ammitto:entity_id <https://www.ammitto.org/entity/tr/11> ;\n  ammitto:hasRegime <https://www.ammitto.org/regime/tr-d> ;\n  ammitto:hasEffect """{"effect_type":"asset_freeze","scope":"full"}""" ;\n  ammitto:hasEffect """{"effect_type":"entry_ban","scope":"full"}""" ;\n  ammitto:hasPeriod """{"is_indefinite":true}""" ;\n  ammitto:status "active" .
+<https://www.ammitto.org/entry/tr/consolidated-list/110>
+  ammitto:entity_id <https://www.ammitto.org/entity/tr/110> ;\n  ammitto:hasRegime <https://www.ammitto.org/regime/tr-d> ;\n  ammitto:hasEffect """{"effect_type":"asset_freeze","scope":"full"}""" ;\n  ammitto:hasEffect """{"effect_type":"entry_ban","scope":"full"}""" ;\n  ammitto:hasPeriod """{"is_indefinite":true}""" ;\n  ammitto:status "active" .
+<https://www.ammitto.org/entry/tr/consolidated-list/112>
+  ammitto:entity_id <https://www.ammitto.org/entity/tr/112> ;\n  ammitto:hasRegime <https://www.ammitto.org/regime/tr-d> ;\n  ammitto:hasEffect """{"effect_type":"asset_freeze","scope":"full"}""" ;\n  ammitto:hasEffect """{"effect_type":"entry_ban","scope":"full"}""" ;\n  ammitto:hasPeriod """{"is_indefinite":true}""" ;\n  ammitto:status "active" .
+<https://www.ammitto.org/entry/tr/consolidated-list/113>
+  ammitto:entity_id <https://www.ammitto.org/entity/tr/113> ;\n  ammitto:hasRegime <https://www.ammitto.org/regime/tr-d> ;\n  ammitto:hasEffect """{"effect_type":"asset_freeze","scope":"full"}""" ;\n  ammitto:hasEffect """{"effect_type":"entry_ban","scope":"full"}""" ;\n  ammitto:hasPeriod """{"is_indefinite":true}""" ;\n  ammitto:status "active" .
+<https://www.ammitto.org/entry/tr/consolidated-list/114>
+  ammitto:entity_id <https://www.ammitto.org/entity/tr/114> ;\n  ammitto:hasRegime <https://www.ammitto.org/regime/tr-d> ;\n  ammitto:hasEffect """{"effect_type":"asset_freeze","scope":"full"}""" ;\n  ammitto:hasEffect """{"effect_type":"entry_ban","scope":"full"}""" ;\n  ammitto:hasPeriod """{"is_indefinite":true}""" ;\n  ammitto:status "active" .
+<https://www.ammitto.org/entry/tr/consolidated-list/115>
+  ammitto:entity_id <https://www.ammitto.org/entity/tr/115> ;\n  ammitto:hasRegime <https://www.ammitto.org/regime/tr-d> ;\n  ammitto:hasEffect """{"effect_type":"asset_freeze","scope":"full"}""" ;\n  ammitto:hasEffect """{"effect_type":"entry_ban","scope":"full"}""" ;\n  ammitto:hasPeriod """{"is_indefinite":true}""" ;\n  ammitto:status "active" .
+<https://www.ammitto.org/entry/tr/consolidated-list/116>
+  ammitto:entity_id <https://www.ammitto.org/entity/tr/116> ;\n  ammitto:hasRegime <https://www.ammitto.org/regime/tr-d> ;\n  ammitto:hasEffect """{"effect_type":"asset_freeze","scope":"full"}""" ;\n  ammitto:hasEffect """{"effect_type":"entry_ban","scope":"full"}""" ;\n  ammitto:hasPeriod """{"is_indefinite":true}""" ;\n  ammitto:status "active" .
+<https://www.ammitto.org/entry/tr/consolidated-list/117>
+  ammitto:entity_id <https://www.ammitto.org/entity/tr/117> ;\n  ammitto:hasRegime <https://www.ammitto.org/regime/tr-d> ;\n  ammitto:hasEffect """{"effect_type":"asset_freeze","scope":"full"}""" ;\n  ammitto:hasEffect """{"effect_type":"entry_ban","scope":"full"}""" ;\n  ammitto:hasPeriod """{"is_indefinite":true}""" ;\n  ammitto:status "active" .
+<https://www.ammitto.org/entry/tr/consolidated-list/118>
+  ammitto:entity_id <https://www.ammitto.org/entity/tr/118> ;\n  ammitto:hasRegime <https://www.ammitto.org/regime/tr-d> ;\n  ammitto:hasEffect """{"effect_type":"asset_freeze","scope":"full"}""" ;\n  ammitto:hasEffect """{"effect_type":"entry_ban","scope":"full"}""" ;\n  ammitto:hasPeriod """{"is_indefinite":true}""" ;\n  ammitto:status "active" .
+<https://www.ammitto.org/entry/tr/consolidated-list/119>
+  ammitto:entity_id <https://www.ammitto.org/entity/tr/119> ;\n  ammitto:hasRegime <https://www.ammitto.org/regime/tr-d> ;\n  ammitto:hasEffect """{"effect_type":"asset_freeze","scope":"full"}""" ;\n  ammitto:hasEffect """{"effect_type":"entry_ban","scope":"full"}""" ;\n  ammitto:hasPeriod """{"is_indefinite":true}""" ;\n  ammitto:status "active" .
+<https://www.ammitto.org/entry/tr/consolidated-list/12>
+  ammitto:entity_id <https://www.ammitto.org/entity/tr/12> ;\n  ammitto:hasRegime <https://www.ammitto.org/regime/tr-d> ;\n  ammitto:hasEffect """{"effect_type":"asset_freeze","scope":"full"}""" ;\n  ammitto:hasEffect """{"effect_type":"entry_ban","scope":"full"}""" ;\n  ammitto:hasPeriod """{"is_indefinite":true}""" ;\n  ammitto:status "active" .
+<https://www.ammitto.org/entry/tr/consolidated-list/120>
+  ammitto:entity_id <https://www.ammitto.org/entity/tr/120> ;\n  ammitto:hasRegime <https://www.ammitto.org/regime/tr-d> ;\n  ammitto:hasEffect """{"effect_type":"asset_freeze","scope":"full"}""" ;\n  ammitto:hasEffect """{"effect_type":"entry_ban","scope":"full"}""" ;\n  ammitto:hasPeriod """{"is_indefinite":true}""" ;\n  ammitto:status "active" .
+<https://www.ammitto.org/entry/tr/consolidated-list/121>
+  ammitto:entity_id <https://www.ammitto.org/entity/tr/121> ;\n  ammitto:hasRegime <https://www.ammitto.org/regime/tr-d> ;\n  ammitto:hasEffect """{"effect_type":"asset_freeze","scope":"full"}""" ;\n  ammitto:hasEffect """{"effect_type":"entry_ban","scope":"full"}""" ;\n  ammitto:hasPeriod """{"is_indefinite":true}""" ;\n  ammitto:status "active" .
+<https://www.ammitto.org/entry/tr/consolidated-list/122>
+  ammitto:entity_id <https://www.ammitto.org/entity/tr/122> ;\n  ammitto:hasRegime <https://www.ammitto.org/regime/tr-d> ;\n  ammitto:hasEffect """{"effect_type":"asset_freeze","scope":"full"}""" ;\n  ammitto:hasEffect """{"effect_type":"entry_ban","scope":"full"}""" ;\n  ammitto:hasPeriod """{"is_indefinite":true}""" ;\n  ammitto:status "active" .
+<https://www.ammitto.org/entry/tr/consolidated-list/123>
+  ammitto:entity_id <https://www.ammitto.org/entity/tr/123> ;\n  ammitto:hasRegime <https://www.ammitto.org/regime/tr-d> ;\n  ammitto:hasEffect """{"effect_type":"asset_freeze","scope":"full"}""" ;\n  ammitto:hasEffect """{"effect_type":"entry_ban","scope":"full"}""" ;\n  ammitto:hasPeriod """{"is_indefinite":true}""" ;\n  ammitto:status "active" .
+<https://www.ammitto.org/entry/tr/consolidated-list/124>
+  ammitto:entity_id <https://www.ammitto.org/entity/tr/124> ;\n  ammitto:hasRegime <https://www.ammitto.org/regime/tr-d> ;\n  ammitto:hasEffect """{"effect_type":"asset_freeze","scope":"full"}""" ;\n  ammitto:hasEffect """{"effect_type":"entry_ban","scope":"full"}""" ;\n  ammitto:hasPeriod """{"is_indefinite":true}""" ;\n  ammitto:status "active" .
+<https://www.ammitto.org/entry/tr/consolidated-list/125>
+  ammitto:entity_id <https://www.ammitto.org/entity/tr/125> ;\n  ammitto:hasRegime <https://www.ammitto.org/regime/tr-d> ;\n  ammitto:hasEffect """{"effect_type":"asset_freeze","scope":"full"}""" ;\n  ammitto:hasEffect """{"effect_type":"entry_ban","scope":"full"}""" ;\n  ammitto:hasPeriod """{"is_indefinite":true}""" ;\n  ammitto:status "active" .
+<https://www.ammitto.org/entry/tr/consolidated-list/126>
+  ammitto:entity_id <https://www.ammitto.org/entity/tr/126> ;\n  ammitto:hasRegime <https://www.ammitto.org/regime/tr-d> ;\n  ammitto:hasEffect """{"effect_type":"asset_freeze","scope":"full"}""" ;\n  ammitto:hasEffect """{"effect_type":"entry_ban","scope":"full"}""" ;\n  ammitto:hasPeriod """{"is_indefinite":true}""" ;\n  ammitto:status "active" .
+<https://www.ammitto.org/entry/tr/consolidated-list/127>
+  ammitto:entity_id <https://www.ammitto.org/entity/tr/127> ;\n  ammitto:hasRegime <https://www.ammitto.org/regime/tr-d> ;\n  ammitto:hasEffect """{"effect_type":"asset_freeze","scope":"full"}""" ;\n  ammitto:hasEffect """{"effect_type":"entry_ban","scope":"full"}""" ;\n  ammitto:hasPeriod """{"is_indefinite":true}""" ;\n  ammitto:status "active" .
+<https://www.ammitto.org/entry/tr/consolidated-list/128>
+  ammitto:entity_id <https://www.ammitto.org/entity/tr/128> ;\n  ammitto:hasRegime <https://www.ammitto.org/regime/tr-d> ;\n  ammitto:hasEffect """{"effect_type":"asset_freeze","scope":"full"}""" ;\n  ammitto:hasEffect """{"effect_type":"entry_ban","scope":"full"}""" ;\n  ammitto:hasPeriod """{"is_indefinite":true}""" ;\n  ammitto:status "active" .
+<https://www.ammitto.org/entry/tr/consolidated-list/129>
+  ammitto:entity_id <https://www.ammitto.org/entity/tr/129> ;\n  ammitto:hasRegime <https://www.ammitto.org/regime/tr-d> ;\n  ammitto:hasEffect """{"effect_type":"asset_freeze","scope":"full"}""" ;\n  ammitto:hasEffect """{"effect_type":"entry_ban","scope":"full"}""" ;\n  ammitto:hasPeriod """{"is_indefinite":true}""" ;\n  ammitto:status "active" .
+<https://www.ammitto.org/entry/tr/consolidated-list/13>
+  ammitto:entity_id <https://www.ammitto.org/entity/tr/13> ;\n  ammitto:hasRegime <https://www.ammitto.org/regime/tr-d> ;\n  ammitto:hasEffect """{"effect_type":"asset_freeze","scope":"full"}""" ;\n  ammitto:hasEffect """{"effect_type":"entry_ban","scope":"full"}""" ;\n  ammitto:hasPeriod """{"is_indefinite":true}""" ;\n  ammitto:status "active" .
+<https://www.ammitto.org/entry/tr/consolidated-list/130>
+  ammitto:entity_id <https://www.ammitto.org/entity/tr/130> ;\n  ammitto:hasRegime <https://www.ammitto.org/regime/tr-d> ;\n  ammitto:hasEffect """{"effect_type":"asset_freeze","scope":"full"}""" ;\n  ammitto:hasEffect """{"effect_type":"entry_ban","scope":"full"}""" ;\n  ammitto:hasPeriod """{"is_indefinite":true}""" ;\n  ammitto:status "active" .
+<https://www.ammitto.org/entry/tr/consolidated-list/131>
+  ammitto:entity_id <https://www.ammitto.org/entity/tr/131> ;\n  ammitto:hasRegime <https://www.ammitto.org/regime/tr-d> ;\n  ammitto:hasEffect """{"effect_type":"asset_freeze","scope":"full"}""" ;\n  ammitto:hasEffect """{"effect_type":"entry_ban","scope":"full"}""" ;\n  ammitto:hasPeriod """{"is_indefinite":true}""" ;\n  ammitto:status "active" .
+<https://www.ammitto.org/entry/tr/consolidated-list/132>
+  ammitto:entity_id <https://www.ammitto.org/entity/tr/132> ;\n  ammitto:hasRegime <https://www.ammitto.org/regime/tr-d> ;\n  ammitto:hasEffect """{"effect_type":"asset_freeze","scope":"full"}""" ;\n  ammitto:hasEffect """{"effect_type":"entry_ban","scope":"full"}""" ;\n  ammitto:hasPeriod """{"is_indefinite":true}""" ;\n  ammitto:status "active" .
+<https://www.ammitto.org/entry/tr/consolidated-list/133>
+  ammitto:entity_id <https://www.ammitto.org/entity/tr/133> ;\n  ammitto:hasRegime <https://www.ammitto.org/regime/tr-d> ;\n  ammitto:hasEffect """{"effect_type":"asset_freeze","scope":"full"}""" ;\n  ammitto:hasEffect """{"effect_type":"entry_ban","scope":"full"}""" ;\n  ammitto:hasPeriod """{"is_indefinite":true}""" ;\n  ammitto:status "active" .
+<https://www.ammitto.org/entry/tr/consolidated-list/134>
+  ammitto:entity_id <https://www.ammitto.org/entity/tr/134> ;\n  ammitto:hasRegime <https://www.ammitto.org/regime/tr-d> ;\n  ammitto:hasEffect """{"effect_type":"asset_freeze","scope":"full"}""" ;\n  ammitto:hasEffect """{"effect_type":"entry_ban","scope":"full"}""" ;\n  ammitto:hasPeriod """{"is_indefinite":true}""" ;\n  ammitto:status "active" .
+<https://www.ammitto.org/entry/tr/consolidated-list/135>
+  ammitto:entity_id <https://www.ammitto.org/entity/tr/135> ;\n  ammitto:hasRegime <https://www.ammitto.org/regime/tr-d> ;\n  ammitto:hasEffect """{"effect_type":"asset_freeze","scope":"full"}""" ;\n  ammitto:hasEffect """{"effect_type":"entry_ban","scope":"full"}""" ;\n  ammitto:hasPeriod """{"is_indefinite":true}""" ;\n  ammitto:status "active" .
+<https://www.ammitto.org/entry/tr/consolidated-list/136>
+  ammitto:entity_id <https://www.ammitto.org/entity/tr/136> ;\n  ammitto:hasRegime <https://www.ammitto.org/regime/tr-d> ;\n  ammitto:hasEffect """{"effect_type":"asset_freeze","scope":"full"}""" ;\n  ammitto:hasEffect """{"effect_type":"entry_ban","scope":"full"}""" ;\n  ammitto:hasPeriod """{"is_indefinite":true}""" ;\n  ammitto:status "active" .
+<https://www.ammitto.org/entry/tr/consolidated-list/137>
+  ammitto:entity_id <https://www.ammitto.org/entity/tr/137> ;\n  ammitto:hasRegime <https://www.ammitto.org/regime/tr-d> ;\n  ammitto:hasEffect """{"effect_type":"asset_freeze","scope":"full"}""" ;\n  ammitto:hasEffect """{"effect_type":"entry_ban","scope":"full"}""" ;\n  ammitto:hasPeriod """{"is_indefinite":true}""" ;\n  ammitto:status "active" .
+<https://www.ammitto.org/entry/tr/consolidated-list/138>
+  ammitto:entity_id <https://www.ammitto.org/entity/tr/138> ;\n  ammitto:hasRegime <https://www.ammitto.org/regime/tr-d> ;\n  ammitto:hasEffect """{"effect_type":"asset_freeze","scope":"full"}""" ;\n  ammitto:hasEffect """{"effect_type":"entry_ban","scope":"full"}""" ;\n  ammitto:hasPeriod """{"is_indefinite":true}""" ;\n  ammitto:status "active" .
+<https://www.ammitto.org/entry/tr/consolidated-list/139>
+  ammitto:entity_id <https://www.ammitto.org/entity/tr/139> ;\n  ammitto:hasRegime <https://www.ammitto.org/regime/tr-d> ;\n  ammitto:hasEffect """{"effect_type":"asset_freeze","scope":"full"}""" ;\n  ammitto:hasEffect """{"effect_type":"entry_ban","scope":"full"}""" ;\n  ammitto:hasPeriod """{"is_indefinite":true}""" ;\n  ammitto:status "active" .
+<https://www.ammitto.org/entry/tr/consolidated-list/14>
+  ammitto:entity_id <https://www.ammitto.org/entity/tr/14> ;\n  ammitto:hasRegime <https://www.ammitto.org/regime/tr-d> ;\n  ammitto:hasEffect """{"effect_type":"asset_freeze","scope":"full"}""" ;\n  ammitto:hasEffect """{"effect_type":"entry_ban","scope":"full"}""" ;\n  ammitto:hasPeriod """{"is_indefinite":true}""" ;\n  ammitto:status "active" .
+<https://www.ammitto.org/entry/tr/consolidated-list/140>
+  ammitto:entity_id <https://www.ammitto.org/entity/tr/140> ;\n  ammitto:hasRegime <https://www.ammitto.org/regime/tr-d> ;\n  ammitto:hasEffect """{"effect_type":"asset_freeze","scope":"full"}""" ;\n  ammitto:hasEffect """{"effect_type":"entry_ban","scope":"full"}""" ;\n  ammitto:hasPeriod """{"is_indefinite":true}""" ;\n  ammitto:status "active" .
+<https://www.ammitto.org/entry/tr/consolidated-list/141>
+  ammitto:entity_id <https://www.ammitto.org/entity/tr/141> ;\n  ammitto:hasRegime <https://www.ammitto.org/regime/tr-d> ;\n  ammitto:hasEffect """{"effect_type":"asset_freeze","scope":"full"}""" ;\n  ammitto:hasEffect """{"effect_type":"entry_ban","scope":"full"}""" ;\n  ammitto:hasPeriod """{"is_indefinite":true}""" ;\n  ammitto:status "active" .
+<https://www.ammitto.org/entry/tr/consolidated-list/142>
+  ammitto:entity_id <https://www.ammitto.org/entity/tr/142> ;\n  ammitto:hasRegime <https://www.ammitto.org/regime/tr-d> ;\n  ammitto:hasEffect """{"effect_type":"asset_freeze","scope":"full"}""" ;\n  ammitto:hasEffect """{"effect_type":"entry_ban","scope":"full"}""" ;\n  ammitto:hasPeriod """{"is_indefinite":true}""" ;\n  ammitto:status "active" .
+<https://www.ammitto.org/entry/tr/consolidated-list/143>
+  ammitto:entity_id <https://www.ammitto.org/entity/tr/143> ;\n  ammitto:hasRegime <https://www.ammitto.org/regime/tr-d> ;\n  ammitto:hasEffect """{"effect_type":"asset_freeze","scope":"full"}""" ;\n  ammitto:hasEffect """{"effect_type":"entry_ban","scope":"full"}""" ;\n  ammitto:hasPeriod """{"is_indefinite":true}""" ;\n  ammitto:status "active" .
+<https://www.ammitto.org/entry/tr/consolidated-list/144>
+  ammitto:entity_id <https://www.ammitto.org/entity/tr/144> ;\n  ammitto:hasRegime <https://www.ammitto.org/regime/tr-d> ;\n  ammitto:hasEffect """{"effect_type":"asset_freeze","scope":"full"}""" ;\n  ammitto:hasEffect """{"effect_type":"entry_ban","scope":"full"}""" ;\n  ammitto:hasPeriod """{"is_indefinite":true}""" ;\n  ammitto:status "active" .
+<https://www.ammitto.org/entry/tr/consolidated-list/145>
+  ammitto:entity_id <https://www.ammitto.org/entity/tr/145> ;\n  ammitto:hasRegime <https://www.ammitto.org/regime/tr-d> ;\n  ammitto:hasEffect """{"effect_type":"asset_freeze","scope":"full"}""" ;\n  ammitto:hasEffect """{"effect_type":"entry_ban","scope":"full"}""" ;\n  ammitto:hasPeriod """{"is_indefinite":true}""" ;\n  ammitto:status "active" .
+<https://www.ammitto.org/entry/tr/consolidated-list/146>
+  ammitto:entity_id <https://www.ammitto.org/entity/tr/146> ;\n  ammitto:hasRegime <https://www.ammitto.org/regime/tr-d> ;\n  ammitto:hasEffect """{"effect_type":"asset_freeze","scope":"full"}""" ;\n  ammitto:hasEffect """{"effect_type":"entry_ban","scope":"full"}""" ;\n  ammitto:hasPeriod """{"is_indefinite":true}""" ;\n  ammitto:status "active" .
+<https://www.ammitto.org/entry/tr/consolidated-list/147>
+  ammitto:entity_id <https://www.ammitto.org/entity/tr/147> ;\n  ammitto:hasRegime <https://www.ammitto.org/regime/tr-d> ;\n  ammitto:hasEffect """{"effect_type":"asset_freeze","scope":"full"}""" ;\n  ammitto:hasEffect """{"effect_type":"entry_ban","scope":"full"}""" ;\n  ammitto:hasPeriod """{"is_indefinite":true}""" ;\n  ammitto:status "active" .
+<https://www.ammitto.org/entry/tr/consolidated-list/148>
+  ammitto:entity_id <https://www.ammitto.org/entity/tr/148> ;\n  ammitto:hasRegime <https://www.ammitto.org/regime/tr-d> ;\n  ammitto:hasEffect """{"effect_type":"asset_freeze","scope":"full"}""" ;\n  ammitto:hasEffect """{"effect_type":"entry_ban","scope":"full"}""" ;\n  ammitto:hasPeriod """{"is_indefinite":true}""" ;\n  ammitto:status "active" .
+<https://www.ammitto.org/entry/tr/consolidated-list/149>
+  ammitto:entity_id <https://www.ammitto.org/entity/tr/149> ;\n  ammitto:hasRegime <https://www.ammitto.org/regime/tr-d> ;\n  ammitto:hasEffect """{"effect_type":"asset_freeze","scope":"full"}""" ;\n  ammitto:hasEffect """{"effect_type":"entry_ban","scope":"full"}""" ;\n  ammitto:hasPeriod """{"is_indefinite":true}""" ;\n  ammitto:status "active" .
+<https://www.ammitto.org/entry/tr/consolidated-list/15>
+  ammitto:entity_id <https://www.ammitto.org/entity/tr/15> ;\n  ammitto:hasRegime <https://www.ammitto.org/regime/tr-d> ;\n  ammitto:hasEffect """{"effect_type":"asset_freeze","scope":"full"}""" ;\n  ammitto:hasEffect """{"effect_type":"entry_ban","scope":"full"}""" ;\n  ammitto:hasPeriod """{"is_indefinite":true}""" ;\n  ammitto:status "active" .
+<https://www.ammitto.org/entry/tr/consolidated-list/150>
+  ammitto:entity_id <https://www.ammitto.org/entity/tr/150> ;\n  ammitto:hasRegime <https://www.ammitto.org/regime/tr-d> ;\n  ammitto:hasEffect """{"effect_type":"asset_freeze","scope":"full"}""" ;\n  ammitto:hasEffect """{"effect_type":"entry_ban","scope":"full"}""" ;\n  ammitto:hasPeriod """{"is_indefinite":true}""" ;\n  ammitto:status "active" .
+<https://www.ammitto.org/entry/tr/consolidated-list/151>
+  ammitto:entity_id <https://www.ammitto.org/entity/tr/151> ;\n  ammitto:hasRegime <https://www.ammitto.org/regime/tr-d> ;\n  ammitto:hasEffect """{"effect_type":"asset_freeze","scope":"full"}""" ;\n  ammitto:hasEffect """{"effect_type":"entry_ban","scope":"full"}""" ;\n  ammitto:hasPeriod """{"is_indefinite":true}""" ;\n  ammitto:status "active" .
+<https://www.ammitto.org/entry/tr/consolidated-list/152>
+  ammitto:entity_id <https://www.ammitto.org/entity/tr/152> ;\n  ammitto:hasRegime <https://www.ammitto.org/regime/tr-d> ;\n  ammitto:hasEffect """{"effect_type":"asset_freeze","scope":"full"}""" ;\n  ammitto:hasEffect """{"effect_type":"entry_ban","scope":"full"}""" ;\n  ammitto:hasPeriod """{"is_indefinite":true}""" ;\n  ammitto:status "active" .
+<https://www.ammitto.org/entry/tr/consolidated-list/153>
+  ammitto:entity_id <https://www.ammitto.org/entity/tr/153> ;\n  ammitto:hasRegime <https://www.ammitto.org/regime/tr-d> ;\n  ammitto:hasEffect """{"effect_type":"asset_freeze","scope":"full"}""" ;\n  ammitto:hasEffect """{"effect_type":"entry_ban","scope":"full"}""" ;\n  ammitto:hasPeriod """{"is_indefinite":true}""" ;\n  ammitto:status "active" .
+<https://www.ammitto.org/entry/tr/consolidated-list/154>
+  ammitto:entity_id <https://www.ammitto.org/entity/tr/154> ;\n  ammitto:hasRegime <https://www.ammitto.org/regime/tr-d> ;\n  ammitto:hasEffect """{"effect_type":"asset_freeze","scope":"full"}""" ;\n  ammitto:hasEffect """{"effect_type":"entry_ban","scope":"full"}""" ;\n  ammitto:hasPeriod """{"is_indefinite":true}""" ;\n  ammitto:status "active" .
+<https://www.ammitto.org/entry/tr/consolidated-list/155>
+  ammitto:entity_id <https://www.ammitto.org/entity/tr/155> ;\n  ammitto:hasRegime <https://www.ammitto.org/regime/tr-d> ;\n  ammitto:hasEffect """{"effect_type":"asset_freeze","scope":"full"}""" ;\n  ammitto:hasEffect """{"effect_type":"entry_ban","scope":"full"}""" ;\n  ammitto:hasPeriod """{"is_indefinite":true}""" ;\n  ammitto:status "active" .
+<https://www.ammitto.org/entry/tr/consolidated-list/156>
+  ammitto:entity_id <https://www.ammitto.org/entity/tr/156> ;\n  ammitto:hasRegime <https://www.ammitto.org/regime/tr-d> ;\n  ammitto:hasEffect """{"effect_type":"asset_freeze","scope":"full"}""" ;\n  ammitto:hasEffect """{"effect_type":"entry_ban","scope":"full"}""" ;\n  ammitto:hasPeriod """{"is_indefinite":true}""" ;\n  ammitto:status "active" .
+<https://www.ammitto.org/entry/tr/consolidated-list/157>
+  ammitto:entity_id <https://www.ammitto.org/entity/tr/157> ;\n  ammitto:hasRegime <https://www.ammitto.org/regime/tr-d> ;\n  ammitto:hasEffect """{"effect_type":"asset_freeze","scope":"full"}""" ;\n  ammitto:hasEffect """{"effect_type":"entry_ban","scope":"full"}""" ;\n  ammitto:hasPeriod """{"is_indefinite":true}""" ;\n  ammitto:status "active" .
+<https://www.ammitto.org/entry/tr/consolidated-list/158>
+  ammitto:entity_id <https://www.ammitto.org/entity/tr/158> ;\n  ammitto:hasRegime <https://www.ammitto.org/regime/tr-d> ;\n  ammitto:hasEffect """{"effect_type":"asset_freeze","scope":"full"}""" ;\n  ammitto:hasEffect """{"effect_type":"entry_ban","scope":"full"}""" ;\n  ammitto:hasPeriod """{"is_indefinite":true}""" ;\n  ammitto:status "active" .
+<https://www.ammitto.org/entry/tr/consolidated-list/159>
+  ammitto:entity_id <https://www.ammitto.org/entity/tr/159> ;\n  ammitto:hasRegime <https://www.ammitto.org/regime/tr-d> ;\n  ammitto:hasEffect """{"effect_type":"asset_freeze","scope":"full"}""" ;\n  ammitto:hasEffect """{"effect_type":"entry_ban","scope":"full"}""" ;\n  ammitto:hasPeriod """{"is_indefinite":true}""" ;\n  ammitto:status "active" .
+<https://www.ammitto.org/entry/tr/consolidated-list/16>
+  ammitto:entity_id <https://www.ammitto.org/entity/tr/16> ;\n  ammitto:hasRegime <https://www.ammitto.org/regime/tr-d> ;\n  ammitto:hasEffect """{"effect_type":"asset_freeze","scope":"full"}""" ;\n  ammitto:hasEffect """{"effect_type":"entry_ban","scope":"full"}""" ;\n  ammitto:hasPeriod """{"is_indefinite":true}""" ;\n  ammitto:status "active" .
+<https://www.ammitto.org/entry/tr/consolidated-list/160>
+  ammitto:entity_id <https://www.ammitto.org/entity/tr/160> ;\n  ammitto:hasRegime <https://www.ammitto.org/regime/tr-d> ;\n  ammitto:hasEffect """{"effect_type":"asset_freeze","scope":"full"}""" ;\n  ammitto:hasEffect """{"effect_type":"entry_ban","scope":"full"}""" ;\n  ammitto:hasPeriod """{"is_indefinite":true}""" ;\n  ammitto:status "active" .
+<https://www.ammitto.org/entry/tr/consolidated-list/161>
+  ammitto:entity_id <https://www.ammitto.org/entity/tr/161> ;\n  ammitto:hasRegime <https://www.ammitto.org/regime/tr-d> ;\n  ammitto:hasEffect """{"effect_type":"asset_freeze","scope":"full"}""" ;\n  ammitto:hasEffect """{"effect_type":"entry_ban","scope":"full"}""" ;\n  ammitto:hasPeriod """{"is_indefinite":true}""" ;\n  ammitto:status "active" .
+<https://www.ammitto.org/entry/tr/consolidated-list/162>
+  ammitto:entity_id <https://www.ammitto.org/entity/tr/162> ;\n  ammitto:hasRegime <https://www.ammitto.org/regime/tr-d> ;\n  ammitto:hasEffect """{"effect_type":"asset_freeze","scope":"full"}""" ;\n  ammitto:hasEffect """{"effect_type":"entry_ban","scope":"full"}""" ;\n  ammitto:hasPeriod """{"is_indefinite":true}""" ;\n  ammitto:status "active" .
+<https://www.ammitto.org/entry/tr/consolidated-list/163>
+  ammitto:entity_id <https://www.ammitto.org/entity/tr/163> ;\n  ammitto:hasRegime <https://www.ammitto.org/regime/tr-d> ;\n  ammitto:hasEffect """{"effect_type":"asset_freeze","scope":"full"}""" ;\n  ammitto:hasEffect """{"effect_type":"entry_ban","scope":"full"}""" ;\n  ammitto:hasPeriod """{"is_indefinite":true}""" ;\n  ammitto:status "active" .
+<https://www.ammitto.org/entry/tr/consolidated-list/164>
+  ammitto:entity_id <https://www.ammitto.org/entity/tr/164> ;\n  ammitto:hasRegime <https://www.ammitto.org/regime/tr-d> ;\n  ammitto:hasEffect """{"effect_type":"asset_freeze","scope":"full"}""" ;\n  ammitto:hasEffect """{"effect_type":"entry_ban","scope":"full"}""" ;\n  ammitto:hasPeriod """{"is_indefinite":true}""" ;\n  ammitto:status "active" .
+<https://www.ammitto.org/entry/tr/consolidated-list/165>
+  ammitto:entity_id <https://www.ammitto.org/entity/tr/165> ;\n  ammitto:hasRegime <https://www.ammitto.org/regime/tr-d> ;\n  ammitto:hasEffect """{"effect_type":"asset_freeze","scope":"full"}""" ;\n  ammitto:hasEffect """{"effect_type":"entry_ban","scope":"full"}""" ;\n  ammitto:hasPeriod """{"is_indefinite":true}""" ;\n  ammitto:status "active" .
+<https://www.ammitto.org/entry/tr/consolidated-list/166>
+  ammitto:entity_id <https://www.ammitto.org/entity/tr/166> ;\n  ammitto:hasRegime <https://www.ammitto.org/regime/tr-d> ;\n  ammitto:hasEffect """{"effect_type":"asset_freeze","scope":"full"}""" ;\n  ammitto:hasEffect """{"effect_type":"entry_ban","scope":"full"}""" ;\n  ammitto:hasPeriod """{"is_indefinite":true}""" ;\n  ammitto:status "active" .
+<https://www.ammitto.org/entry/tr/consolidated-list/167>
+  ammitto:entity_id <https://www.ammitto.org/entity/tr/167> ;\n  ammitto:hasRegime <https://www.ammitto.org/regime/tr-d> ;\n  ammitto:hasEffect """{"effect_type":"asset_freeze","scope":"full"}""" ;\n  ammitto:hasEffect """{"effect_type":"entry_ban","scope":"full"}""" ;\n  ammitto:hasPeriod """{"is_indefinite":true}""" ;\n  ammitto:status "active" .
+<https://www.ammitto.org/entry/tr/consolidated-list/168>
+  ammitto:entity_id <https://www.ammitto.org/entity/tr/168> ;\n  ammitto:hasRegime <https://www.ammitto.org/regime/tr-d> ;\n  ammitto:hasEffect """{"effect_type":"asset_freeze","scope":"full"}""" ;\n  ammitto:hasEffect """{"effect_type":"entry_ban","scope":"full"}""" ;\n  ammitto:hasPeriod """{"is_indefinite":true}""" ;\n  ammitto:status "active" .
+<https://www.ammitto.org/entry/tr/consolidated-list/169>
+  ammitto:entity_id <https://www.ammitto.org/entity/tr/169> ;\n  ammitto:hasRegime <https://www.ammitto.org/regime/tr-d> ;\n  ammitto:hasEffect """{"effect_type":"asset_freeze","scope":"full"}""" ;\n  ammitto:hasEffect """{"effect_type":"entry_ban","scope":"full"}""" ;\n  ammitto:hasPeriod """{"is_indefinite":true}""" ;\n  ammitto:status "active" .
+<https://www.ammitto.org/entry/tr/consolidated-list/17>
+  ammitto:entity_id <https://www.ammitto.org/entity/tr/17> ;\n  ammitto:hasRegime <https://www.ammitto.org/regime/tr-d> ;\n  ammitto:hasEffect """{"effect_type":"asset_freeze","scope":"full"}""" ;\n  ammitto:hasEffect """{"effect_type":"entry_ban","scope":"full"}""" ;\n  ammitto:hasPeriod """{"is_indefinite":true}""" ;\n  ammitto:status "active" .
+<https://www.ammitto.org/entry/tr/consolidated-list/170>
+  ammitto:entity_id <https://www.ammitto.org/entity/tr/170> ;\n  ammitto:hasRegime <https://www.ammitto.org/regime/tr-d> ;\n  ammitto:hasEffect """{"effect_type":"asset_freeze","scope":"full"}""" ;\n  ammitto:hasEffect """{"effect_type":"entry_ban","scope":"full"}""" ;\n  ammitto:hasPeriod """{"is_indefinite":true}""" ;\n  ammitto:status "active" .
+<https://www.ammitto.org/entry/tr/consolidated-list/171>
+  ammitto:entity_id <https://www.ammitto.org/entity/tr/171> ;\n  ammitto:hasRegime <https://www.ammitto.org/regime/tr-d> ;\n  ammitto:hasEffect """{"effect_type":"asset_freeze","scope":"full"}""" ;\n  ammitto:hasEffect """{"effect_type":"entry_ban","scope":"full"}""" ;\n  ammitto:hasPeriod """{"is_indefinite":true}""" ;\n  ammitto:status "active" .
+<https://www.ammitto.org/entry/tr/consolidated-list/172>
+  ammitto:entity_id <https://www.ammitto.org/entity/tr/172> ;\n  ammitto:hasRegime <https://www.ammitto.org/regime/tr-d> ;\n  ammitto:hasEffect """{"effect_type":"asset_freeze","scope":"full"}""" ;\n  ammitto:hasEffect """{"effect_type":"entry_ban","scope":"full"}""" ;\n  ammitto:hasPeriod """{"is_indefinite":true}""" ;\n  ammitto:status "active" .
+<https://www.ammitto.org/entry/tr/consolidated-list/173>
+  ammitto:entity_id <https://www.ammitto.org/entity/tr/173> ;\n  ammitto:hasRegime <https://www.ammitto.org/regime/tr-d> ;\n  ammitto:hasEffect """{"effect_type":"asset_freeze","scope":"full"}""" ;\n  ammitto:hasEffect """{"effect_type":"entry_ban","scope":"full"}""" ;\n  ammitto:hasPeriod """{"is_indefinite":true}""" ;\n  ammitto:status "active" .
+<https://www.ammitto.org/entry/tr/consolidated-list/174>
+  ammitto:entity_id <https://www.ammitto.org/entity/tr/174> ;\n  ammitto:hasRegime <https://www.ammitto.org/regime/tr-d> ;\n  ammitto:hasEffect """{"effect_type":"asset_freeze","scope":"full"}""" ;\n  ammitto:hasEffect """{"effect_type":"entry_ban","scope":"full"}""" ;\n  ammitto:hasPeriod """{"is_indefinite":true}""" ;\n  ammitto:status "active" .
+<https://www.ammitto.org/entry/tr/consolidated-list/175>
+  ammitto:entity_id <https://www.ammitto.org/entity/tr/175> ;\n  ammitto:hasRegime <https://www.ammitto.org/regime/tr-d> ;\n  ammitto:hasEffect """{"effect_type":"asset_freeze","scope":"full"}""" ;\n  ammitto:hasEffect """{"effect_type":"entry_ban","scope":"full"}""" ;\n  ammitto:hasPeriod """{"is_indefinite":true}""" ;\n  ammitto:status "active" .
+<https://www.ammitto.org/entry/tr/consolidated-list/176>
+  ammitto:entity_id <https://www.ammitto.org/entity/tr/176> ;\n  ammitto:hasRegime <https://www.ammitto.org/regime/tr-d> ;\n  ammitto:hasEffect """{"effect_type":"asset_freeze","scope":"full"}""" ;\n  ammitto:hasEffect """{"effect_type":"entry_ban","scope":"full"}""" ;\n  ammitto:hasPeriod """{"is_indefinite":true}""" ;\n  ammitto:status "active" .
+<https://www.ammitto.org/entry/tr/consolidated-list/177>
+  ammitto:entity_id <https://www.ammitto.org/entity/tr/177> ;\n  ammitto:hasRegime <https://www.ammitto.org/regime/tr-d> ;\n  ammitto:hasEffect """{"effect_type":"asset_freeze","scope":"full"}""" ;\n  ammitto:hasEffect """{"effect_type":"entry_ban","scope":"full"}""" ;\n  ammitto:hasPeriod """{"is_indefinite":true}""" ;\n  ammitto:status "active" .
+<https://www.ammitto.org/entry/tr/consolidated-list/178>
+  ammitto:entity_id <https://www.ammitto.org/entity/tr/178> ;\n  ammitto:hasRegime <https://www.ammitto.org/regime/tr-d> ;\n  ammitto:hasEffect """{"effect_type":"asset_freeze","scope":"full"}""" ;\n  ammitto:hasEffect """{"effect_type":"entry_ban","scope":"full"}""" ;\n  ammitto:hasPeriod """{"is_indefinite":true}""" ;\n  ammitto:status "active" .
+<https://www.ammitto.org/entry/tr/consolidated-list/179>
+  ammitto:entity_id <https://www.ammitto.org/entity/tr/179> ;\n  ammitto:hasRegime <https://www.ammitto.org/regime/tr-d> ;\n  ammitto:hasEffect """{"effect_type":"asset_freeze","scope":"full"}""" ;\n  ammitto:hasEffect """{"effect_type":"entry_ban","scope":"full"}""" ;\n  ammitto:hasPeriod """{"is_indefinite":true}""" ;\n  ammitto:status "active" .
+<https://www.ammitto.org/entry/tr/consolidated-list/18>
+  ammitto:entity_id <https://www.ammitto.org/entity/tr/18> ;\n  ammitto:hasRegime <https://www.ammitto.org/regime/tr-d> ;\n  ammitto:hasEffect """{"effect_type":"asset_freeze","scope":"full"}""" ;\n  ammitto:hasEffect """{"effect_type":"entry_ban","scope":"full"}""" ;\n  ammitto:hasPeriod """{"is_indefinite":true}""" ;\n  ammitto:status "active" .
+<https://www.ammitto.org/entry/tr/consolidated-list/180>
+  ammitto:entity_id <https://www.ammitto.org/entity/tr/180> ;\n  ammitto:hasRegime <https://www.ammitto.org/regime/tr-d> ;\n  ammitto:hasEffect """{"effect_type":"asset_freeze","scope":"full"}""" ;\n  ammitto:hasEffect """{"effect_type":"entry_ban","scope":"full"}""" ;\n  ammitto:hasPeriod """{"is_indefinite":true}""" ;\n  ammitto:status "active" .
+<https://www.ammitto.org/entry/tr/consolidated-list/181>
+  ammitto:entity_id <https://www.ammitto.org/entity/tr/181> ;\n  ammitto:hasRegime <https://www.ammitto.org/regime/tr-d> ;\n  ammitto:hasEffect """{"effect_type":"asset_freeze","scope":"full"}""" ;\n  ammitto:hasEffect """{"effect_type":"entry_ban","scope":"full"}""" ;\n  ammitto:hasPeriod """{"is_indefinite":true}""" ;\n  ammitto:status "active" .
+<https://www.ammitto.org/entry/tr/consolidated-list/182>
+  ammitto:entity_id <https://www.ammitto.org/entity/tr/182> ;\n  ammitto:hasRegime <https://www.ammitto.org/regime/tr-d> ;\n  ammitto:hasEffect """{"effect_type":"asset_freeze","scope":"full"}""" ;\n  ammitto:hasEffect """{"effect_type":"entry_ban","scope":"full"}""" ;\n  ammitto:hasPeriod """{"is_indefinite":true}""" ;\n  ammitto:status "active" .
+<https://www.ammitto.org/entry/tr/consolidated-list/183>
+  ammitto:entity_id <https://www.ammitto.org/entity/tr/183> ;\n  ammitto:hasRegime <https://www.ammitto.org/regime/tr-d> ;\n  ammitto:hasEffect """{"effect_type":"asset_freeze","scope":"full"}""" ;\n  ammitto:hasEffect """{"effect_type":"entry_ban","scope":"full"}""" ;\n  ammitto:hasPeriod """{"is_indefinite":true}""" ;\n  ammitto:status "active" .
+<https://www.ammitto.org/entry/tr/consolidated-list/184>
+  ammitto:entity_id <https://www.ammitto.org/entity/tr/184> ;\n  ammitto:hasRegime <https://www.ammitto.org/regime/tr-d> ;\n  ammitto:hasEffect """{"effect_type":"asset_freeze","scope":"full"}""" ;\n  ammitto:hasEffect """{"effect_type":"entry_ban","scope":"full"}""" ;\n  ammitto:hasPeriod """{"is_indefinite":true}""" ;\n  ammitto:status "active" .
+<https://www.ammitto.org/entry/tr/consolidated-list/185>
+  ammitto:entity_id <https://www.ammitto.org/entity/tr/185> ;\n  ammitto:hasRegime <https://www.ammitto.org/regime/tr-d> ;\n  ammitto:hasEffect """{"effect_type":"asset_freeze","scope":"full"}""" ;\n  ammitto:hasEffect """{"effect_type":"entry_ban","scope":"full"}""" ;\n  ammitto:hasPeriod """{"is_indefinite":true}""" ;\n  ammitto:status "active" .
+<https://www.ammitto.org/entry/tr/consolidated-list/186>
+  ammitto:entity_id <https://www.ammitto.org/entity/tr/186> ;\n  ammitto:hasRegime <https://www.ammitto.org/regime/tr-d> ;\n  ammitto:hasEffect """{"effect_type":"asset_freeze","scope":"full"}""" ;\n  ammitto:hasEffect """{"effect_type":"entry_ban","scope":"full"}""" ;\n  ammitto:hasPeriod """{"is_indefinite":true}""" ;\n  ammitto:status "active" .
+<https://www.ammitto.org/entry/tr/consolidated-list/187>
+  ammitto:entity_id <https://www.ammitto.org/entity/tr/187> ;\n  ammitto:hasRegime <https://www.ammitto.org/regime/tr-d> ;\n  ammitto:hasEffect """{"effect_type":"asset_freeze","scope":"full"}""" ;\n  ammitto:hasEffect """{"effect_type":"entry_ban","scope":"full"}""" ;\n  ammitto:hasPeriod """{"is_indefinite":true}""" ;\n  ammitto:status "active" .
+<https://www.ammitto.org/entry/tr/consolidated-list/188>
+  ammitto:entity_id <https://www.ammitto.org/entity/tr/188> ;\n  ammitto:hasRegime <https://www.ammitto.org/regime/tr-d> ;\n  ammitto:hasEffect """{"effect_type":"asset_freeze","scope":"full"}""" ;\n  ammitto:hasEffect """{"effect_type":"entry_ban","scope":"full"}""" ;\n  ammitto:hasPeriod """{"is_indefinite":true}""" ;\n  ammitto:status "active" .
+<https://www.ammitto.org/entry/tr/consolidated-list/189>
+  ammitto:entity_id <https://www.ammitto.org/entity/tr/189> ;\n  ammitto:hasRegime <https://www.ammitto.org/regime/tr-d> ;\n  ammitto:hasEffect """{"effect_type":"asset_freeze","scope":"full"}""" ;\n  ammitto:hasEffect """{"effect_type":"entry_ban","scope":"full"}""" ;\n  ammitto:hasPeriod """{"is_indefinite":true}""" ;\n  ammitto:status "active" .
+<https://www.ammitto.org/entry/tr/consolidated-list/19>
+  ammitto:entity_id <https://www.ammitto.org/entity/tr/19> ;\n  ammitto:hasRegime <https://www.ammitto.org/regime/tr-d> ;\n  ammitto:hasEffect """{"effect_type":"asset_freeze","scope":"full"}""" ;\n  ammitto:hasEffect """{"effect_type":"entry_ban","scope":"full"}""" ;\n  ammitto:hasPeriod """{"is_indefinite":true}""" ;\n  ammitto:status "active" .
+<https://www.ammitto.org/entry/tr/consolidated-list/190>
+  ammitto:entity_id <https://www.ammitto.org/entity/tr/190> ;\n  ammitto:hasRegime <https://www.ammitto.org/regime/tr-d> ;\n  ammitto:hasEffect """{"effect_type":"asset_freeze","scope":"full"}""" ;\n  ammitto:hasEffect """{"effect_type":"entry_ban","scope":"full"}""" ;\n  ammitto:hasPeriod """{"is_indefinite":true}""" ;\n  ammitto:status "active" .
+<https://www.ammitto.org/entry/tr/consolidated-list/191>
+  ammitto:entity_id <https://www.ammitto.org/entity/tr/191> ;\n  ammitto:hasRegime <https://www.ammitto.org/regime/tr-d> ;\n  ammitto:hasEffect """{"effect_type":"asset_freeze","scope":"full"}""" ;\n  ammitto:hasEffect """{"effect_type":"entry_ban","scope":"full"}""" ;\n  ammitto:hasPeriod """{"is_indefinite":true}""" ;\n  ammitto:status "active" .
+<https://www.ammitto.org/entry/tr/consolidated-list/192>
+  ammitto:entity_id <https://www.ammitto.org/entity/tr/192> ;\n  ammitto:hasRegime <https://www.ammitto.org/regime/tr-d> ;\n  ammitto:hasEffect """{"effect_type":"asset_freeze","scope":"full"}""" ;\n  ammitto:hasEffect """{"effect_type":"entry_ban","scope":"full"}""" ;\n  ammitto:hasPeriod """{"is_indefinite":true}""" ;\n  ammitto:status "active" .
+<https://www.ammitto.org/entry/tr/consolidated-list/193>
+  ammitto:entity_id <https://www.ammitto.org/entity/tr/193> ;\n  ammitto:hasRegime <https://www.ammitto.org/regime/tr-d> ;\n  ammitto:hasEffect """{"effect_type":"asset_freeze","scope":"full"}""" ;\n  ammitto:hasEffect """{"effect_type":"entry_ban","scope":"full"}""" ;\n  ammitto:hasPeriod """{"is_indefinite":true}""" ;\n  ammitto:status "active" .
+<https://www.ammitto.org/entry/tr/consolidated-list/194>
+  ammitto:entity_id <https://www.ammitto.org/entity/tr/194> ;\n  ammitto:hasRegime <https://www.ammitto.org/regime/tr-d> ;\n  ammitto:hasEffect """{"effect_type":"asset_freeze","scope":"full"}""" ;\n  ammitto:hasEffect """{"effect_type":"entry_ban","scope":"full"}""" ;\n  ammitto:hasPeriod """{"is_indefinite":true}""" ;\n  ammitto:status "active" .
+<https://www.ammitto.org/entry/tr/consolidated-list/195>
+  ammitto:entity_id <https://www.ammitto.org/entity/tr/195> ;\n  ammitto:hasRegime <https://www.ammitto.org/regime/tr-d> ;\n  ammitto:hasEffect """{"effect_type":"asset_freeze","scope":"full"}""" ;\n  ammitto:hasEffect """{"effect_type":"entry_ban","scope":"full"}""" ;\n  ammitto:hasPeriod """{"is_indefinite":true}""" ;\n  ammitto:status "active" .
+<https://www.ammitto.org/entry/tr/consolidated-list/196>
+  ammitto:entity_id <https://www.ammitto.org/entity/tr/196> ;\n  ammitto:hasRegime <https://www.ammitto.org/regime/tr-d> ;\n  ammitto:hasEffect """{"effect_type":"asset_freeze","scope":"full"}""" ;\n  ammitto:hasEffect """{"effect_type":"entry_ban","scope":"full"}""" ;\n  ammitto:hasPeriod """{"is_indefinite":true}""" ;\n  ammitto:status "active" .
+<https://www.ammitto.org/entry/tr/consolidated-list/197>
+  ammitto:entity_id <https://www.ammitto.org/entity/tr/197> ;\n  ammitto:hasRegime <https://www.ammitto.org/regime/tr-d> ;\n  ammitto:hasEffect """{"effect_type":"asset_freeze","scope":"full"}""" ;\n  ammitto:hasEffect """{"effect_type":"entry_ban","scope":"full"}""" ;\n  ammitto:hasPeriod """{"is_indefinite":true}""" ;\n  ammitto:status "active" .
+<https://www.ammitto.org/entry/tr/consolidated-list/198>
+  ammitto:entity_id <https://www.ammitto.org/entity/tr/198> ;\n  ammitto:hasRegime <https://www.ammitto.org/regime/tr-d> ;\n  ammitto:hasEffect """{"effect_type":"asset_freeze","scope":"full"}""" ;\n  ammitto:hasEffect """{"effect_type":"entry_ban","scope":"full"}""" ;\n  ammitto:hasPeriod """{"is_indefinite":true}""" ;\n  ammitto:status "active" .
+<https://www.ammitto.org/entry/tr/consolidated-list/199>
+  ammitto:entity_id <https://www.ammitto.org/entity/tr/199> ;\n  ammitto:hasRegime <https://www.ammitto.org/regime/tr-d> ;\n  ammitto:hasEffect """{"effect_type":"asset_freeze","scope":"full"}""" ;\n  ammitto:hasEffect """{"effect_type":"entry_ban","scope":"full"}""" ;\n  ammitto:hasPeriod """{"is_indefinite":true}""" ;\n  ammitto:status "active" .
+<https://www.ammitto.org/entry/tr/consolidated-list/2>
+  ammitto:entity_id <https://www.ammitto.org/entity/tr/2> ;\n  ammitto:hasRegime <https://www.ammitto.org/regime/tr-d> ;\n  ammitto:hasEffect """{"effect_type":"asset_freeze","scope":"full"}""" ;\n  ammitto:hasEffect """{"effect_type":"entry_ban","scope":"full"}""" ;\n  ammitto:hasPeriod """{"is_indefinite":true}""" ;\n  ammitto:status "active" .
+<https://www.ammitto.org/entry/tr/consolidated-list/20>
+  ammitto:entity_id <https://www.ammitto.org/entity/tr/20> ;\n  ammitto:hasRegime <https://www.ammitto.org/regime/tr-d> ;\n  ammitto:hasEffect """{"effect_type":"asset_freeze","scope":"full"}""" ;\n  ammitto:hasEffect """{"effect_type":"entry_ban","scope":"full"}""" ;\n  ammitto:hasPeriod """{"is_indefinite":true}""" ;\n  ammitto:status "active" .
+<https://www.ammitto.org/entry/tr/consolidated-list/200>
+  ammitto:entity_id <https://www.ammitto.org/entity/tr/200> ;\n  ammitto:hasRegime <https://www.ammitto.org/regime/tr-d> ;\n  ammitto:hasEffect """{"effect_type":"asset_freeze","scope":"full"}""" ;\n  ammitto:hasEffect """{"effect_type":"entry_ban","scope":"full"}""" ;\n  ammitto:hasPeriod """{"is_indefinite":true}""" ;\n  ammitto:status "active" .
+<https://www.ammitto.org/entry/tr/consolidated-list/201>
+  ammitto:entity_id <https://www.ammitto.org/entity/tr/201> ;\n  ammitto:hasRegime <https://www.ammitto.org/regime/tr-d> ;\n  ammitto:hasEffect """{"effect_type":"asset_freeze","scope":"full"}""" ;\n  ammitto:hasEffect """{"effect_type":"entry_ban","scope":"full"}""" ;\n  ammitto:hasPeriod """{"is_indefinite":true}""" ;\n  ammitto:status "active" .
+<https://www.ammitto.org/entry/tr/consolidated-list/202>
+  ammitto:entity_id <https://www.ammitto.org/entity/tr/202> ;\n  ammitto:hasRegime <https://www.ammitto.org/regime/tr-d> ;\n  ammitto:hasEffect """{"effect_type":"asset_freeze","scope":"full"}""" ;\n  ammitto:hasEffect """{"effect_type":"entry_ban","scope":"full"}""" ;\n  ammitto:hasPeriod """{"is_indefinite":true}""" ;\n  ammitto:status "active" .
+<https://www.ammitto.org/entry/tr/consolidated-list/203>
+  ammitto:entity_id <https://www.ammitto.org/entity/tr/203> ;\n  ammitto:hasRegime <https://www.ammitto.org/regime/tr-d> ;\n  ammitto:hasEffect """{"effect_type":"asset_freeze","scope":"full"}""" ;\n  ammitto:hasEffect """{"effect_type":"entry_ban","scope":"full"}""" ;\n  ammitto:hasPeriod """{"is_indefinite":true}""" ;\n  ammitto:status "active" .
+<https://www.ammitto.org/entry/tr/consolidated-list/204>
+  ammitto:entity_id <https://www.ammitto.org/entity/tr/204> ;\n  ammitto:hasRegime <https://www.ammitto.org/regime/tr-d> ;\n  ammitto:hasEffect """{"effect_type":"asset_freeze","scope":"full"}""" ;\n  ammitto:hasEffect """{"effect_type":"entry_ban","scope":"full"}""" ;\n  ammitto:hasPeriod """{"is_indefinite":true}""" ;\n  ammitto:status "active" .
+<https://www.ammitto.org/entry/tr/consolidated-list/205>
+  ammitto:entity_id <https://www.ammitto.org/entity/tr/205> ;\n  ammitto:hasRegime <https://www.ammitto.org/regime/tr-d> ;\n  ammitto:hasEffect """{"effect_type":"asset_freeze","scope":"full"}""" ;\n  ammitto:hasEffect """{"effect_type":"entry_ban","scope":"full"}""" ;\n  ammitto:hasPeriod """{"is_indefinite":true}""" ;\n  ammitto:status "active" .
+<https://www.ammitto.org/entry/tr/consolidated-list/206>
+  ammitto:entity_id <https://www.ammitto.org/entity/tr/206> ;\n  ammitto:hasRegime <https://www.ammitto.org/regime/tr-d> ;\n  ammitto:hasEffect """{"effect_type":"asset_freeze","scope":"full"}""" ;\n  ammitto:hasEffect """{"effect_type":"entry_ban","scope":"full"}""" ;\n  ammitto:hasPeriod """{"is_indefinite":true}""" ;\n  ammitto:status "active" .
+<https://www.ammitto.org/entry/tr/consolidated-list/207>
+  ammitto:entity_id <https://www.ammitto.org/entity/tr/207> ;\n  ammitto:hasRegime <https://www.ammitto.org/regime/tr-d> ;\n  ammitto:hasEffect """{"effect_type":"asset_freeze","scope":"full"}""" ;\n  ammitto:hasEffect """{"effect_type":"entry_ban","scope":"full"}""" ;\n  ammitto:hasPeriod """{"is_indefinite":true}""" ;\n  ammitto:status "active" .
+<https://www.ammitto.org/entry/tr/consolidated-list/208>
+  ammitto:entity_id <https://www.ammitto.org/entity/tr/208> ;\n  ammitto:hasRegime <https://www.ammitto.org/regime/tr-d> ;\n  ammitto:hasEffect """{"effect_type":"asset_freeze","scope":"full"}""" ;\n  ammitto:hasEffect """{"effect_type":"entry_ban","scope":"full"}""" ;\n  ammitto:hasPeriod """{"is_indefinite":true}""" ;\n  ammitto:status "active" .
+<https://www.ammitto.org/entry/tr/consolidated-list/209>
+  ammitto:entity_id <https://www.ammitto.org/entity/tr/209> ;\n  ammitto:hasRegime <https://www.ammitto.org/regime/tr-d> ;\n  ammitto:hasEffect """{"effect_type":"asset_freeze","scope":"full"}""" ;\n  ammitto:hasEffect """{"effect_type":"entry_ban","scope":"full"}""" ;\n  ammitto:hasPeriod """{"is_indefinite":true}""" ;\n  ammitto:status "active" .
+<https://www.ammitto.org/entry/tr/consolidated-list/21>
+  ammitto:entity_id <https://www.ammitto.org/entity/tr/21> ;\n  ammitto:hasRegime <https://www.ammitto.org/regime/tr-d> ;\n  ammitto:hasEffect """{"effect_type":"asset_freeze","scope":"full"}""" ;\n  ammitto:hasEffect """{"effect_type":"entry_ban","scope":"full"}""" ;\n  ammitto:hasPeriod """{"is_indefinite":true}""" ;\n  ammitto:status "active" .
+<https://www.ammitto.org/entry/tr/consolidated-list/210>
+  ammitto:entity_id <https://www.ammitto.org/entity/tr/210> ;\n  ammitto:hasRegime <https://www.ammitto.org/regime/tr-d> ;\n  ammitto:hasEffect """{"effect_type":"asset_freeze","scope":"full"}""" ;\n  ammitto:hasEffect """{"effect_type":"entry_ban","scope":"full"}""" ;\n  ammitto:hasPeriod """{"is_indefinite":true}""" ;\n  ammitto:status "active" .
+<https://www.ammitto.org/entry/tr/consolidated-list/211>
+  ammitto:entity_id <https://www.ammitto.org/entity/tr/211> ;\n  ammitto:hasRegime <https://www.ammitto.org/regime/tr-d> ;\n  ammitto:hasEffect """{"effect_type":"asset_freeze","scope":"full"}""" ;\n  ammitto:hasEffect """{"effect_type":"entry_ban","scope":"full"}""" ;\n  ammitto:hasPeriod """{"is_indefinite":true}""" ;\n  ammitto:status "active" .
+<https://www.ammitto.org/entry/tr/consolidated-list/212>
+  ammitto:entity_id <https://www.ammitto.org/entity/tr/212> ;\n  ammitto:hasRegime <https://www.ammitto.org/regime/tr-d> ;\n  ammitto:hasEffect """{"effect_type":"asset_freeze","scope":"full"}""" ;\n  ammitto:hasEffect """{"effect_type":"entry_ban","scope":"full"}""" ;\n  ammitto:hasPeriod """{"is_indefinite":true}""" ;\n  ammitto:status "active" .
+<https://www.ammitto.org/entry/tr/consolidated-list/213>
+  ammitto:entity_id <https://www.ammitto.org/entity/tr/213> ;\n  ammitto:hasRegime <https://www.ammitto.org/regime/tr-d> ;\n  ammitto:hasEffect """{"effect_type":"asset_freeze","scope":"full"}""" ;\n  ammitto:hasEffect """{"effect_type":"entry_ban","scope":"full"}""" ;\n  ammitto:hasPeriod """{"is_indefinite":true}""" ;\n  ammitto:status "active" .
+<https://www.ammitto.org/entry/tr/consolidated-list/214>
+  ammitto:entity_id <https://www.ammitto.org/entity/tr/214> ;\n  ammitto:hasRegime <https://www.ammitto.org/regime/tr-d> ;\n  ammitto:hasEffect """{"effect_type":"asset_freeze","scope":"full"}""" ;\n  ammitto:hasEffect """{"effect_type":"entry_ban","scope":"full"}""" ;\n  ammitto:hasPeriod """{"is_indefinite":true}""" ;\n  ammitto:status "active" .
+<https://www.ammitto.org/entry/tr/consolidated-list/215>
+  ammitto:entity_id <https://www.ammitto.org/entity/tr/215> ;\n  ammitto:hasRegime <https://www.ammitto.org/regime/tr-d> ;\n  ammitto:hasEffect """{"effect_type":"asset_freeze","scope":"full"}""" ;\n  ammitto:hasEffect """{"effect_type":"entry_ban","scope":"full"}""" ;\n  ammitto:hasPeriod """{"is_indefinite":true}""" ;\n  ammitto:status "active" .
+<https://www.ammitto.org/entry/tr/consolidated-list/216>
+  ammitto:entity_id <https://www.ammitto.org/entity/tr/216> ;\n  ammitto:hasRegime <https://www.ammitto.org/regime/tr-d> ;\n  ammitto:hasEffect """{"effect_type":"asset_freeze","scope":"full"}""" ;\n  ammitto:hasEffect """{"effect_type":"entry_ban","scope":"full"}""" ;\n  ammitto:hasPeriod """{"is_indefinite":true}""" ;\n  ammitto:status "active" .
+<https://www.ammitto.org/entry/tr/consolidated-list/217>
+  ammitto:entity_id <https://www.ammitto.org/entity/tr/217> ;\n  ammitto:hasRegime <https://www.ammitto.org/regime/tr-d> ;\n  ammitto:hasEffect """{"effect_type":"asset_freeze","scope":"full"}""" ;\n  ammitto:hasEffect """{"effect_type":"entry_ban","scope":"full"}""" ;\n  ammitto:hasPeriod """{"is_indefinite":true}""" ;\n  ammitto:status "active" .
+<https://www.ammitto.org/entry/tr/consolidated-list/218>
+  ammitto:entity_id <https://www.ammitto.org/entity/tr/218> ;\n  ammitto:hasRegime <https://www.ammitto.org/regime/tr-d> ;\n  ammitto:hasEffect """{"effect_type":"asset_freeze","scope":"full"}""" ;\n  ammitto:hasEffect """{"effect_type":"entry_ban","scope":"full"}""" ;\n  ammitto:hasPeriod """{"is_indefinite":true}""" ;\n  ammitto:status "active" .
+<https://www.ammitto.org/entry/tr/consolidated-list/219>
+  ammitto:entity_id <https://www.ammitto.org/entity/tr/219> ;\n  ammitto:hasRegime <https://www.ammitto.org/regime/tr-d> ;\n  ammitto:hasEffect """{"effect_type":"asset_freeze","scope":"full"}""" ;\n  ammitto:hasEffect """{"effect_type":"entry_ban","scope":"full"}""" ;\n  ammitto:hasPeriod """{"is_indefinite":true}""" ;\n  ammitto:status "active" .
+<https://www.ammitto.org/entry/tr/consolidated-list/22>
+  ammitto:entity_id <https://www.ammitto.org/entity/tr/22> ;\n  ammitto:hasRegime <https://www.ammitto.org/regime/tr-d> ;\n  ammitto:hasEffect """{"effect_type":"asset_freeze","scope":"full"}""" ;\n  ammitto:hasEffect """{"effect_type":"entry_ban","scope":"full"}""" ;\n  ammitto:hasPeriod """{"is_indefinite":true}""" ;\n  ammitto:status "active" .
+<https://www.ammitto.org/entry/tr/consolidated-list/220>
+  ammitto:entity_id <https://www.ammitto.org/entity/tr/220> ;\n  ammitto:hasRegime <https://www.ammitto.org/regime/tr-d> ;\n  ammitto:hasEffect """{"effect_type":"asset_freeze","scope":"full"}""" ;\n  ammitto:hasEffect """{"effect_type":"entry_ban","scope":"full"}""" ;\n  ammitto:hasPeriod """{"is_indefinite":true}""" ;\n  ammitto:status "active" .
+<https://www.ammitto.org/entry/tr/consolidated-list/221>
+  ammitto:entity_id <https://www.ammitto.org/entity/tr/221> ;\n  ammitto:hasRegime <https://www.ammitto.org/regime/tr-d> ;\n  ammitto:hasEffect """{"effect_type":"asset_freeze","scope":"full"}""" ;\n  ammitto:hasEffect """{"effect_type":"entry_ban","scope":"full"}""" ;\n  ammitto:hasPeriod """{"is_indefinite":true}""" ;\n  ammitto:status "active" .
+<https://www.ammitto.org/entry/tr/consolidated-list/222>
+  ammitto:entity_id <https://www.ammitto.org/entity/tr/222> ;\n  ammitto:hasRegime <https://www.ammitto.org/regime/tr-d> ;\n  ammitto:hasEffect """{"effect_type":"asset_freeze","scope":"full"}""" ;\n  ammitto:hasEffect """{"effect_type":"entry_ban","scope":"full"}""" ;\n  ammitto:hasPeriod """{"is_indefinite":true}""" ;\n  ammitto:status "active" .
+<https://www.ammitto.org/entry/tr/consolidated-list/223>
+  ammitto:entity_id <https://www.ammitto.org/entity/tr/223> ;\n  ammitto:hasRegime <https://www.ammitto.org/regime/tr-d> ;\n  ammitto:hasEffect """{"effect_type":"asset_freeze","scope":"full"}""" ;\n  ammitto:hasEffect """{"effect_type":"entry_ban","scope":"full"}""" ;\n  ammitto:hasPeriod """{"is_indefinite":true}""" ;\n  ammitto:status "active" .
+<https://www.ammitto.org/entry/tr/consolidated-list/224>
+  ammitto:entity_id <https://www.ammitto.org/entity/tr/224> ;\n  ammitto:hasRegime <https://www.ammitto.org/regime/tr-d> ;\n  ammitto:hasEffect """{"effect_type":"asset_freeze","scope":"full"}""" ;\n  ammitto:hasEffect """{"effect_type":"entry_ban","scope":"full"}""" ;\n  ammitto:hasPeriod """{"is_indefinite":true}""" ;\n  ammitto:status "active" .
+<https://www.ammitto.org/entry/tr/consolidated-list/225>
+  ammitto:entity_id <https://www.ammitto.org/entity/tr/225> ;\n  ammitto:hasRegime <https://www.ammitto.org/regime/tr-d> ;\n  ammitto:hasEffect """{"effect_type":"asset_freeze","scope":"full"}""" ;\n  ammitto:hasEffect """{"effect_type":"entry_ban","scope":"full"}""" ;\n  ammitto:hasPeriod """{"is_indefinite":true}""" ;\n  ammitto:status "active" .
+<https://www.ammitto.org/entry/tr/consolidated-list/226>
+  ammitto:entity_id <https://www.ammitto.org/entity/tr/226> ;\n  ammitto:hasRegime <https://www.ammitto.org/regime/tr-d> ;\n  ammitto:hasEffect """{"effect_type":"asset_freeze","scope":"full"}""" ;\n  ammitto:hasEffect """{"effect_type":"entry_ban","scope":"full"}""" ;\n  ammitto:hasPeriod """{"is_indefinite":true}""" ;\n  ammitto:status "active" .
+<https://www.ammitto.org/entry/tr/consolidated-list/227>
+  ammitto:entity_id <https://www.ammitto.org/entity/tr/227> ;\n  ammitto:hasRegime <https://www.ammitto.org/regime/tr-d> ;\n  ammitto:hasEffect """{"effect_type":"asset_freeze","scope":"full"}""" ;\n  ammitto:hasEffect """{"effect_type":"entry_ban","scope":"full"}""" ;\n  ammitto:hasPeriod """{"is_indefinite":true}""" ;\n  ammitto:status "active" .
+<https://www.ammitto.org/entry/tr/consolidated-list/228>
+  ammitto:entity_id <https://www.ammitto.org/entity/tr/228> ;\n  ammitto:hasRegime <https://www.ammitto.org/regime/tr-d> ;\n  ammitto:hasEffect """{"effect_type":"asset_freeze","scope":"full"}""" ;\n  ammitto:hasEffect """{"effect_type":"entry_ban","scope":"full"}""" ;\n  ammitto:hasPeriod """{"is_indefinite":true}""" ;\n  ammitto:status "active" .
+<https://www.ammitto.org/entry/tr/consolidated-list/229>
+  ammitto:entity_id <https://www.ammitto.org/entity/tr/229> ;\n  ammitto:hasRegime <https://www.ammitto.org/regime/tr-d> ;\n  ammitto:hasEffect """{"effect_type":"asset_freeze","scope":"full"}""" ;\n  ammitto:hasEffect """{"effect_type":"entry_ban","scope":"full"}""" ;\n  ammitto:hasPeriod """{"is_indefinite":true}""" ;\n  ammitto:status "active" .
+<https://www.ammitto.org/entry/tr/consolidated-list/23>
+  ammitto:entity_id <https://www.ammitto.org/entity/tr/23> ;\n  ammitto:hasRegime <https://www.ammitto.org/regime/tr-d> ;\n  ammitto:hasEffect """{"effect_type":"asset_freeze","scope":"full"}""" ;\n  ammitto:hasEffect """{"effect_type":"entry_ban","scope":"full"}""" ;\n  ammitto:hasPeriod """{"is_indefinite":true}""" ;\n  ammitto:status "active" .
+<https://www.ammitto.org/entry/tr/consolidated-list/230>
+  ammitto:entity_id <https://www.ammitto.org/entity/tr/230> ;\n  ammitto:hasRegime <https://www.ammitto.org/regime/tr-d> ;\n  ammitto:hasEffect """{"effect_type":"asset_freeze","scope":"full"}""" ;\n  ammitto:hasEffect """{"effect_type":"entry_ban","scope":"full"}""" ;\n  ammitto:hasPeriod """{"is_indefinite":true}""" ;\n  ammitto:status "active" .
+<https://www.ammitto.org/entry/tr/consolidated-list/231>
+  ammitto:entity_id <https://www.ammitto.org/entity/tr/231> ;\n  ammitto:hasRegime <https://www.ammitto.org/regime/tr-d> ;\n  ammitto:hasEffect """{"effect_type":"asset_freeze","scope":"full"}""" ;\n  ammitto:hasEffect """{"effect_type":"entry_ban","scope":"full"}""" ;\n  ammitto:hasPeriod """{"is_indefinite":true}""" ;\n  ammitto:status "active" .
+<https://www.ammitto.org/entry/tr/consolidated-list/232>
+  ammitto:entity_id <https://www.ammitto.org/entity/tr/232> ;\n  ammitto:hasRegime <https://www.ammitto.org/regime/tr-d> ;\n  ammitto:hasEffect """{"effect_type":"asset_freeze","scope":"full"}""" ;\n  ammitto:hasEffect """{"effect_type":"entry_ban","scope":"full"}""" ;\n  ammitto:hasPeriod """{"is_indefinite":true}""" ;\n  ammitto:status "active" .
+<https://www.ammitto.org/entry/tr/consolidated-list/233>
+  ammitto:entity_id <https://www.ammitto.org/entity/tr/233> ;\n  ammitto:hasRegime <https://www.ammitto.org/regime/tr-d> ;\n  ammitto:hasEffect """{"effect_type":"asset_freeze","scope":"full"}""" ;\n  ammitto:hasEffect """{"effect_type":"entry_ban","scope":"full"}""" ;\n  ammitto:hasPeriod """{"is_indefinite":true}""" ;\n  ammitto:status "active" .
+<https://www.ammitto.org/entry/tr/consolidated-list/234>
+  ammitto:entity_id <https://www.ammitto.org/entity/tr/234> ;\n  ammitto:hasRegime <https://www.ammitto.org/regime/tr-d> ;\n  ammitto:hasEffect """{"effect_type":"asset_freeze","scope":"full"}""" ;\n  ammitto:hasEffect """{"effect_type":"entry_ban","scope":"full"}""" ;\n  ammitto:hasPeriod """{"is_indefinite":true}""" ;\n  ammitto:status "active" .
+<https://www.ammitto.org/entry/tr/consolidated-list/235>
+  ammitto:entity_id <https://www.ammitto.org/entity/tr/235> ;\n  ammitto:hasRegime <https://www.ammitto.org/regime/tr-d> ;\n  ammitto:hasEffect """{"effect_type":"asset_freeze","scope":"full"}""" ;\n  ammitto:hasEffect """{"effect_type":"entry_ban","scope":"full"}""" ;\n  ammitto:hasPeriod """{"is_indefinite":true}""" ;\n  ammitto:status "active" .
+<https://www.ammitto.org/entry/tr/consolidated-list/236>
+  ammitto:entity_id <https://www.ammitto.org/entity/tr/236> ;\n  ammitto:hasRegime <https://www.ammitto.org/regime/tr-d> ;\n  ammitto:hasEffect """{"effect_type":"asset_freeze","scope":"full"}""" ;\n  ammitto:hasEffect """{"effect_type":"entry_ban","scope":"full"}""" ;\n  ammitto:hasPeriod """{"is_indefinite":true}""" ;\n  ammitto:status "active" .
+<https://www.ammitto.org/entry/tr/consolidated-list/237>
+  ammitto:entity_id <https://www.ammitto.org/entity/tr/237> ;\n  ammitto:hasRegime <https://www.ammitto.org/regime/tr-d> ;\n  ammitto:hasEffect """{"effect_type":"asset_freeze","scope":"full"}""" ;\n  ammitto:hasEffect """{"effect_type":"entry_ban","scope":"full"}""" ;\n  ammitto:hasPeriod """{"is_indefinite":true}""" ;\n  ammitto:status "active" .
+<https://www.ammitto.org/entry/tr/consolidated-list/238>
+  ammitto:entity_id <https://www.ammitto.org/entity/tr/238> ;\n  ammitto:hasRegime <https://www.ammitto.org/regime/tr-d> ;\n  ammitto:hasEffect """{"effect_type":"asset_freeze","scope":"full"}""" ;\n  ammitto:hasEffect """{"effect_type":"entry_ban","scope":"full"}""" ;\n  ammitto:hasPeriod """{"is_indefinite":true}""" ;\n  ammitto:status "active" .
+<https://www.ammitto.org/entry/tr/consolidated-list/239>
+  ammitto:entity_id <https://www.ammitto.org/entity/tr/239> ;\n  ammitto:hasRegime <https://www.ammitto.org/regime/tr-d> ;\n  ammitto:hasEffect """{"effect_type":"asset_freeze","scope":"full"}""" ;\n  ammitto:hasEffect """{"effect_type":"entry_ban","scope":"full"}""" ;\n  ammitto:hasPeriod """{"is_indefinite":true}""" ;\n  ammitto:status "active" .
+<https://www.ammitto.org/entry/tr/consolidated-list/24>
+  ammitto:entity_id <https://www.ammitto.org/entity/tr/24> ;\n  ammitto:hasRegime <https://www.ammitto.org/regime/tr-d> ;\n  ammitto:hasEffect """{"effect_type":"asset_freeze","scope":"full"}""" ;\n  ammitto:hasEffect """{"effect_type":"entry_ban","scope":"full"}""" ;\n  ammitto:hasPeriod """{"is_indefinite":true}""" ;\n  ammitto:status "active" .
+<https://www.ammitto.org/entry/tr/consolidated-list/25>
+  ammitto:entity_id <https://www.ammitto.org/entity/tr/25> ;\n  ammitto:hasRegime <https://www.ammitto.org/regime/tr-d> ;\n  ammitto:hasEffect """{"effect_type":"asset_freeze","scope":"full"}""" ;\n  ammitto:hasEffect """{"effect_type":"entry_ban","scope":"full"}""" ;\n  ammitto:hasPeriod """{"is_indefinite":true}""" ;\n  ammitto:status "active" .
+<https://www.ammitto.org/entry/tr/consolidated-list/26>
+  ammitto:entity_id <https://www.ammitto.org/entity/tr/26> ;\n  ammitto:hasRegime <https://www.ammitto.org/regime/tr-d> ;\n  ammitto:hasEffect """{"effect_type":"asset_freeze","scope":"full"}""" ;\n  ammitto:hasEffect """{"effect_type":"entry_ban","scope":"full"}""" ;\n  ammitto:hasPeriod """{"is_indefinite":true}""" ;\n  ammitto:status "active" .
+<https://www.ammitto.org/entry/tr/consolidated-list/27>
+  ammitto:entity_id <https://www.ammitto.org/entity/tr/27> ;\n  ammitto:hasRegime <https://www.ammitto.org/regime/tr-d> ;\n  ammitto:hasEffect """{"effect_type":"asset_freeze","scope":"full"}""" ;\n  ammitto:hasEffect """{"effect_type":"entry_ban","scope":"full"}""" ;\n  ammitto:hasPeriod """{"is_indefinite":true}""" ;\n  ammitto:status "active" .
+<https://www.ammitto.org/entry/tr/consolidated-list/28>
+  ammitto:entity_id <https://www.ammitto.org/entity/tr/28> ;\n  ammitto:hasRegime <https://www.ammitto.org/regime/tr-d> ;\n  ammitto:hasEffect """{"effect_type":"asset_freeze","scope":"full"}""" ;\n  ammitto:hasEffect """{"effect_type":"entry_ban","scope":"full"}""" ;\n  ammitto:hasPeriod """{"is_indefinite":true}""" ;\n  ammitto:status "active" .
+<https://www.ammitto.org/entry/tr/consolidated-list/29>
+  ammitto:entity_id <https://www.ammitto.org/entity/tr/29> ;\n  ammitto:hasRegime <https://www.ammitto.org/regime/tr-d> ;\n  ammitto:hasEffect """{"effect_type":"asset_freeze","scope":"full"}""" ;\n  ammitto:hasEffect """{"effect_type":"entry_ban","scope":"full"}""" ;\n  ammitto:hasPeriod """{"is_indefinite":true}""" ;\n  ammitto:status "active" .
+<https://www.ammitto.org/entry/tr/consolidated-list/3>
+  ammitto:entity_id <https://www.ammitto.org/entity/tr/3> ;\n  ammitto:hasRegime <https://www.ammitto.org/regime/tr-d> ;\n  ammitto:hasEffect """{"effect_type":"asset_freeze","scope":"full"}""" ;\n  ammitto:hasEffect """{"effect_type":"entry_ban","scope":"full"}""" ;\n  ammitto:hasPeriod """{"is_indefinite":true}""" ;\n  ammitto:status "active" .
+<https://www.ammitto.org/entry/tr/consolidated-list/30>
+  ammitto:entity_id <https://www.ammitto.org/entity/tr/30> ;\n  ammitto:hasRegime <https://www.ammitto.org/regime/tr-d> ;\n  ammitto:hasEffect """{"effect_type":"asset_freeze","scope":"full"}""" ;\n  ammitto:hasEffect """{"effect_type":"entry_ban","scope":"full"}""" ;\n  ammitto:hasPeriod """{"is_indefinite":true}""" ;\n  ammitto:status "active" .
+<https://www.ammitto.org/entry/tr/consolidated-list/31>
+  ammitto:entity_id <https://www.ammitto.org/entity/tr/31> ;\n  ammitto:hasRegime <https://www.ammitto.org/regime/tr-d> ;\n  ammitto:hasEffect """{"effect_type":"asset_freeze","scope":"full"}""" ;\n  ammitto:hasEffect """{"effect_type":"entry_ban","scope":"full"}""" ;\n  ammitto:hasPeriod """{"is_indefinite":true}""" ;\n  ammitto:status "active" .
+<https://www.ammitto.org/entry/tr/consolidated-list/32>
+  ammitto:entity_id <https://www.ammitto.org/entity/tr/32> ;\n  ammitto:hasRegime <https://www.ammitto.org/regime/tr-d> ;\n  ammitto:hasEffect """{"effect_type":"asset_freeze","scope":"full"}""" ;\n  ammitto:hasEffect """{"effect_type":"entry_ban","scope":"full"}""" ;\n  ammitto:hasPeriod """{"is_indefinite":true}""" ;\n  ammitto:status "active" .
+<https://www.ammitto.org/entry/tr/consolidated-list/33>
+  ammitto:entity_id <https://www.ammitto.org/entity/tr/33> ;\n  ammitto:hasRegime <https://www.ammitto.org/regime/tr-d> ;\n  ammitto:hasEffect """{"effect_type":"asset_freeze","scope":"full"}""" ;\n  ammitto:hasEffect """{"effect_type":"entry_ban","scope":"full"}""" ;\n  ammitto:hasPeriod """{"is_indefinite":true}""" ;\n  ammitto:status "active" .
+<https://www.ammitto.org/entry/tr/consolidated-list/34>
+  ammitto:entity_id <https://www.ammitto.org/entity/tr/34> ;\n  ammitto:hasRegime <https://www.ammitto.org/regime/tr-d> ;\n  ammitto:hasEffect """{"effect_type":"asset_freeze","scope":"full"}""" ;\n  ammitto:hasEffect """{"effect_type":"entry_ban","scope":"full"}""" ;\n  ammitto:hasPeriod """{"is_indefinite":true}""" ;\n  ammitto:status "active" .
+<https://www.ammitto.org/entry/tr/consolidated-list/35>
+  ammitto:entity_id <https://www.ammitto.org/entity/tr/35> ;\n  ammitto:hasRegime <https://www.ammitto.org/regime/tr-d> ;\n  ammitto:hasEffect """{"effect_type":"asset_freeze","scope":"full"}""" ;\n  ammitto:hasEffect """{"effect_type":"entry_ban","scope":"full"}""" ;\n  ammitto:hasPeriod """{"is_indefinite":true}""" ;\n  ammitto:status "active" .
+<https://www.ammitto.org/entry/tr/consolidated-list/36>
+  ammitto:entity_id <https://www.ammitto.org/entity/tr/36> ;\n  ammitto:hasRegime <https://www.ammitto.org/regime/tr-d> ;\n  ammitto:hasEffect """{"effect_type":"asset_freeze","scope":"full"}""" ;\n  ammitto:hasEffect """{"effect_type":"entry_ban","scope":"full"}""" ;\n  ammitto:hasPeriod """{"is_indefinite":true}""" ;\n  ammitto:status "active" .
+<https://www.ammitto.org/entry/tr/consolidated-list/37>
+  ammitto:entity_id <https://www.ammitto.org/entity/tr/37> ;\n  ammitto:hasRegime <https://www.ammitto.org/regime/tr-d> ;\n  ammitto:hasEffect """{"effect_type":"asset_freeze","scope":"full"}""" ;\n  ammitto:hasEffect """{"effect_type":"entry_ban","scope":"full"}""" ;\n  ammitto:hasPeriod """{"is_indefinite":true}""" ;\n  ammitto:status "active" .
+<https://www.ammitto.org/entry/tr/consolidated-list/38>
+  ammitto:entity_id <https://www.ammitto.org/entity/tr/38> ;\n  ammitto:hasRegime <https://www.ammitto.org/regime/tr-d> ;\n  ammitto:hasEffect """{"effect_type":"asset_freeze","scope":"full"}""" ;\n  ammitto:hasEffect """{"effect_type":"entry_ban","scope":"full"}""" ;\n  ammitto:hasPeriod """{"is_indefinite":true}""" ;\n  ammitto:status "active" .
+<https://www.ammitto.org/entry/tr/consolidated-list/39>
+  ammitto:entity_id <https://www.ammitto.org/entity/tr/39> ;\n  ammitto:hasRegime <https://www.ammitto.org/regime/tr-d> ;\n  ammitto:hasEffect """{"effect_type":"asset_freeze","scope":"full"}""" ;\n  ammitto:hasEffect """{"effect_type":"entry_ban","scope":"full"}""" ;\n  ammitto:hasPeriod """{"is_indefinite":true}""" ;\n  ammitto:status "active" .
+<https://www.ammitto.org/entry/tr/consolidated-list/4>
+  ammitto:entity_id <https://www.ammitto.org/entity/tr/4> ;\n  ammitto:hasRegime <https://www.ammitto.org/regime/tr-d> ;\n  ammitto:hasEffect """{"effect_type":"asset_freeze","scope":"full"}""" ;\n  ammitto:hasEffect """{"effect_type":"entry_ban","scope":"full"}""" ;\n  ammitto:hasPeriod """{"is_indefinite":true}""" ;\n  ammitto:status "active" .
+<https://www.ammitto.org/entry/tr/consolidated-list/40>
+  ammitto:entity_id <https://www.ammitto.org/entity/tr/40> ;\n  ammitto:hasRegime <https://www.ammitto.org/regime/tr-d> ;\n  ammitto:hasEffect """{"effect_type":"asset_freeze","scope":"full"}""" ;\n  ammitto:hasEffect """{"effect_type":"entry_ban","scope":"full"}""" ;\n  ammitto:hasPeriod """{"is_indefinite":true}""" ;\n  ammitto:status "active" .
+<https://www.ammitto.org/entry/tr/consolidated-list/41>
+  ammitto:entity_id <https://www.ammitto.org/entity/tr/41> ;\n  ammitto:hasRegime <https://www.ammitto.org/regime/tr-d> ;\n  ammitto:hasEffect """{"effect_type":"asset_freeze","scope":"full"}""" ;\n  ammitto:hasEffect """{"effect_type":"entry_ban","scope":"full"}""" ;\n  ammitto:hasPeriod """{"is_indefinite":true}""" ;\n  ammitto:status "active" .
+<https://www.ammitto.org/entry/tr/consolidated-list/42>
+  ammitto:entity_id <https://www.ammitto.org/entity/tr/42> ;\n  ammitto:hasRegime <https://www.ammitto.org/regime/tr-d> ;\n  ammitto:hasEffect """{"effect_type":"asset_freeze","scope":"full"}""" ;\n  ammitto:hasEffect """{"effect_type":"entry_ban","scope":"full"}""" ;\n  ammitto:hasPeriod """{"is_indefinite":true}""" ;\n  ammitto:status "active" .
+<https://www.ammitto.org/entry/tr/consolidated-list/43>
+  ammitto:entity_id <https://www.ammitto.org/entity/tr/43> ;\n  ammitto:hasRegime <https://www.ammitto.org/regime/tr-d> ;\n  ammitto:hasEffect """{"effect_type":"asset_freeze","scope":"full"}""" ;\n  ammitto:hasEffect """{"effect_type":"entry_ban","scope":"full"}""" ;\n  ammitto:hasPeriod """{"is_indefinite":true}""" ;\n  ammitto:status "active" .
+<https://www.ammitto.org/entry/tr/consolidated-list/44>
+  ammitto:entity_id <https://www.ammitto.org/entity/tr/44> ;\n  ammitto:hasRegime <https://www.ammitto.org/regime/tr-d> ;\n  ammitto:hasEffect """{"effect_type":"asset_freeze","scope":"full"}""" ;\n  ammitto:hasEffect """{"effect_type":"entry_ban","scope":"full"}""" ;\n  ammitto:hasPeriod """{"is_indefinite":true}""" ;\n  ammitto:status "active" .
+<https://www.ammitto.org/entry/tr/consolidated-list/45>
+  ammitto:entity_id <https://www.ammitto.org/entity/tr/45> ;\n  ammitto:hasRegime <https://www.ammitto.org/regime/tr-d> ;\n  ammitto:hasEffect """{"effect_type":"asset_freeze","scope":"full"}""" ;\n  ammitto:hasEffect """{"effect_type":"entry_ban","scope":"full"}""" ;\n  ammitto:hasPeriod """{"is_indefinite":true}""" ;\n  ammitto:status "active" .
+<https://www.ammitto.org/entry/tr/consolidated-list/46>
+  ammitto:entity_id <https://www.ammitto.org/entity/tr/46> ;\n  ammitto:hasRegime <https://www.ammitto.org/regime/tr-d> ;\n  ammitto:hasEffect """{"effect_type":"asset_freeze","scope":"full"}""" ;\n  ammitto:hasEffect """{"effect_type":"entry_ban","scope":"full"}""" ;\n  ammitto:hasPeriod """{"is_indefinite":true}""" ;\n  ammitto:status "active" .
+<https://www.ammitto.org/entry/tr/consolidated-list/47>
+  ammitto:entity_id <https://www.ammitto.org/entity/tr/47> ;\n  ammitto:hasRegime <https://www.ammitto.org/regime/tr-d> ;\n  ammitto:hasEffect """{"effect_type":"asset_freeze","scope":"full"}""" ;\n  ammitto:hasEffect """{"effect_type":"entry_ban","scope":"full"}""" ;\n  ammitto:hasPeriod """{"is_indefinite":true}""" ;\n  ammitto:status "active" .
+<https://www.ammitto.org/entry/tr/consolidated-list/48>
+  ammitto:entity_id <https://www.ammitto.org/entity/tr/48> ;\n  ammitto:hasRegime <https://www.ammitto.org/regime/tr-d> ;\n  ammitto:hasEffect """{"effect_type":"asset_freeze","scope":"full"}""" ;\n  ammitto:hasEffect """{"effect_type":"entry_ban","scope":"full"}""" ;\n  ammitto:hasPeriod """{"is_indefinite":true}""" ;\n  ammitto:status "active" .
+<https://www.ammitto.org/entry/tr/consolidated-list/49>
+  ammitto:entity_id <https://www.ammitto.org/entity/tr/49> ;\n  ammitto:hasRegime <https://www.ammitto.org/regime/tr-d> ;\n  ammitto:hasEffect """{"effect_type":"asset_freeze","scope":"full"}""" ;\n  ammitto:hasEffect """{"effect_type":"entry_ban","scope":"full"}""" ;\n  ammitto:hasPeriod """{"is_indefinite":true}""" ;\n  ammitto:status "active" .
+<https://www.ammitto.org/entry/tr/consolidated-list/5>
+  ammitto:entity_id <https://www.ammitto.org/entity/tr/5> ;\n  ammitto:hasRegime <https://www.ammitto.org/regime/tr-d> ;\n  ammitto:hasEffect """{"effect_type":"asset_freeze","scope":"full"}""" ;\n  ammitto:hasEffect """{"effect_type":"entry_ban","scope":"full"}""" ;\n  ammitto:hasPeriod """{"is_indefinite":true}""" ;\n  ammitto:status "active" .
+<https://www.ammitto.org/entry/tr/consolidated-list/50>
+  ammitto:entity_id <https://www.ammitto.org/entity/tr/50> ;\n  ammitto:hasRegime <https://www.ammitto.org/regime/tr-d> ;\n  ammitto:hasEffect """{"effect_type":"asset_freeze","scope":"full"}""" ;\n  ammitto:hasEffect """{"effect_type":"entry_ban","scope":"full"}""" ;\n  ammitto:hasPeriod """{"is_indefinite":true}""" ;\n  ammitto:status "active" .
+<https://www.ammitto.org/entry/tr/consolidated-list/51>
+  ammitto:entity_id <https://www.ammitto.org/entity/tr/51> ;\n  ammitto:hasRegime <https://www.ammitto.org/regime/tr-d> ;\n  ammitto:hasEffect """{"effect_type":"asset_freeze","scope":"full"}""" ;\n  ammitto:hasEffect """{"effect_type":"entry_ban","scope":"full"}""" ;\n  ammitto:hasPeriod """{"is_indefinite":true}""" ;\n  ammitto:status "active" .
+<https://www.ammitto.org/entry/tr/consolidated-list/52>
+  ammitto:entity_id <https://www.ammitto.org/entity/tr/52> ;\n  ammitto:hasRegime <https://www.ammitto.org/regime/tr-d> ;\n  ammitto:hasEffect """{"effect_type":"asset_freeze","scope":"full"}""" ;\n  ammitto:hasEffect """{"effect_type":"entry_ban","scope":"full"}""" ;\n  ammitto:hasPeriod """{"is_indefinite":true}""" ;\n  ammitto:status "active" .
+<https://www.ammitto.org/entry/tr/consolidated-list/53>
+  ammitto:entity_id <https://www.ammitto.org/entity/tr/53> ;\n  ammitto:hasRegime <https://www.ammitto.org/regime/tr-d> ;\n  ammitto:hasEffect """{"effect_type":"asset_freeze","scope":"full"}""" ;\n  ammitto:hasEffect """{"effect_type":"entry_ban","scope":"full"}""" ;\n  ammitto:hasPeriod """{"is_indefinite":true}""" ;\n  ammitto:status "active" .
+<https://www.ammitto.org/entry/tr/consolidated-list/54>
+  ammitto:entity_id <https://www.ammitto.org/entity/tr/54> ;\n  ammitto:hasRegime <https://www.ammitto.org/regime/tr-d> ;\n  ammitto:hasEffect """{"effect_type":"asset_freeze","scope":"full"}""" ;\n  ammitto:hasEffect """{"effect_type":"entry_ban","scope":"full"}""" ;\n  ammitto:hasPeriod """{"is_indefinite":true}""" ;\n  ammitto:status "active" .
+<https://www.ammitto.org/entry/tr/consolidated-list/55>
+  ammitto:entity_id <https://www.ammitto.org/entity/tr/55> ;\n  ammitto:hasRegime <https://www.ammitto.org/regime/tr-d> ;\n  ammitto:hasEffect """{"effect_type":"asset_freeze","scope":"full"}""" ;\n  ammitto:hasEffect """{"effect_type":"entry_ban","scope":"full"}""" ;\n  ammitto:hasPeriod """{"is_indefinite":true}""" ;\n  ammitto:status "active" .
+<https://www.ammitto.org/entry/tr/consolidated-list/56>
+  ammitto:entity_id <https://www.ammitto.org/entity/tr/56> ;\n  ammitto:hasRegime <https://www.ammitto.org/regime/tr-d> ;\n  ammitto:hasEffect """{"effect_type":"asset_freeze","scope":"full"}""" ;\n  ammitto:hasEffect """{"effect_type":"entry_ban","scope":"full"}""" ;\n  ammitto:hasPeriod """{"is_indefinite":true}""" ;\n  ammitto:status "active" .
+<https://www.ammitto.org/entry/tr/consolidated-list/57>
+  ammitto:entity_id <https://www.ammitto.org/entity/tr/57> ;\n  ammitto:hasRegime <https://www.ammitto.org/regime/tr-d> ;\n  ammitto:hasEffect """{"effect_type":"asset_freeze","scope":"full"}""" ;\n  ammitto:hasEffect """{"effect_type":"entry_ban","scope":"full"}""" ;\n  ammitto:hasPeriod """{"is_indefinite":true}""" ;\n  ammitto:status "active" .
+<https://www.ammitto.org/entry/tr/consolidated-list/58>
+  ammitto:entity_id <https://www.ammitto.org/entity/tr/58> ;\n  ammitto:hasRegime <https://www.ammitto.org/regime/tr-d> ;\n  ammitto:hasEffect """{"effect_type":"asset_freeze","scope":"full"}""" ;\n  ammitto:hasEffect """{"effect_type":"entry_ban","scope":"full"}""" ;\n  ammitto:hasPeriod """{"is_indefinite":true}""" ;\n  ammitto:status "active" .
+<https://www.ammitto.org/entry/tr/consolidated-list/59>
+  ammitto:entity_id <https://www.ammitto.org/entity/tr/59> ;\n  ammitto:hasRegime <https://www.ammitto.org/regime/tr-d> ;\n  ammitto:hasEffect """{"effect_type":"asset_freeze","scope":"full"}""" ;\n  ammitto:hasEffect """{"effect_type":"entry_ban","scope":"full"}""" ;\n  ammitto:hasPeriod """{"is_indefinite":true}""" ;\n  ammitto:status "active" .
+<https://www.ammitto.org/entry/tr/consolidated-list/6>
+  ammitto:entity_id <https://www.ammitto.org/entity/tr/6> ;\n  ammitto:hasRegime <https://www.ammitto.org/regime/tr-d> ;\n  ammitto:hasEffect """{"effect_type":"asset_freeze","scope":"full"}""" ;\n  ammitto:hasEffect """{"effect_type":"entry_ban","scope":"full"}""" ;\n  ammitto:hasPeriod """{"is_indefinite":true}""" ;\n  ammitto:status "active" .
+<https://www.ammitto.org/entry/tr/consolidated-list/60>
+  ammitto:entity_id <https://www.ammitto.org/entity/tr/60> ;\n  ammitto:hasRegime <https://www.ammitto.org/regime/tr-d> ;\n  ammitto:hasEffect """{"effect_type":"asset_freeze","scope":"full"}""" ;\n  ammitto:hasEffect """{"effect_type":"entry_ban","scope":"full"}""" ;\n  ammitto:hasPeriod """{"is_indefinite":true}""" ;\n  ammitto:status "active" .
+<https://www.ammitto.org/entry/tr/consolidated-list/61>
+  ammitto:entity_id <https://www.ammitto.org/entity/tr/61> ;\n  ammitto:hasRegime <https://www.ammitto.org/regime/tr-d> ;\n  ammitto:hasEffect """{"effect_type":"asset_freeze","scope":"full"}""" ;\n  ammitto:hasEffect """{"effect_type":"entry_ban","scope":"full"}""" ;\n  ammitto:hasPeriod """{"is_indefinite":true}""" ;\n  ammitto:status "active" .
+<https://www.ammitto.org/entry/tr/consolidated-list/62>
+  ammitto:entity_id <https://www.ammitto.org/entity/tr/62> ;\n  ammitto:hasRegime <https://www.ammitto.org/regime/tr-d> ;\n  ammitto:hasEffect """{"effect_type":"asset_freeze","scope":"full"}""" ;\n  ammitto:hasEffect """{"effect_type":"entry_ban","scope":"full"}""" ;\n  ammitto:hasPeriod """{"is_indefinite":true}""" ;\n  ammitto:status "active" .
+<https://www.ammitto.org/entry/tr/consolidated-list/63>
+  ammitto:entity_id <https://www.ammitto.org/entity/tr/63> ;\n  ammitto:hasRegime <https://www.ammitto.org/regime/tr-d> ;\n  ammitto:hasEffect """{"effect_type":"asset_freeze","scope":"full"}""" ;\n  ammitto:hasEffect """{"effect_type":"entry_ban","scope":"full"}""" ;\n  ammitto:hasPeriod """{"is_indefinite":true}""" ;\n  ammitto:status "active" .
+<https://www.ammitto.org/entry/tr/consolidated-list/64>
+  ammitto:entity_id <https://www.ammitto.org/entity/tr/64> ;\n  ammitto:hasRegime <https://www.ammitto.org/regime/tr-d> ;\n  ammitto:hasEffect """{"effect_type":"asset_freeze","scope":"full"}""" ;\n  ammitto:hasEffect """{"effect_type":"entry_ban","scope":"full"}""" ;\n  ammitto:hasPeriod """{"is_indefinite":true}""" ;\n  ammitto:status "active" .
+<https://www.ammitto.org/entry/tr/consolidated-list/65>
+  ammitto:entity_id <https://www.ammitto.org/entity/tr/65> ;\n  ammitto:hasRegime <https://www.ammitto.org/regime/tr-d> ;\n  ammitto:hasEffect """{"effect_type":"asset_freeze","scope":"full"}""" ;\n  ammitto:hasEffect """{"effect_type":"entry_ban","scope":"full"}""" ;\n  ammitto:hasPeriod """{"is_indefinite":true}""" ;\n  ammitto:status "active" .
+<https://www.ammitto.org/entry/tr/consolidated-list/66>
+  ammitto:entity_id <https://www.ammitto.org/entity/tr/66> ;\n  ammitto:hasRegime <https://www.ammitto.org/regime/tr-d> ;\n  ammitto:hasEffect """{"effect_type":"asset_freeze","scope":"full"}""" ;\n  ammitto:hasEffect """{"effect_type":"entry_ban","scope":"full"}""" ;\n  ammitto:hasPeriod """{"is_indefinite":true}""" ;\n  ammitto:status "active" .
+<https://www.ammitto.org/entry/tr/consolidated-list/67>
+  ammitto:entity_id <https://www.ammitto.org/entity/tr/67> ;\n  ammitto:hasRegime <https://www.ammitto.org/regime/tr-d> ;\n  ammitto:hasEffect """{"effect_type":"asset_freeze","scope":"full"}""" ;\n  ammitto:hasEffect """{"effect_type":"entry_ban","scope":"full"}""" ;\n  ammitto:hasPeriod """{"is_indefinite":true}""" ;\n  ammitto:status "active" .
+<https://www.ammitto.org/entry/tr/consolidated-list/68>
+  ammitto:entity_id <https://www.ammitto.org/entity/tr/68> ;\n  ammitto:hasRegime <https://www.ammitto.org/regime/tr-d> ;\n  ammitto:hasEffect """{"effect_type":"asset_freeze","scope":"full"}""" ;\n  ammitto:hasEffect """{"effect_type":"entry_ban","scope":"full"}""" ;\n  ammitto:hasPeriod """{"is_indefinite":true}""" ;\n  ammitto:status "active" .
+<https://www.ammitto.org/entry/tr/consolidated-list/69>
+  ammitto:entity_id <https://www.ammitto.org/entity/tr/69> ;\n  ammitto:hasRegime <https://www.ammitto.org/regime/tr-d> ;\n  ammitto:hasEffect """{"effect_type":"asset_freeze","scope":"full"}""" ;\n  ammitto:hasEffect """{"effect_type":"entry_ban","scope":"full"}""" ;\n  ammitto:hasPeriod """{"is_indefinite":true}""" ;\n  ammitto:status "active" .
+<https://www.ammitto.org/entry/tr/consolidated-list/7>
+  ammitto:entity_id <https://www.ammitto.org/entity/tr/7> ;\n  ammitto:hasRegime <https://www.ammitto.org/regime/tr-d> ;\n  ammitto:hasEffect """{"effect_type":"asset_freeze","scope":"full"}""" ;\n  ammitto:hasEffect """{"effect_type":"entry_ban","scope":"full"}""" ;\n  ammitto:hasPeriod """{"is_indefinite":true}""" ;\n  ammitto:status "active" .
+<https://www.ammitto.org/entry/tr/consolidated-list/70>
+  ammitto:entity_id <https://www.ammitto.org/entity/tr/70> ;\n  ammitto:hasRegime <https://www.ammitto.org/regime/tr-d> ;\n  ammitto:hasEffect """{"effect_type":"asset_freeze","scope":"full"}""" ;\n  ammitto:hasEffect """{"effect_type":"entry_ban","scope":"full"}""" ;\n  ammitto:hasPeriod """{"is_indefinite":true}""" ;\n  ammitto:status "active" .
+<https://www.ammitto.org/entry/tr/consolidated-list/71>
+  ammitto:entity_id <https://www.ammitto.org/entity/tr/71> ;\n  ammitto:hasRegime <https://www.ammitto.org/regime/tr-d> ;\n  ammitto:hasEffect """{"effect_type":"asset_freeze","scope":"full"}""" ;\n  ammitto:hasEffect """{"effect_type":"entry_ban","scope":"full"}""" ;\n  ammitto:hasPeriod """{"is_indefinite":true}""" ;\n  ammitto:status "active" .
+<https://www.ammitto.org/entry/tr/consolidated-list/72>
+  ammitto:entity_id <https://www.ammitto.org/entity/tr/72> ;\n  ammitto:hasRegime <https://www.ammitto.org/regime/tr-d> ;\n  ammitto:hasEffect """{"effect_type":"asset_freeze","scope":"full"}""" ;\n  ammitto:hasEffect """{"effect_type":"entry_ban","scope":"full"}""" ;\n  ammitto:hasPeriod """{"is_indefinite":true}""" ;\n  ammitto:status "active" .
+<https://www.ammitto.org/entry/tr/consolidated-list/73>
+  ammitto:entity_id <https://www.ammitto.org/entity/tr/73> ;\n  ammitto:hasRegime <https://www.ammitto.org/regime/tr-d> ;\n  ammitto:hasEffect """{"effect_type":"asset_freeze","scope":"full"}""" ;\n  ammitto:hasEffect """{"effect_type":"entry_ban","scope":"full"}""" ;\n  ammitto:hasPeriod """{"is_indefinite":true}""" ;\n  ammitto:status "active" .
+<https://www.ammitto.org/entry/tr/consolidated-list/74>
+  ammitto:entity_id <https://www.ammitto.org/entity/tr/74> ;\n  ammitto:hasRegime <https://www.ammitto.org/regime/tr-d> ;\n  ammitto:hasEffect """{"effect_type":"asset_freeze","scope":"full"}""" ;\n  ammitto:hasEffect """{"effect_type":"entry_ban","scope":"full"}""" ;\n  ammitto:hasPeriod """{"is_indefinite":true}""" ;\n  ammitto:status "active" .
+<https://www.ammitto.org/entry/tr/consolidated-list/75>
+  ammitto:entity_id <https://www.ammitto.org/entity/tr/75> ;\n  ammitto:hasRegime <https://www.ammitto.org/regime/tr-d> ;\n  ammitto:hasEffect """{"effect_type":"asset_freeze","scope":"full"}""" ;\n  ammitto:hasEffect """{"effect_type":"entry_ban","scope":"full"}""" ;\n  ammitto:hasPeriod """{"is_indefinite":true}""" ;\n  ammitto:status "active" .
+<https://www.ammitto.org/entry/tr/consolidated-list/76>
+  ammitto:entity_id <https://www.ammitto.org/entity/tr/76> ;\n  ammitto:hasRegime <https://www.ammitto.org/regime/tr-d> ;\n  ammitto:hasEffect """{"effect_type":"asset_freeze","scope":"full"}""" ;\n  ammitto:hasEffect """{"effect_type":"entry_ban","scope":"full"}""" ;\n  ammitto:hasPeriod """{"is_indefinite":true}""" ;\n  ammitto:status "active" .
+<https://www.ammitto.org/entry/tr/consolidated-list/77>
+  ammitto:entity_id <https://www.ammitto.org/entity/tr/77> ;\n  ammitto:hasRegime <https://www.ammitto.org/regime/tr-d> ;\n  ammitto:hasEffect """{"effect_type":"asset_freeze","scope":"full"}""" ;\n  ammitto:hasEffect """{"effect_type":"entry_ban","scope":"full"}""" ;\n  ammitto:hasPeriod """{"is_indefinite":true}""" ;\n  ammitto:status "active" .
+<https://www.ammitto.org/entry/tr/consolidated-list/78>
+  ammitto:entity_id <https://www.ammitto.org/entity/tr/78> ;\n  ammitto:hasRegime <https://www.ammitto.org/regime/tr-d> ;\n  ammitto:hasEffect """{"effect_type":"asset_freeze","scope":"full"}""" ;\n  ammitto:hasEffect """{"effect_type":"entry_ban","scope":"full"}""" ;\n  ammitto:hasPeriod """{"is_indefinite":true}""" ;\n  ammitto:status "active" .
+<https://www.ammitto.org/entry/tr/consolidated-list/79>
+  ammitto:entity_id <https://www.ammitto.org/entity/tr/79> ;\n  ammitto:hasRegime <https://www.ammitto.org/regime/tr-d> ;\n  ammitto:hasEffect """{"effect_type":"asset_freeze","scope":"full"}""" ;\n  ammitto:hasEffect """{"effect_type":"entry_ban","scope":"full"}""" ;\n  ammitto:hasPeriod """{"is_indefinite":true}""" ;\n  ammitto:status "active" .
+<https://www.ammitto.org/entry/tr/consolidated-list/8>
+  ammitto:entity_id <https://www.ammitto.org/entity/tr/8> ;\n  ammitto:hasRegime <https://www.ammitto.org/regime/tr-d> ;\n  ammitto:hasEffect """{"effect_type":"asset_freeze","scope":"full"}""" ;\n  ammitto:hasEffect """{"effect_type":"entry_ban","scope":"full"}""" ;\n  ammitto:hasPeriod """{"is_indefinite":true}""" ;\n  ammitto:status "active" .
+<https://www.ammitto.org/entry/tr/consolidated-list/80>
+  ammitto:entity_id <https://www.ammitto.org/entity/tr/80> ;\n  ammitto:hasRegime <https://www.ammitto.org/regime/tr-d> ;\n  ammitto:hasEffect """{"effect_type":"asset_freeze","scope":"full"}""" ;\n  ammitto:hasEffect """{"effect_type":"entry_ban","scope":"full"}""" ;\n  ammitto:hasPeriod """{"is_indefinite":true}""" ;\n  ammitto:status "active" .
+<https://www.ammitto.org/entry/tr/consolidated-list/81>
+  ammitto:entity_id <https://www.ammitto.org/entity/tr/81> ;\n  ammitto:hasRegime <https://www.ammitto.org/regime/tr-d> ;\n  ammitto:hasEffect """{"effect_type":"asset_freeze","scope":"full"}""" ;\n  ammitto:hasEffect """{"effect_type":"entry_ban","scope":"full"}""" ;\n  ammitto:hasPeriod """{"is_indefinite":true}""" ;\n  ammitto:status "active" .
+<https://www.ammitto.org/entry/tr/consolidated-list/82>
+  ammitto:entity_id <https://www.ammitto.org/entity/tr/82> ;\n  ammitto:hasRegime <https://www.ammitto.org/regime/tr-d> ;\n  ammitto:hasEffect """{"effect_type":"asset_freeze","scope":"full"}""" ;\n  ammitto:hasEffect """{"effect_type":"entry_ban","scope":"full"}""" ;\n  ammitto:hasPeriod """{"is_indefinite":true}""" ;\n  ammitto:status "active" .
+<https://www.ammitto.org/entry/tr/consolidated-list/83>
+  ammitto:entity_id <https://www.ammitto.org/entity/tr/83> ;\n  ammitto:hasRegime <https://www.ammitto.org/regime/tr-d> ;\n  ammitto:hasEffect """{"effect_type":"asset_freeze","scope":"full"}""" ;\n  ammitto:hasEffect """{"effect_type":"entry_ban","scope":"full"}""" ;\n  ammitto:hasPeriod """{"is_indefinite":true}""" ;\n  ammitto:status "active" .
+<https://www.ammitto.org/entry/tr/consolidated-list/84>
+  ammitto:entity_id <https://www.ammitto.org/entity/tr/84> ;\n  ammitto:hasRegime <https://www.ammitto.org/regime/tr-d> ;\n  ammitto:hasEffect """{"effect_type":"asset_freeze","scope":"full"}""" ;\n  ammitto:hasEffect """{"effect_type":"entry_ban","scope":"full"}""" ;\n  ammitto:hasPeriod """{"is_indefinite":true}""" ;\n  ammitto:status "active" .
+<https://www.ammitto.org/entry/tr/consolidated-list/85>
+  ammitto:entity_id <https://www.ammitto.org/entity/tr/85> ;\n  ammitto:hasRegime <https://www.ammitto.org/regime/tr-d> ;\n  ammitto:hasEffect """{"effect_type":"asset_freeze","scope":"full"}""" ;\n  ammitto:hasEffect """{"effect_type":"entry_ban","scope":"full"}""" ;\n  ammitto:hasPeriod """{"is_indefinite":true}""" ;\n  ammitto:status "active" .
+<https://www.ammitto.org/entry/tr/consolidated-list/86>
+  ammitto:entity_id <https://www.ammitto.org/entity/tr/86> ;\n  ammitto:hasRegime <https://www.ammitto.org/regime/tr-d> ;\n  ammitto:hasEffect """{"effect_type":"asset_freeze","scope":"full"}""" ;\n  ammitto:hasEffect """{"effect_type":"entry_ban","scope":"full"}""" ;\n  ammitto:hasPeriod """{"is_indefinite":true}""" ;\n  ammitto:status "active" .
+<https://www.ammitto.org/entry/tr/consolidated-list/87>
+  ammitto:entity_id <https://www.ammitto.org/entity/tr/87> ;\n  ammitto:hasRegime <https://www.ammitto.org/regime/tr-d> ;\n  ammitto:hasEffect """{"effect_type":"asset_freeze","scope":"full"}""" ;\n  ammitto:hasEffect """{"effect_type":"entry_ban","scope":"full"}""" ;\n  ammitto:hasPeriod """{"is_indefinite":true}""" ;\n  ammitto:status "active" .
+<https://www.ammitto.org/entry/tr/consolidated-list/88>
+  ammitto:entity_id <https://www.ammitto.org/entity/tr/88> ;\n  ammitto:hasRegime <https://www.ammitto.org/regime/tr-d> ;\n  ammitto:hasEffect """{"effect_type":"asset_freeze","scope":"full"}""" ;\n  ammitto:hasEffect """{"effect_type":"entry_ban","scope":"full"}""" ;\n  ammitto:hasPeriod """{"is_indefinite":true}""" ;\n  ammitto:status "active" .
+<https://www.ammitto.org/entry/tr/consolidated-list/89>
+  ammitto:entity_id <https://www.ammitto.org/entity/tr/89> ;\n  ammitto:hasRegime <https://www.ammitto.org/regime/tr-d> ;\n  ammitto:hasEffect """{"effect_type":"asset_freeze","scope":"full"}""" ;\n  ammitto:hasEffect """{"effect_type":"entry_ban","scope":"full"}""" ;\n  ammitto:hasPeriod """{"is_indefinite":true}""" ;\n  ammitto:status "active" .
+<https://www.ammitto.org/entry/tr/consolidated-list/9>
+  ammitto:entity_id <https://www.ammitto.org/entity/tr/9> ;\n  ammitto:hasRegime <https://www.ammitto.org/regime/tr-d> ;\n  ammitto:hasEffect """{"effect_type":"asset_freeze","scope":"full"}""" ;\n  ammitto:hasEffect """{"effect_type":"entry_ban","scope":"full"}""" ;\n  ammitto:hasPeriod """{"is_indefinite":true}""" ;\n  ammitto:status "active" .
+<https://www.ammitto.org/entry/tr/consolidated-list/90>
+  ammitto:entity_id <https://www.ammitto.org/entity/tr/90> ;\n  ammitto:hasRegime <https://www.ammitto.org/regime/tr-d> ;\n  ammitto:hasEffect """{"effect_type":"asset_freeze","scope":"full"}""" ;\n  ammitto:hasEffect """{"effect_type":"entry_ban","scope":"full"}""" ;\n  ammitto:hasPeriod """{"is_indefinite":true}""" ;\n  ammitto:status "active" .
+<https://www.ammitto.org/entry/tr/consolidated-list/91>
+  ammitto:entity_id <https://www.ammitto.org/entity/tr/91> ;\n  ammitto:hasRegime <https://www.ammitto.org/regime/tr-d> ;\n  ammitto:hasEffect """{"effect_type":"asset_freeze","scope":"full"}""" ;\n  ammitto:hasEffect """{"effect_type":"entry_ban","scope":"full"}""" ;\n  ammitto:hasPeriod """{"is_indefinite":true}""" ;\n  ammitto:status "active" .
+<https://www.ammitto.org/entry/tr/consolidated-list/92>
+  ammitto:entity_id <https://www.ammitto.org/entity/tr/92> ;\n  ammitto:hasRegime <https://www.ammitto.org/regime/tr-d> ;\n  ammitto:hasEffect """{"effect_type":"asset_freeze","scope":"full"}""" ;\n  ammitto:hasEffect """{"effect_type":"entry_ban","scope":"full"}""" ;\n  ammitto:hasPeriod """{"is_indefinite":true}""" ;\n  ammitto:status "active" .
+<https://www.ammitto.org/entry/tr/consolidated-list/93>
+  ammitto:entity_id <https://www.ammitto.org/entity/tr/93> ;\n  ammitto:hasRegime <https://www.ammitto.org/regime/tr-d> ;\n  ammitto:hasEffect """{"effect_type":"asset_freeze","scope":"full"}""" ;\n  ammitto:hasEffect """{"effect_type":"entry_ban","scope":"full"}""" ;\n  ammitto:hasPeriod """{"is_indefinite":true}""" ;\n  ammitto:status "active" .
+<https://www.ammitto.org/entry/tr/consolidated-list/94>
+  ammitto:entity_id <https://www.ammitto.org/entity/tr/94> ;\n  ammitto:hasRegime <https://www.ammitto.org/regime/tr-d> ;\n  ammitto:hasEffect """{"effect_type":"asset_freeze","scope":"full"}""" ;\n  ammitto:hasEffect """{"effect_type":"entry_ban","scope":"full"}""" ;\n  ammitto:hasPeriod """{"is_indefinite":true}""" ;\n  ammitto:status "active" .
+<https://www.ammitto.org/entry/tr/consolidated-list/95>
+  ammitto:entity_id <https://www.ammitto.org/entity/tr/95> ;\n  ammitto:hasRegime <https://www.ammitto.org/regime/tr-d> ;\n  ammitto:hasEffect """{"effect_type":"asset_freeze","scope":"full"}""" ;\n  ammitto:hasEffect """{"effect_type":"entry_ban","scope":"full"}""" ;\n  ammitto:hasPeriod """{"is_indefinite":true}""" ;\n  ammitto:status "active" .
+<https://www.ammitto.org/entry/tr/consolidated-list/96>
+  ammitto:entity_id <https://www.ammitto.org/entity/tr/96> ;\n  ammitto:hasRegime <https://www.ammitto.org/regime/tr-d> ;\n  ammitto:hasEffect """{"effect_type":"asset_freeze","scope":"full"}""" ;\n  ammitto:hasEffect """{"effect_type":"entry_ban","scope":"full"}""" ;\n  ammitto:hasPeriod """{"is_indefinite":true}""" ;\n  ammitto:status "active" .
+<https://www.ammitto.org/entry/tr/consolidated-list/97>
+  ammitto:entity_id <https://www.ammitto.org/entity/tr/97> ;\n  ammitto:hasRegime <https://www.ammitto.org/regime/tr-d> ;\n  ammitto:hasEffect """{"effect_type":"asset_freeze","scope":"full"}""" ;\n  ammitto:hasEffect """{"effect_type":"entry_ban","scope":"full"}""" ;\n  ammitto:hasPeriod """{"is_indefinite":true}""" ;\n  ammitto:status "active" .
+<https://www.ammitto.org/entry/tr/consolidated-list/98>
+  ammitto:entity_id <https://www.ammitto.org/entity/tr/98> ;\n  ammitto:hasRegime <https://www.ammitto.org/regime/tr-d> ;\n  ammitto:hasEffect """{"effect_type":"asset_freeze","scope":"full"}""" ;\n  ammitto:hasEffect """{"effect_type":"entry_ban","scope":"full"}""" ;\n  ammitto:hasPeriod """{"is_indefinite":true}""" ;\n  ammitto:status "active" .
+<https://www.ammitto.org/entry/tr/consolidated-list/99>
+  ammitto:entity_id <https://www.ammitto.org/entity/tr/99> ;\n  ammitto:hasRegime <https://www.ammitto.org/regime/tr-d> ;\n  ammitto:hasEffect """{"effect_type":"asset_freeze","scope":"full"}""" ;\n  ammitto:hasEffect """{"effect_type":"entry_ban","scope":"full"}""" ;\n  ammitto:hasPeriod """{"is_indefinite":true}""" ;\n  ammitto:status "active" .

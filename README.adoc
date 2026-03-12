@@ -53,6 +53,141 @@ address: |-
   Cumhuriyeti
 ----
 
+== Source Data Format
+
+The processed YAML files in `processed/` follow this structure:
+
+=== Person Entity
+[source,yaml]
+----
+name: YUN HO-JIN
+entity_type: person
+program: Law No. 7262, Articles 3.A/3.B
+remarks: Yun Ho-chin
+listed_date: 24.2.2021/ 3578
+reference_number: '1'
+address: |-
+  Pyongyang, Kore Demokratik Halk
+  Cumhuriyeti
+passport_number: '8827'
+----
+
+=== Organization Entity
+[source,yaml]
+----
+name: EXAMPLE ORGANIZATION
+entity_type: organization
+program: Law No. 7262, Articles 3.A/3.B
+listed_date: 24.2.2021/ 3578
+reference_number: '50'
+address: |-
+  Tehran, Iran
+----
+
+=== Field Definitions
+
+[cols="1,4"]
+|===
+| Field | Description
+
+| `name`
+| Name of the sanctioned party
+
+| `entity_type`
+| Entity type: person or organization
+
+| `program`
+| Legal basis (Law No. 6415 or 7262)
+
+| `remarks`
+| Additional remarks or aliases
+
+| `listed_date`
+| Date listed with decision number
+
+| `reference_number`
+| Unique reference number
+
+| `address`
+| Address information
+
+| `passport_number`
+| Passport number (for individuals)
+
+|===
+
+== Harmonized Data Format
+
+After harmonization, entities are transformed into JSON-LD format:
+
+=== Entity (JSON-LD)
+[source,json]
+----
+{
+  "@context": "https://www.ammitto.org/schema/v1/context.jsonld",
+  "@id": "https://www.ammitto.org/entity/tr/1",
+  "@type": "PersonEntity",
+  "names": [
+    {
+      "@type": "NameVariant",
+      "fullName": "YUN HO-JIN",
+      "script": "Latn",
+      "isPrimary": true
+    }
+  ],
+  "addresses": [
+    {
+      "@type": "Address",
+      "country": "North Korea"
+    }
+  ],
+  "sanctionEntries": [
+    {
+      "@id": "https://www.ammitto.org/entry/tr/1",
+      "@type": "SanctionEntry",
+      "authority": {
+        "@id": "https://www.ammitto.org/authority/tr",
+        "name": "Turkey"
+      },
+      "regime": {
+        "@type": "SanctionRegime",
+        "code": "WMD",
+        "name": "WMD Proliferation Prevention"
+      },
+      "effects": [
+        {
+          "@type": "SanctionEffect",
+          "effectType": "asset_freeze",
+          "scope": "full"
+        }
+      ],
+      "status": "active",
+      "period": {
+        "@type": "TemporalPeriod",
+        "listedDate": "2021-02-24"
+      }
+    }
+  ]
+}
+----
+
+=== Turkey Sanctions Programs
+
+[cols="1,3"]
+|===
+| Program | Description
+
+| Law No. 6415, Article 6
+| Foreign country requests (List B)
+
+| Law No. 6415, Article 7
+| Domestic freezing decisions (List C)
+
+| Law No. 7262, Articles 3.A/3.B
+| WMD proliferation prevention (List D)
+
+|===
+
 == Knowledge Graph Integration
 
 This repository's processed YAML data feeds into the Ammitto knowledge graph.
