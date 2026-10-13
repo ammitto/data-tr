@@ -1,211 +1,119 @@
-= Turkey Sanctions Lists
+= Ammitto Türkiye asset-freeze data
 
-image:https://img.shields.io/github/license/ammitto/data-tr.svg[License]
-image:https://github.com/ammitto/data-tr/actions/workflows/fetch.yml/badge.svg["Update Status", link="https://github.com/ammitto/data-tr/actions/workflows/fetch.yml"]
+image:https://github.com/ammitto/data-tr/actions/workflows/fetch.yml/badge.svg["Fetch Data", link="https://github.com/ammitto/data-tr/actions/workflows/fetch.yml"]
 
-== Purpose
-
-This repository contains sanctioned individuals and entities from Turkey's
-asset freezing lists, maintained by the Ministry of Treasury and Finance.
+This repository stores Türkiye's asset-freeze list D under Articles 3.A and
+3.B of Law No. 7262 as YAML for Ammitto. The records in `processed/` cover
+individuals, entities and organisations listed by the Ministry of Treasury
+and Finance to counter the financing of the proliferation of weapons of mass
+destruction.
 
 == Source
 
-* **Authority**: Turkey Ministry of Treasury and Finance (HMB)
-* **URL**: https://en.hmb.gov.tr/fcib-sanctions
-* **Format**: XLSX
-* **Update Frequency**: As updated by HMB
-* **Country Code**: TR
+* Publisher: Ministry of Treasury and Finance of the Republic of Türkiye
+* List page: https://en.hmb.gov.tr/3a3b
+* File downloaded (list D, Excel): https://ms.hmb.gov.tr/uploads/sites/2/2025/10/D-7262-SAYILI-KANUN-3.A-VE-3.B-MADDELERI-EXCEL-ce85ee0d2c57738a.xlsx
 
-== Legal Basis
+The list page gives each Presidential decision behind the list, with its
+Official Gazette issue.
 
-Turkey maintains four sanctions lists under:
+== Contents
 
-* **List A** - Article 5, Law No. 6415: UNSC resolutions (same as UN source - not duplicated here)
-* **List B** - Article 6, Law No. 6415: Foreign country requests
-* **List C** - Article 7, Law No. 6415: Domestic freezing decisions
-* **List D** - Law No. 7262, Articles 3.A/3.B: WMD proliferation prevention
+`processed/` holds one file per listing, mostly named after its reference
+number (`processed/tr-100.yaml`); a listing without one is named after the
+name instead (`processed/tr-amir-rahimi.yaml`), as is one whose reference
+number the list gives twice.
 
-Note: List A is not included as it duplicates the UN Consolidated List.
+`processed/_index.yaml` lists every file, with the time of the last fetch.
 
-== Directory Structure
+Dates the sheet stores as dates are written as `YYYY-MM-DD`; other values are kept as published, and notes, text dates and nationalities are in Turkish.
 
-```
-data-tr/
-├── processed/         # Processed YAML files (one per entity)
-└── README.adoc        # This file
-```
-
-== Data Format
-
-Each processed entity is stored as a YAML file:
-
-[source,yaml]
-----
-name: YUN HO-JIN
-entity_type: person
-program: Law No. 7262, Articles 3.A/3.B
-remarks: Yun Ho-chin
-listed_date: 24.2.2021/ 3578
-reference_number: '1'
-address: |-
-  Pyongyang, Kore Demokratik Halk
-  Cumhuriyeti
-----
-
-== Source Data Format
-
-The processed YAML files in `processed/` follow this structure:
-
-=== Person Entity
-[source,yaml]
-----
-name: YUN HO-JIN
-entity_type: person
-program: Law No. 7262, Articles 3.A/3.B
-remarks: Yun Ho-chin
-listed_date: 24.2.2021/ 3578
-reference_number: '1'
-address: |-
-  Pyongyang, Kore Demokratik Halk
-  Cumhuriyeti
-passport_number: '8827'
-----
-
-=== Organization Entity
-[source,yaml]
-----
-name: EXAMPLE ORGANIZATION
-entity_type: organization
-program: Law No. 7262, Articles 3.A/3.B
-listed_date: 24.2.2021/ 3578
-reference_number: '50'
-address: |-
-  Tehran, Iran
-----
-
-=== Field Definitions
-
-[cols="1,4"]
+[cols="1,1,3"]
 |===
-| Field | Description
+| Key | Type | Meaning
 
-| `name`
-| Name of the sanctioned party
-
-| `entity_type`
-| Entity type: person or organization
-
-| `program`
-| Legal basis (Law No. 6415 or 7262)
-
-| `remarks`
-| Additional remarks or aliases
-
-| `listed_date`
-| Date listed with decision number
-
-| `reference_number`
-| Unique reference number
-
-| `address`
-| Address information
-
-| `passport_number`
-| Passport number (for individuals)
-
+| `name` | string | Name of the person or organisation
+| `entity_type` | string | `person` or `organization`
+| `program` | string | The legal basis, `Law No. 7262, Articles 3.A/3.B`
+| `reference_number` | string | Reference number in the list, where given
+| `listed_date` | string | Listing date, sometimes with notes on later amendments; check against the source, as a few values are not dates
+| `official_gazette` | string | Date and number of the Official Gazette issue that carried the listing
+| `decision_number` | string | Date and number of the decision that ordered it, where given
+| `nationality` | string | Nationality, in Turkish (such as `İRAN`)
+| `date_of_birth` | string | Persons: date of birth
+| `place_of_birth` | string | Persons: place of birth
+| `passport_number` | string | Passport number, usually for persons; in some entries it holds other details instead, such as an IMO number, a SWIFT code or an expiry note
+| `address` | string | Address
+| `remarks` | string | The sheet's other information column; when that is empty, the other names column, or failing that the position column
 |===
 
-== Harmonized Data Format
+== Using the data
 
-After harmonization, entities are transformed into JSON-LD format:
+Clone or download this repository and run either example from its root
+directory.
 
-=== Entity (JSON-LD)
-[source,json]
+Ruby:
+
+[source,ruby]
 ----
-{
-  "@context": "https://www.ammitto.org/schema/v1/context.jsonld",
-  "@id": "https://www.ammitto.org/entity/tr/1",
-  "@type": "PersonEntity",
-  "names": [
-    {
-      "@type": "NameVariant",
-      "fullName": "YUN HO-JIN",
-      "script": "Latn",
-      "isPrimary": true
-    }
-  ],
-  "addresses": [
-    {
-      "@type": "Address",
-      "country": "North Korea"
-    }
-  ],
-  "sanctionEntries": [
-    {
-      "@id": "https://www.ammitto.org/entry/tr/1",
-      "@type": "SanctionEntry",
-      "authority": {
-        "@id": "https://www.ammitto.org/authority/tr",
-        "name": "Turkey"
-      },
-      "regime": {
-        "@type": "SanctionRegime",
-        "code": "WMD",
-        "name": "WMD Proliferation Prevention"
-      },
-      "effects": [
-        {
-          "@type": "SanctionEffect",
-          "effectType": "asset_freeze",
-          "scope": "full"
-        }
-      ],
-      "status": "active",
-      "period": {
-        "@type": "TemporalPeriod",
-        "listedDate": "2021-02-24"
-      }
-    }
-  ]
-}
+require "yaml"
+
+Dir.glob("processed/tr-*.yaml").sort.each do |path|
+  record = YAML.safe_load_file(path)
+  puts [record["entity_type"], record["nationality"], record["name"]].join("\t")
+end
 ----
 
-=== Turkey Sanctions Programs
+Python (requires PyYAML, installed with `python3 -m pip install PyYAML`):
 
-[cols="1,3"]
-|===
-| Program | Description
+[source,python]
+----
+import glob
+import yaml
 
-| Law No. 6415, Article 6
-| Foreign country requests (List B)
+for path in sorted(glob.glob("processed/tr-*.yaml")):
+    with open(path, encoding="utf-8") as f:
+        record = yaml.safe_load(f)
+    print(record["entity_type"], record["nationality"], record["name"], sep="\t")
+----
 
-| Law No. 6415, Article 7
-| Domestic freezing decisions (List C)
-
-| Law No. 7262, Articles 3.A/3.B
-| WMD proliferation prevention (List D)
-
-|===
-
-== Knowledge Graph Integration
-
-This repository's processed YAML data feeds into the Ammitto knowledge graph.
-
-Harmonized JSON-LD for this source:
+The same list, harmonized with the other sources into JSON-LD:
 https://www.ammitto.org/api/v1/sources/tr.jsonld
 
-== Usage
+== Updates
 
-This data is part of the https://github.com/ammitto/ammitto[Ammitto] sanctions
-screening system.
+The `Fetch Data` workflow (`.github/workflows/fetch.yml`) downloads the list
+every day at 06:00 UTC and commits any change to `processed/`. It runs with
+`--prune`, so a listing the ministry has removed is deleted here on the next
+fetch.
 
-== Related Repositories
+== Development
 
-* https://github.com/ammitto/ammitto[ammitto] - Main Ruby gem with harmonization
-* https://github.com/ammitto/data[data] - Harmonized knowledge graph output
-* https://github.com/ammitto/ammitto.github.io[ammitto.github.io] - Website with search
+`processed/` is generated by the Ammitto gem. To refresh it locally, use
+Ruby 3.4 (the version selected by the fetch workflow) and Bundler. From
+the repository root, run:
+
+[source,shell]
+----
+bundle install
+bundle exec ammitto fetch tr --format yaml --output-dir processed --verbose --prune
+----
+
+`--prune` removes files for listings no longer present in the fetched list.
+Review the generated changes before committing them.
+
+Fetch and parser changes belong in the
+https://github.com/ammitto/ammitto[Ammitto gem]; its source models are in
+https://github.com/ammitto/ammitto/tree/main/lib/ammitto/sources/tr[`lib/ammitto/sources/tr/`].
+Report data or source-list issues in
+https://github.com/ammitto/data-tr/issues[this repository].
 
 == License
 
 Data is sourced from official Turkish government publications.
 Repository structure and processing code are under the MIT License.
+
+== Related
+
+* https://www.ammitto.org[ammitto.org]: search across all sources
+* https://github.com/ammitto/ammitto[ammitto]: the Ruby gem that fetches and harmonizes this data
