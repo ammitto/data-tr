@@ -47,6 +47,58 @@ Dates the sheet stores as dates are written as `YYYY-MM-DD`; other values are ke
 | `remarks` | string | The sheet's other information column; when that is empty, the other names column, or failing that the position column
 |===
 
+== Harmonized field mapping
+
+The https://github.com/ammitto/ammitto/blob/74491e856c1e68aea52c0cf0e34061d48429d359/lib/ammitto/sources/tr/transformer.rb[Türkiye transformer] reads the processed per-listing fields.
+
+Targets below use canonical Ruby fields. Entity classes are under
+`Ammitto::Ontology::Entities`; `SanctionEntry`, `OfficialAnnouncement`,
+`SanctionReason` and `SanctionPeriodModification` are under
+`Ammitto::Ontology::Sanction`; other target classes are under
+`Ammitto::Ontology::ValueObjects`. JSON-LD uses the serializer's wire keys:
+`SourceReference.fetched_at`, for example, is published as `retrievedAt`.
+
+[cols="2,3,4",options="header"]
+|===
+| Input field | Canonical target | Transformation
+
+| `reference_number`, `name`
+| `Entity.id`; `SanctionEntry.id`
+| Uses the source model’s `local_id`, including missing-number and duplicate-number handling.
+
+| `entity_type`
+| `PersonEntity` or `OrganizationEntity`
+| `person` selects a person; other source types select an organization.
+
+| `name`, `aliases`
+| `Entity.names` → `NameVariant.full_name`, `is_primary`
+| Primary name is retained; aliases split at letter markers, and personal aliases also split at commas. Duplicate names are omitted.
+
+| `date_of_birth`, `place_of_birth`
+| `BirthInfo.date`, `year`, `year_range_from`, `year_range_to`, `city`, `country`
+| Recognizes full dates, years and year ranges; splits birthplace at the first comma. Unreadable dates are reported.
+
+| `nationality`, `title`
+| `PersonEntity.nationalities`, `position`
+| Copies nonblank nationality and position text.
+
+| `address`
+| `Address.street`
+| Removes HTML and normalizes spacing; passport-expiry text found in this column is excluded from addresses.
+
+| `program`
+| `SanctionEntry.regime`
+| Selects the TR regime code from the program text; the transformer constructs asset-freeze and entry-ban effects.
+
+| `listed_date`
+| `TemporalPeriod.listed_date`, `is_indefinite`
+| Parses the listing date, including recognized Turkish date/annotation forms, and marks the period indefinite.
+
+| `reference_number`
+| `SourceReference.reference_number`, `fetched_at`
+| Retains the raw number in a `tr` reference; `fetched_at` is the transformation timestamp.
+|===
+
 == Using the data
 
 Clone or download this repository and run either example from its root
